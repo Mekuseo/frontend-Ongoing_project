@@ -1,0 +1,16 @@
+body{
+    background-color: #FFF;
+}
+
+.bookingconfirmationBody{
+    width: 1080px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(171, 170, 170, 0.58);
+    background: #FFF;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    max-height: 100%;
+    overflow: scroll;
+}

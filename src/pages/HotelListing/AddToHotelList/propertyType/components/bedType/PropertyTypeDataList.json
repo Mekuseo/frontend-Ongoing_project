@@ -1,0 +1,84 @@
+[
+  {
+    "amenity": "Additional deals on this room type",
+    "icon": "https://img.icons8.com/external-tal-revivo-duo-tal-revivo/25/external-add-additional-user-logotype-for-touch-screen-device-touch-duo-tal-revivo.png",
+    "subItems": [
+      {
+        "name": "Free breakfast",
+        "icon": "https://img.icons8.com/external-justicon-lineal-color-justicon/64/external-breakfast-hotel-essentials-justicon-lineal-color-justicon.png"
+      },
+      {
+        "name": "Access to exclusive amenities e.g free spa.",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-spa-hairdresser-and-barber-shop-flaticons-lineal-color-flat-icons-3.png"
+      },
+      {
+        "name": "Free dinner",
+        "icon": "https://img.icons8.com/stickers/100/dinner.png"
+      },
+      {
+        "name": "Free lunch",
+        "icon": "https://img.icons8.com/officel/16/lunch.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Type of bed",
+    "amenity-subtitle": "What type of bed does this room have?",
+
+    "icon": "https://img.icons8.com/officel/16/bed.png",
+    "subItems": [
+      {
+        "name": "Single bed",
+        "icon": "https://img.icons8.com/fluency/48/single-bed.png"
+      },
+      {
+        "name": "King",
+        "icon": "https://img.icons8.com/clouds/100/bed--v2.png"
+      },
+      {
+        "name": "Queen bed",
+        "icon": "https://img.icons8.com/officel/16/double-bed.png"
+      },
+      {
+        "name": "Double bed",
+        "icon": "https://img.icons8.com/quill/50/double-bed.png"
+      },
+      {
+        "name": "Super king",
+        "icon": "https://img.icons8.com/cotton/64/bed--v1.png"
+      },
+      {
+        "name": "Bunk-bed",
+        "icon": "https://img.icons8.com/color/48/kids-bedroom.png"
+      },
+      {
+        "name": "Sofa bed",
+        "icon": "https://img.icons8.com/ios-filled/50/three-seater-sofa.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Room amenities",
+    "icon": "https://img.icons8.com/fluency/48/room.png",
+    "subItems": [
+      {
+        "name": "Fan",
+        "icon": "https://img.icons8.com/ios-filled/50/fan.png"
+      },
+      {
+        "name": "Bathroom; shower, bathtub, bidet, dryer etc",
+        "icon": "https://img.icons8.com/dusk/64/shower.png"
+      },
+      {
+        "name": "In-room refreshment",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-refreshment-coffee-flaticons-lineal-color-flat-icons.png"
+      },
+      {
+        "name": "Air Condition",
+        "icon": "https://img.icons8.com/water-color/50/central-air-conditioning.png"
+      }
+    ]
+  }
+]

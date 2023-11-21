@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.LoginBody {
+    font-family: Raleway;
+    /* padding-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.LoginSiB {
+    width: 1080px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-page {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    width: 1080px;
+    justify-content: center
+}
+
+.fist-page {
+    width: 50%;
+    position: relative;
+    background-image: linear-gradient(rgba(7, 6, 6, 0.4), rgba(15, 14, 14, 0.4)), url(../../../assets/blur.png);
+    background-position: center;
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    height: 600px;
+
+}
+
+.form-box {
+    width: 50%;
+    position: relative;
+    margin: auto;
+    background: rgba(0, 0, 0, 0, 3);
+    overflow: hidden;
+    text-align: center
+}
+
+.forgot-btn {
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+    border: none;
+    padding-top: 5px;
+    background-color: white;
+}
+
+.forgot-btn a {
+    color: #5F5E5E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    background-color: #6E9E76;
+    font-size: larger;
+    color: #FFFFFF;
+    width: 150px;
+    text-align: center;
+}
+
+.text,
+.text-b {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text p,
+.text-b p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.text-b {
+    height: 41px;
+}
+
+.text h1 {
+    font-weight: 350;
+    font-size: 40px;
+    line-height: 20.7%;
+}
+
+.text-b {
+
+    font-family: 'raleway';
+    display: block;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.form-box-small {
+    display: block;
+    /* justify-content: center; */
+}
+
+.top-login {
+    /* margin: auto; */
+    margin-top: 50px;
+}
+
+.top-login h2 {
+
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #3F3F3F;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /* border: 1px solid black; */
+
+}
+
+
+.submit-btn {
+    width: 70%;
+    padding: 20px 50px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background: #6E9E76;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+
+.btn button {
+    color: white;
+    width: 50%;
+    padding: 20px 50px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.input-field {
+    width: 589px;
+    outline: 0;
+    border-radius: 10px;
+    padding: 20px 50px;
+    background-color: rgba(209, 209, 209, 0.35);
+    padding-left: 60px;
+    background: transparent;
+    border: none;
+    /* font-weight: 200; */
+    font-size: 17px;
+}
+
+.input-field ::placeholder {
+    color: #5F5E5E;
+}
+
+.p p {
+    line-height: 0px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#email-input {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group-longin {
+    padding-top: 40px;
+}
+
+#email-input img {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(209, 209, 209, 0.35);
+
+}
+
+.round {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #5F5E5E;
+    margin: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+#google img {
+    width: 17px;
+    height: 15px;
+    left: 3px;
+    top: 1px;
+    bottom: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    margin: auto;
+}
+
+#twe img {
+    left: 41px;
+    margin-right: 40px;
+    top: 13.63px;
+    margin-bottom: 14.63px;
+    Width: 18px;
+    Height: 14px;
+    Top: 7.5px;
+    margin: auto;
+}
+
+#face img {
+    margin: auto;
+    left: 0;
+    padding-right: 0;
+    Width: 10px;
+    Height: 17px;
+    Top: 55px;
+}
+
+.top-body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.img-login {
+    display: flex;
+    justify-content: center;
+}
+
+.logInPage-SignUpBtn {
+    border: 1px solid rgb(251, 250, 250);
+    padding: 15px 10px;
+    border-radius: 5px;
+    width: 150px;
+    align-items: center;
+    font-size: x-large;
+    cursor: pointer;
+    color: rgb(251, 250, 250);
+    background-color: transparent;
+    margin: 10px 0;
+}
+
+.login-input-wrapper {
+    background-color: #fafafa;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.logInPage-SignUpBtn>a {
+    color: rgb(251, 250, 250);
+    text-decoration: none;
+}
+
+.logout-input-wrapper {
+    background-color: #D1D1D1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.icon-transparent {
+    background-color: transparent;
+}
+
+.forgot-password-open .SiB {
+    filter: blur(2px);
+}
+
+/* Add this CSS to your stylesheet */
+.custom-textfield .MuiOutlinedInput-root {
+    border: none; /* Remove borders */
+  }
+  
+  .custom-textfield .MuiOutlinedInput-notchedOutline {
+    border: none; /* Remove the outline border */
+  }
+  
+  .custom-textfield .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: none; /* Remove the outline border on focus */
+  }
+  
+  .custom-textfield .MuiInputBase-input {
+    padding: 0; /* Remove padding inside the input field */
+  }
+  

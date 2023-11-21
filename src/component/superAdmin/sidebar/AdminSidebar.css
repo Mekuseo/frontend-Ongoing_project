@@ -1,0 +1,77 @@
+.admin-sidebar-container {
+  background-color: rgba(244, 109, 114, 0.6);
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  border-radius: 0 0 20px 20px;
+}
+
+.admin-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-avatar > span {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+}
+
+.admin-menuList > ul {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.admin-menuList > ul > .adminMenuList {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px 20px;
+
+  &:hover {
+    border-radius: 30px;
+    background-color: #fa996f;
+    width: fit-content;
+    transition: all ease-in 0.2s;
+  }
+}
+
+.adminMenuList {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.adminMenuList > div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.admin-menuList > ul > div > li {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.admin-logout {
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.menuBgActive {
+  background-color: #fa996f;
+  width: fit-content;
+  border-radius: 30px;
+}

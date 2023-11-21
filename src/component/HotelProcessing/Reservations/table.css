@@ -1,0 +1,212 @@
+.tableContent{
+    max-width: 980px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 1%;
+    height: 250px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.tableContainer{
+    border-radius: 5px;
+    border: 2px solid #C5C4C4;
+    background: #FFF;
+    width: 1018px;
+    margin: auto;
+    padding: 0px 0px 80px 0px;
+    margin-top: -3%;
+    height: 487px;
+}
+
+.tableContent::-webkit-scrollbar {
+    display: none;
+}
+  
+.reservationsTableColumn {
+    float: left;
+    width: 10%;
+    padding: 3px;
+    margin-bottom: 0.5%;
+}
+
+.reservationsTableColumn button {
+    border-radius: 5px;
+    border-bottom: 1px solid #92E3A9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E9F1EA;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 44px;
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 225% */
+}
+
+.reservationsTableContent p{
+    border-bottom: 1px solid #92E3A9;
+    padding-bottom: 10px;
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 200% */
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.listedTable{
+    margin-left: 70%;
+    margin-top: 0%;
+    width: 400px;
+}
+
+.redmore{
+    float: left;
+    margin-right: 5px;
+}
+
+.listedTable p{
+    color: #929292;
+    text-align: left;
+    font-family: "Raleway";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 40px;
+    line-height: 138.2%; /* 13.82px */
+    float: left;
+    margin-bottom: 5px;
+}
+
+.confirmationStatusDrop{
+    margin-top: -0px;
+    border-radius: 5px;
+    border-bottom: 1px solid #92E3A9;
+    background: #E9F1EA;
+    height: 44px;
+    font-style: normal;
+    margin-left: -0px;
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 225% */
+    display: inline-flex;
+    width: 100%;
+}
+
+.confirmationStatusDrop select{
+    margin-top: 0px;
+    font-size: 6.5px;
+    margin-left: 10px;
+}
+
+.confirmationStatusDrop span{
+    margin-top: 12px;
+    right: 0;
+    padding-right: 7px;
+}
+
+.confirmationStatusText{
+    font-family: 'Volkhov', sans-serif;
+    font-size: 8px;
+    text-align: left;
+    padding: 0px;
+    padding-top: 15%;
+    margin: auto;
+    text-align: center;
+}
+
+.confirmationStatDrop{
+    height: 200px;
+    border: 1px solid #92E3A9;
+}
+
+.confirmationStatusOption{
+    background-color: #FFF;
+    position: inherit;
+    text-align: center;
+    margin-top: 15%;
+    position: relative;
+    border: 1px solid #92E3A9;
+}
+
+.confirmationStatusOption .tabs{
+    border: none;
+}
+
+.confirmationStatusOption p{
+    border-bottom: 1px solid #92E3A9;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-left: none;
+}
+
+.confirmationStatusOption p:hover{
+    border-radius: 5px;
+    border-bottom: 1px solid #92E3A9;
+    background: #92E3A9;
+}
+
+@media only screen and (max-width: 600px) {
+    .tableContainer{
+        border-radius: 5px;
+        border: 0px solid #C5C4C4;
+        background: #FFF;
+        width: 100%;
+        margin: auto;
+        padding: 0px 10px 0px 0px;
+        margin-top: -3%;
+        height: 487px;
+    }
+
+    .tableContainermaincontent{
+        width: 100%;
+        overflow: auto;
+        white-space: nowrap;
+        margin-left: 3%;
+    }
+
+    .reservationstablecontaainer{
+        width: 950px;
+    }
+
+    .listedTable{
+        margin-left: -15%;
+        margin-top: 0%;
+        width: 115%;
+    }
+    
+    .redmore{
+        float: left;
+        margin-right: 5px;
+    }
+    
+    .listedTable p{
+        color: #929292;
+        text-align: left;
+        font-family: "Raleway";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 40px;
+        line-height: 138.2%; /* 13.82px */
+        float: left;
+        margin-bottom: 5px;
+    }
+}

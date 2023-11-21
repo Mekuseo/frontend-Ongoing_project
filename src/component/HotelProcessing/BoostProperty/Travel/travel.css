@@ -1,0 +1,514 @@
+.travelSpcingTop{
+    margin-top: 25px;
+}
+
+.BoostPropertyInline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.BoostPropertyInline label {
+    margin: 5px 10px 5px 0;
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+    width: 470px;
+    flex-shrink: 0;
+}
+
+.BoostPropertyInline .smaller{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.2%; /* 24.156px */
+    letter-spacing: -0.45px;
+    margin-left: 50px;
+}
+
+.BoostPropertyInline .smallerTwo{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.2%; /* 24.156px */
+    letter-spacing: -0.45px;
+    margin-left: 60px;
+}
+
+.BoostPropertyInline .smallerThree{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.2%; /* 24.156px */
+    letter-spacing: -0.45px;
+    margin-left: 70px;
+}
+
+.BoostPropertyInline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 30%;
+}
+
+.BoostPropertyTravelContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.BoostPropertyTravelContainer .text{
+    border: 1px solid #000;
+}
+
+.BoostPropertyTravelContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.BoostPropertyTravelCheckMark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #FFF;
+    border: 1.5px solid #929292;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+
+.BoostPropertyTravelContainer:hover input ~ .BoostPropertyTravelCheckMark {
+    background-color: #fff;
+}
+
+.BoostPropertyTravelContainer input:checked ~ .BoostPropertyTravelCheckMark {
+    background-color: #6E9E76;
+    border: 1.5px solid #6E9E76;
+}
+
+.BoostPropertyTravelCheckMark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.BoostPropertyTravelContainer input:checked ~ .BoostPropertyTravelCheckMark:after {
+    display: block;
+}
+
+.BoostPropertyTravelContainer .BoostPropertyTravelCheckMark:after {
+    left: 7px;
+    top: 0.5px;
+    width: 5px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.BoostPropertyToday{
+    width: 70%;
+}
+
+/* .react-datepicker__input-container input{
+    width: 300px;
+} */
+
+.dateChanger{
+    margin-left: 40px;
+}
+
+.starRatingTravel{
+    border-radius: 5px;
+    border: 1px solid #6E9E76;
+    padding: 10px;
+    margin-left: 10px;
+    width: 205px;
+    justify-content: center;
+    align-items: center;
+}
+
+.NightlyRateTravel{
+    margin-left: 20px;
+}
+
+.NightlyRateTravel .input{
+    background-color: #fff;
+    box-shadow: none;
+    border: none;
+}
+
+.BoostPropertyInline .inputPriceTravel{
+    background-color: #fff;
+    box-shadow: none;
+    width: 205px;
+    border: 1px solid #6E9E76;
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.BoostPropertyInline .inputPriceTravel:focus{
+    outline: 1px solid rgba(56, 155, 246, 0.35);;
+}
+
+.noteTextTravel{
+    color: #EA4131;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.noteTextTravel span{
+    color: #EA4131;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+    margin-right: 5px;
+}
+
+.timepickerInput{
+    width: 170px;
+    margin-left: 15px;
+    border: 1px solid #6E9E76;
+    border-radius: 5px;
+}
+
+.createButtonTravel{
+    border-radius: 9px;
+    border: 1px solid #6E9E76;
+    color: #6E9E76;
+    text-align: center;
+    font-family: 'Volkhov';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 60% */
+    padding: 20px 50px;
+    margin-top: 40px;
+    margin-left: 42.5%;
+    background-color: #FFF;
+}
+
+.createButtonTravel:hover{
+    border-radius: 9px;
+    border: 1px solid #6E9E76;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Volkhov';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 60% */
+    padding: 20px 50px;
+    margin-top: 40px;
+    margin-left: 42.5%;
+    background-color: #6E9E76;
+}
+
+.ant-picker {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px 11px 4px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background: #ffffff;
+    border: none;
+    border-radius: 6px;
+    transition: border 0.2s,box-shadow 0.2s;
+}
+
+.ant-picker-focused {
+    border-color: #000;
+    box-shadow: none;
+    border-inline-end-width: 1px;
+    outline: 0;
+}
+
+.ant-picker-input .ant-picker-input-active{
+    border: 1px solid #6E9E76;
+}
+
+.ant-picker .ant-picker-input {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 97px;
+    border: 1px solid #6E9E76;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px 4px;
+    height: 40px;
+}
+
+.ant-picker .ant-picker-input::placeholder {
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 20.73px */
+}
+
+.ant-picker-range .ant-picker-range-separator {
+    align-items: center;
+    padding: 0 8px;
+    line-height: 1;
+    display: none;
+}
+
+.ant-picker .ant-picker-suffix {
+    display: flex;
+    flex: none;
+    align-self: center;
+    margin-inline-start: 4px;
+    color: rgba(0, 0, 0, 0.25);
+    line-height: 1;
+    pointer-events: none;
+    display: none;
+}
+
+.ant-picker-range .ant-picker-active-bar {
+    bottom: -1px;
+    height: 2px;
+    margin-inline-start: 11px;
+    background: #fff;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    pointer-events: none;
+}
+
+.ant-picker-focused {
+    border-color: #000;
+    box-shadow: none;
+    border-inline-end-width: 1px;
+    outline: 0;
+}
+
+.anticon {
+    display: none;
+    color: inherit;
+    font-style: normal;
+    line-height: 0;
+    text-align: center;
+    text-transform: none;
+    vertical-align: -0.125em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.inputPriceTravel input{
+    border: none;
+    box-shadow: none;
+    width: 140px;
+    font-size: 15px;
+    margin-top: 0px;
+    height: 35px;
+    text-align: center;
+}
+
+.inputPriceTravel input:focus{
+    border: none;
+    outline: none;
+}
+
+.inputPriceTravel .naira{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+}
+
+.inputPriceTravel .digit{
+    padding-right: 5px;
+    font-size: 15px;
+}
+
+.dateChanger .MuiStack-root {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-left: -30px;
+}
+
+.dateChanger .MuiStack-root button{
+    color: #000;
+    border: 1px solid #6E9E76;
+    width: 205px;
+    text-transform: none;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 24.876px */
+}
+
+.startStopBoostPropertyCol{
+    width: 50%;
+    padding: 20px;
+}
+
+.startStop{
+    margin-left: 25%;
+    margin-top: 0%;
+    display: inline-flex;
+}
+
+.startStop .react-datepicker__input-container input {
+    max-width: 180px;
+    border: 1px solid #6E9E76;
+    outline: none;
+    padding: 18px 35px;
+    padding-left: 10px;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.startStop .react-datepicker__input-container input::placeholder {
+   font-size: 20px;
+   text-align: center;
+   padding-left: 35px;
+   color: #6E9E76;
+}
+
+
+.startDateTravel{
+    border-radius: 40px;
+    border: 2px solid #6E9E76;
+    color: #6E9E76;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 15px 73px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.startDateTravel::placeholder{
+    color: #6E9E76;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+}
+
+.stopDateTravel{
+    border-radius: 40px;
+    border: 2px solid #6E9E76;
+    color: #6E9E76;
+    font-family: Volkhov;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 15px 73px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.stopDateTravel::placeholder{
+    color: #6E9E76;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+}
+
+/* .adDatesCont{
+    margin-top: -5%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll; 
+} */
+  
+.adDatesCont::-webkit-scrollbar {
+    display: none;
+}
+
+div.adDatesCont {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.adDatesCont .selectedDates {
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid #263238;
+    background-color: #FFF;
+    padding: 10px 30px;
+}
+
+div.adDatesCont .selectedDates span{
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 17.966px */
+}
+
+div.adDatesCont .selectedDates button{
+    background-color: #FFF;
+    margin-left: 10px;
+    border: none;
+}

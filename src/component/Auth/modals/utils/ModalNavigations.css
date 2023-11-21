@@ -1,0 +1,43 @@
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    font-size: 24px;
+    color: #555;
+  }
+  
+  .modal-buttons > * {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+    text-decoration: underline;
+  }
+  
+  .modal-buttons .back-button,
+  .modal-buttons .close-button {
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .modal-buttons .back-button:hover,
+  .modal-buttons .close-button:hover {
+    color: #000;
+  }
+  
+  .back-btn {
+    display: none;
+  }
+  
+  .show-back-btn .back-btn {
+    display: inline;
+  }
+  
+  @media (max-width: 768px) {
+    .modal-buttons {
+      font-size: 20px;
+    }
+  }
+  

@@ -1,0 +1,270 @@
+.ReservationsBookingRevenueHeader{
+    color: #263238;
+    text-align: left;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 41.46px */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 3%;
+}
+
+.ReservationsBookingRevenueContainer{
+    display: flex;
+    width: 1018px;
+    padding: 34px 176.355px 31.215px 123px;
+    align-items: center;
+    gap: 278px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #C5C4C4;
+    background: #FFF;
+    margin: auto;
+}
+
+.ReservationsBookingRevenueContent{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.ReservationsBookingRevenueColumn{
+    width: 50%;
+    float: left;
+    padding-left: 90px;
+}
+
+.ReservationsBookingRevenueCard1{
+    width: 222.658px;
+    height: 239.785px;
+    flex-shrink: 0;
+    background-color: #6E9E76;
+    filter: drop-shadow(0px 15px 25px rgba(0, 0, 0, 0.15));
+    margin-left: -40%;
+    border-radius: 40px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.ReservationsBookingRevenueCard1 h1{
+    color: #FFF;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ReservationsBookingRevenueCard1 p{
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+}
+
+.ReservationsBookingRevenueCard2{
+    width: 217.987px;
+    height: 239.785px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    filter: drop-shadow(0px 15px 25px rgba(0, 0, 0, 0.15));
+    margin-left: 15%;
+    border-radius: 40px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.ReservationsBookingRevenueCard2 svg{
+    fill: rgba(51, 51, 51, 0.00);
+}
+
+.ReservationsBookingRevenueCard2 .confirmedBookings{
+    color: #1D2027;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142%; /* 18.46px */
+    width: 170px;
+    margin-top: 10px;
+}
+
+.ReservationsBookingRevenueCardSubTextSpacing{
+    margin-left: 50%;
+    width: 100%;
+}
+
+.ReservationsBookingRevenueCardSubText{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+    margin-left: -39%;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.ReservationsBookingRevenueCardSubText svg{
+    float: left;
+    margin-right: 2px;
+    filter: drop-shadow(0px 4.800000190734863px 9.600000381469727px rgba(25, 102, 55, 0.12));
+}
+
+.roundChart{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid #6E9E76;
+    padding: 10px;
+    border-radius: 50%;
+    width: 113px;
+    height: 112px;
+}
+
+.roundChart h1{
+    color: #6E9E76;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.roundChart h1 svg{
+    float: left;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+.roundChart p{
+    color: #333;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    .ReservationsBookingRevenueHeader{
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 138.2%; /* 41.46px */
+        margin-top: -25%;
+        margin-bottom: 15px;
+        margin-left: 0%;
+        color: #263238;
+        font-family: "Raleway", sans-serif;
+        font-size: 20px;
+    }
+
+    .ReservationsBookingRevenueColumn{
+        width: 100%;
+        float: left;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .ReservationsBookingRevenueContainer{
+        display: flex;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        align-items: center;
+        gap: 0px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 0px solid #C5C4C4;
+        background: #FFF;
+        margin: auto;
+    }
+    
+    .ReservationsBookingRevenueContent{
+        max-width: 100%;
+        margin: auto;
+    }    
+
+    .ReservationsBookingRevenueCard2{
+        width: 217.987px;
+        height: 239.785px;
+        flex-shrink: 0;
+        background-color: #FFF;
+        filter: drop-shadow(0px 15px 25px rgba(0, 0, 0, 0.15));
+        margin-left: 0%;
+        border-radius: 40px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        margin-top: 5%;
+    }
+
+    .ReservationsBookingRevenueCard1{
+        width: 222.658px;
+        height: 239.785px;
+        flex-shrink: 0;
+        background-color: #6E9E76;
+        filter: drop-shadow(0px 15px 25px rgba(0, 0, 0, 0.15));
+        margin-left: 0%;
+        border-radius: 40px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }
+
+    .ReservationsBookingRevenueCardSubTextSpacing{
+        margin-left: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .ReservationsBookingRevenueCardSubText{
+        color: #263238;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 30px */
+        margin-left: 0%;
+        margin-top: 3%;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .ReservationsBookingRevenueCardSubText svg{
+        float: left;
+        margin-right: 0px;
+        margin-top: 2%;
+        filter: drop-shadow(0px 4.800000190734863px 9.600000381469727px rgba(25, 102, 55, 0.12));
+    }    
+    
+    .ReservationsBookingRevenueCardSubTextSpacing{
+        margin-left: 0%;
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Volkhov;
+    src: url(../../../assets/Volkhov-Bold.ttf);
+}
+
+.SignBody{
+    font-family: Volkhov;
+    padding-top: 20px;
+    height: 70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.SiB{
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+
+.SignBodyLeft{
+    background-image: url(../../assets/blur.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    width: 50%;
+    color: azure;
+}
+
+.SignBodyRight{
+    display: grid;
+        height: 100%;
+        place-items: center;
+        text-align: center;
+        width: 50%;
+}
+
+/* .SignBodyLeftTop h1{
+    display: inline;
+    justify-content: center;
+} */
+.SignBodyLeftTop{
+    margin-bottom: -100px;
+}
+.SignBodyLeftDown{
+    margin-top: -100px;
+}
+
+.SignBodyLeftDownBtn{
+    border: 1px solid rgb(251, 250, 250);
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    font-size: x-large;
+    height: 30px;
+    cursor: default;
+}
+
+.iconsIn{
+    display: flex;
+    gap: 10px;
+}
+
+.ImageIcon{
+    padding: 20px;
+    border: 1px solid #5F5E5E;
+    font-size: 30px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+form {
+    display: grid;
+    gap: 0px;
+}
+
+.input-wrapper{
+    display: flex;
+    background-color: #D1D1D1;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.prefix, .suffix{
+    position: relative;
+    color: #5F5E5E;
+}
+
+.prefix {
+    padding: 15px 10px 15px 15px;
+}
+
+.suffix {
+    padding: 15px 15px 15px 0
+}
+/* 
+input{
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    border: none;
+    padding: 15px;
+} */
+
+.SignBodyLeftDownBtn2 {
+    background-color: #6E9E76;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    font-size: x-large;
+    height: 30px;
+    color: aliceblue;
+    cursor: default;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.SignBodyRightBody h3 {
+    margin-top: -10px;
+}

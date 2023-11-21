@@ -1,0 +1,63 @@
+.roomDetails-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0;
+  border: 1px solid #bbbbbb;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+
+.roomDetails-features {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 10px 0 20px;
+}
+
+.roomDetails-individualFeatures {
+  display: flex;
+  align-items: center;
+  gap: 8px
+}
+
+.roomDetails-individualFeatures > * {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.roomDetails-persons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.roomDetails-persons > * {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.roomDetails-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px
+}
+
+.roomDetails-input > h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.roomDetails-input > input {
+  width: 500px;
+  height: 40px;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}

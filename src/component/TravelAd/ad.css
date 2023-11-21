@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.dropdownAds{
+    background: #EEE;
+    border-radius: 50%;
+    border: 2px solid #6E9E76;
+    color: #263238;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.totalCostAd{
+    border-radius: 5px;
+    background: #263238;
+    padding: 10px;
+    color: #FFF;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 475px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.noteTextAds{
+    color: #EA4131;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%;
+    width: 70%;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.noteTextAds span{
+    color: #EA4131;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+    margin-right: 5px;
+}
+
+.selectedDate{
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4px;
+}
+/* 
+.adDatesCont{
+    width: 1400px;
+    overflow: scroll;
+}
+
+.adDates{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 900px;
+    margin-top: 5%;
+} */
+
+.adDatesCont{
+    margin-top: 2%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll; 
+}
+  
+.adDatesCont::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.adDates{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 580px;
+}
+
+.adDates p{
+    padding: 10px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 17.966px */
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #263238;
+}
+
+.adDates p button{
+    width: 0px;
+    background-color: #fff;
+    border: none;
+    float: right;
+}
+/* 
+.react-datepicker {
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #aeaeae;
+    border-radius: 0.3rem;
+    display: inline-block;
+    position: fixed;
+    z-index: 1000;
+    margin-left: -500px;
+    top: 10px;
+} */
+
+.fromDate{
+    border-radius: 5px;
+    border: 1px solid #6E9E76;
+    width: 300px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 20.73px */
+    text-align: center;
+}
+
+.toDate{
+    border-radius: 5px;
+    border: 1px solid #6E9E76;
+    width: 300px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 20.73px */
+    text-align: center;
+}
+
+.columnDateAd{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+
+.leftToDate{
+    margin-left: 15px;
+}
+
+.leftFromDate{
+    margin-left: 15px;
+}
+
+.createAdBtn{
+    background-color: #FFF;
+    border-radius: 9px;
+    border: 1px solid #6E9E76;
+    color: #263238;
+    text-align: center;
+    font-family: "Volkhov";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 60% */
+    padding: 19px 65px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.createAdBtn:hover{
+    background-color: #6E9E76;
+    color: #FFF;
+}
+
+.tAds-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 1%;
+    max-width: 600px;
+    margin: auto;
+    gap: 10px;
+}
+
+.tAds-inline .react-datepicker__input-container {
+    position: relative;
+    display: inline-block;
+    width: 110%;
+    border: 1px solid #6E9E76;
+    border-radius: 4px;
+}
+
+.tAds-inline input{
+    margin-top: 1%;
+    width: 100px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-left: 5%;
+}
+
+.tAds-inline ::placeholder{
+    color: #263238;
+    font-family: "Raleway";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%;
+    text-align: center;
+}
+
+.tAds-inline input:focus{
+    border: none;
+}
+
+.tAds-inline input:focus{
+    outline: none;
+}
+
+.fromDate:focus{
+    outline: none;
+}
+
+.dropdownAds{
+    display: flex;
+    width: 310px;
+    height: 66px;
+    padding: 0px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 2px solid #6E9E76;
+    color: #263238;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}

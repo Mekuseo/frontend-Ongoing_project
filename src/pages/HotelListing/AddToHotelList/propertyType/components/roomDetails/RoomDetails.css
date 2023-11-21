@@ -1,0 +1,186 @@
+.bedtypeproptypeheader{
+  color: #263238;
+  text-align: left;
+  font-size: 25px !important;
+  font-weight: 800;
+  font-family: volkhov, sans-serif;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 138.2%; /* 34.55px */
+}
+
+.property-roomDetails-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  margin-bottom: 25px;
+}
+
+.property-roomDetails-container small{
+  margin-top: -1.5%;
+}
+
+.property-roomDetails-container p {
+  font-size: 25px;
+  font-weight: 800;
+  font-family: volkhov, sans-serif;
+}
+
+.roomclassextranet{
+  margin-top: 2%;
+}
+
+.roomratessmall{
+  margin-top: -4%;
+}
+
+.propertyType-Cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  border: 2px solid #c5c4c4;
+  background: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.3),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 30px 40px;
+  margin-top: -1%;
+}
+
+.propertyType-Cards > p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #444444;
+}
+
+.property-roomDetails-calc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.property-roomDetails-calc > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c2c2c2;
+  padding: 8px 25px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #c2c2c2;
+  cursor: pointer;
+}
+
+.property-roomDetails-calc > div:active {
+  background: #306937;
+  color: #fff;
+}
+
+.property-roomDetails-calc > input {
+  border: none;
+  width: 80px;
+  text-align: center;
+  font-size: 45px;
+  color: #6E9E76;
+  font-weight: 500;
+  font-family: Raleway, sans-serif;
+}
+
+.property-roomDetails-calc input::placeholder {
+  font-weight: 500;
+  font-size: 50px;
+  color: #6E9E76;
+}
+
+.property-roomDetails-calc > input[type="number"] {
+  /* Hide default number input arrows */
+  -moz-appearance: textfield;
+  appearance: textfield;
+  width: 80px;
+  text-align: center;
+  font-size: 45px;
+  color: #6E9E76;
+  font-weight: 500;
+}
+
+.property-roomDetails-calc input[type="number"]::placeholder {
+  font-weight: 500;
+  font-size: 50px;
+  color: #6E9E76;
+}
+
+@media only screen and (max-width: 600px) {
+  .property-roomDetails-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 5px;
+  }
+  
+  .property-roomDetails-container p {
+    color: #263238;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -5%;
+    margin-bottom: -1%;
+  }
+
+  .mobileroomcapacity{
+    margin-top: 12px;
+  }
+
+  .roomsanddeetsmobile{
+    margin-top: 0%;
+  }
+
+  .propertyType-Cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    border: 0px solid #c5c4c4;
+    background: #FF000000;
+    box-shadow: none;
+    padding: 0px 0px;
+  }
+  
+  .propertyType-Cards > p {
+    color: #263238;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+  }
+
+  .roomdeetsmobile{
+    margin-top: -20px;
+  }
+
+  .mobileroomdetails{
+    margin-top: -15px;
+  }
+
+  .property-roomDetails-calc {
+    gap: 10px;
+    margin-left: 5%;
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .property-roomDetails-container small{
+    display: none;
+    margin-top: -5%;
+  }
+
+  .property-roomDetails-calc input{
+    background-color: #FF000000;
+  }
+}

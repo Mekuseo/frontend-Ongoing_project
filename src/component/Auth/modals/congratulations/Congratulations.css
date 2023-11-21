@@ -1,0 +1,61 @@
+.congrats-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 999; */
+    text-align: center;
+}
+
+.congrats-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.congrats-modal {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+.congrats-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.congrats-btn {
+    width: 50%;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #6E9E76;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.congrats-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.close-btn {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 40px;
+}

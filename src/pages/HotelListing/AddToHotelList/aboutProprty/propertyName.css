@@ -1,0 +1,48 @@
+.propertyName-title {
+  margin-bottom: 0px !important;
+  margin-left: 0%;
+}
+
+.propertyName-input {
+  height: 50px !important;
+  overflow: hidden !important;
+  margin-bottom: 40px !important;
+  resize: none;
+}
+
+.propertyDescription-margin {
+  margin-top: 0px !important;
+}
+
+.location-rowFlex {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.location-rowFlex > :nth-child(1) {
+  margin-right: 20px;
+}
+
+.location-rowFlex2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colAddress > input {
+  padding: 10px;
+  border: 1px solid #5f5e5e;
+  background: #fff;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .propertyName-input {
+    height: 40px !important;
+    margin-bottom: 25px !important;
+    overflow: hidden;
+  }
+
+  .propertyDescription-margin {
+    margin-top: 0px !important;
+  }
+}

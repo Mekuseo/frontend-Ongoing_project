@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.amenities-body {
+  background-color: #F7F7F8;
+  max-width: 1080px; /* Changed "width" to "max-width" for responsiveness */
+  border-radius: 20px;
+  margin: 0 auto 20px;
+  font-family: "Raleway", "sans-serif";
+  padding: 20px 0; /* Moved padding here to center the title */
+  text-align: center; /* Center the title */
+}
+
+.amenities-list {
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #e9e9eb;
+  padding: 30px; /* Added padding to the whole list */
+  display: flex;
+  flex-wrap: wrap; /* Display in rows */
+  justify-content: space-between; /* Create 3 columns */
+}
+
+.amenities-flex-column {
+  flex: 0 0 calc(33.33% - 20px); /* Set the width of each column to 33.33% with a margin of 20px */
+  margin: 0 10px; /* Adjusted margin for spacing */
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px; /* Added margin to separate the columns */
+}
+
+.amenities-flex-column h4 {
+  margin: 15px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.amenities-flex-column > h4 > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.amenities-flex-column > h4 > ul > li {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 10px;
+  padding: 0 5px;
+  list-style-type: "✔";
+}
+
+.flex-last {
+  display: flex;
+  justify-content: flex-start !important;
+  margin-left: 20px;
+}

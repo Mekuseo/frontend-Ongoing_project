@@ -1,0 +1,81 @@
+{
+  "rooms": [
+    {
+      "title": "Ahmed Exclusive",
+      "image": "../../../assets/pics/rooms_card_picture.png",
+      "list": [
+        { "icon": "FaDoorOpen", "text": "Classic room" },
+        { "icon": "FaBed", "text": "Single bed" },
+        { "icon": "FaDoorOpen", "text": "Chalet" },
+        { "icon": "HiUsers", "text": "Accommodates 2" }
+      ],
+      "features": [
+        { "icon": "FaWifi", "text": "Wi-Fi" },
+        { "icon": "FiWind", "text": "Fan" },
+        { "icon": "IoSnowOutline", "text": "AC" },
+        { "icon": "FaBath", "text": "Bathroom" },
+        { "icon": "BiSpa", "text": "Free Spa" },
+        { "icon": "BiFoodMenu", "text": "Free Lunch" },
+        { "icon": "BiBed", "text": "Room service" }
+      ],
+      "paymentOptions": ["Pay at hotel", "Pay 20% to reserve property"],
+      "price": "N1,000.00",
+      "formerPrice": "N5,000.75",
+      "currentPrice": "20% OFF TODAY",
+      "discount": "N5000.75",
+      "roomsLeft": "4 rooms left on this deal"
+    },
+
+    {
+      "title": "Baroon Exclusive",
+      "image": "../../../assets/pics/rooms2 card.png",
+      "list": [
+        { "icon": "FaDoorOpen", "text": "Classic room" },
+        { "icon": "FaBed", "text": "Single bed" },
+        { "icon": "FaDoorOpen", "text": "Chalet" },
+        { "icon": "HiUsers", "text": "Accommodates 2" }
+      ],
+      "features": [
+        { "icon": "FaWifi", "text": "Wi-Fi" },
+        { "icon": "FiWind", "text": "Fan" },
+        { "icon": "IoSnowOutline", "text": "AC" },
+        { "icon": "FaBath", "text": "Bathroom" },
+        { "icon": "BiSpa", "text": "Free Spa" },
+        { "icon": "BiFoodMenu", "text": "Free Lunch" },
+        { "icon": "BiBed", "text": "Room service" }
+      ],
+      "paymentOptions": ["Pay at hotel", "Pay 20% to reserve property"],
+      "price": "N1,000.00",
+      "formerPrice": "N5,000.75",
+      "currentPrice": "20% OFF TODAY",
+      "discount": "N5000.75",
+      "roomsLeft": "4 rooms left on this deal"
+    },
+
+    {
+      "title": "Ahmed Exclusive",
+      "image": "../../../assets/pics/rooms3 card.png",
+      "list": [
+        { "icon": "FaDoorOpen", "text": "Classic room" },
+        { "icon": "FaBed", "text": "Single bed" },
+        { "icon": "FaDoorOpen", "text": "Chalet" },
+        { "icon": "HiUsers", "text": "Accommodates 2" }
+      ],
+      "features": [
+        { "icon": "FaWifi", "text": "Wi-Fi" },
+        { "icon": "FiWind", "text": "Fan" },
+        { "icon": "IoSnowOutline", "text": "AC" },
+        { "icon": "FaBath", "text": "Bathroom" },
+        { "icon": "BiSpa", "text": "Free Spa" },
+        { "icon": "BiFoodMenu", "text": "Free Lunch" },
+        { "icon": "BiBed", "text": "Room service" }
+      ],
+      "paymentOptions": ["Pay at hotel", "Pay 20% to reserve property"],
+      "price": "N1,000.00",
+      "formerPrice": "N5,000.75",
+      "currentPrice": "20% OFF TODAY",
+      "discount": "N5000.75",
+      "roomsLeft": "4 rooms left on this deal"
+    }
+  ]
+}

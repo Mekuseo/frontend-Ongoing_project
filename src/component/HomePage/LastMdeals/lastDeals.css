@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Volkhov;
+    src: url(../../../assets/Volkhov-Bold.ttf);
+}
+
+@font-face {
+    font-family: Marmelad;
+    src: url(../../../assets/Marmelad-Regular.ttf);
+}
+
+@font-face {
+    font-family: ec;
+    src: url(../../../assets/Eczar-VariableFont_wght.ttf);
+}
+
+.lastDealsCardsCont{
+    margin-top: 1%;
+}
+
+.cardColsFirstLastDeals{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.cardhomefirstLastdeals{
+    width: 100%;
+    padding: 0px;
+    border-radius: 10px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+    margin: 10px;
+}
+
+.cardhomefirstLastdeals h3{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #254554;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 19.8px */
+}

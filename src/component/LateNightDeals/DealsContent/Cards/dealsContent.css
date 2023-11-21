@@ -1,0 +1,130 @@
+.dealsSelectCard{
+    width: 609px;
+    border: 1px solid #6E9E76;
+    border-radius: 10px;
+    margin-top: 2.5%;
+    background-color: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cardDealsColumn{
+    float: left;
+    padding: 10px;
+}
+
+.imageDeals{
+    width: 35%;
+    background-image: url("https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/624b471bdf247131f10ea14f_61d31b8dbff9b500cbd7ed32_types_of_rooms_in_a_5-star_hotel_2_optimized_optimized.jpeg"); 
+    border-radius: 10px;
+    height: 165px;
+    border: 3px solid #6E9E76;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -1px;
+}
+
+.dealsCardContent{
+    width: 65%;
+}
+
+.leftDealsCard{
+    margin-left: 5px;
+}
+
+.percentagetopright svg{
+    float: right;
+    margin-right: -4.05%;
+    margin-top: -3.75%;
+}
+
+.dealsCardContent h1{
+    margin-top: 3px;
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 148.2%; /* 29.64px */
+    letter-spacing: -0.7px;
+}
+
+.dealsCardContent h1 svg{
+    margin-left: 5px;
+}
+
+.dealsCardContent .p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 14.82px */
+    letter-spacing: -0.35px;
+}
+
+.dealsCardContent span{
+    border-radius: 2px;
+    border: 0.5px solid rgba(110, 158, 118, 0.50);
+    background: #FFF;
+    color: #263238;
+    font-family: Raleway;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 11.856px */
+    letter-spacing: -0.28px;
+    margin-right: 4px;
+    padding: 0px 10px;
+}
+
+.dealsBottomDealsText{
+    color: #6E9E76;
+    font-family: Volkhov;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 14.82px */
+    letter-spacing: -0.35px;
+}
+
+.dealsFloatRight .truePrice{
+    float: right;
+    margin-top: -30px;
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dealsFloatRight .cancelledPrice{
+    color: rgba(38, 50, 56, 0.45);
+    font-family: 'Volkhov', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -5px;
+    text-decoration: line-through;
+    text-align: center;
+    margin-left: 68%;
+}
+
+.dealsContentIcons{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dealsContentIcons svg{
+    margin-right: 10px;
+}
+
+.dealsMainContent{
+    background: #EAECF0;
+    padding: 20px;
+}

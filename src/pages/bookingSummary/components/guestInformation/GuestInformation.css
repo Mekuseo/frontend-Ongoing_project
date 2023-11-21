@@ -1,0 +1,89 @@
+.guestInformation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(171, 170, 170, 0.58);
+  background: #fff;
+  width: 60% !important;
+  padding: 10px 20px;
+}
+
+Form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* 
+.guestInformation-names {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.guestInformation-names-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.guestInformation-names-gap > input {
+  border-radius: 3px;
+  padding: 5px;
+  border: 1px solid #263238;
+  width: 202px;
+}
+
+.guestInformation-email {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.guestInformation-email > input {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #263238;
+  width: 85%;
+}
+
+.guestInformation-countryCode {
+  display: flex;
+  gap: 15px;
+}
+
+.guestInformation-countryCode-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.guestInformation-countryCode-input > button {
+  border: 1px solid #263238;
+  border-radius: 3px;
+  padding: 5px;
+  width: 120px;
+  background-color: transparent;
+}
+
+.guestInformation-countryCode-input > input {
+  border: 1px solid #263238;
+  border-radius: 3px;
+  padding: 5px;
+  width: 290px;
+}
+
+.guestInformation-whatsapp {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.guestInformation-whatsapp > input {
+  border: 1px solid #263238;
+  border-radius: 3px;
+  padding: 5px;
+  width: 85%;
+  margin-bottom: 20px;
+} */

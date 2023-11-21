@@ -1,0 +1,44 @@
+.changeNumberinline{
+    width: 100%;
+}
+
+.changeNumberinline button{
+    padding: 0px;
+    width: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: none;
+}
+
+.changeNumberMainColumn{
+    width: 50%;
+    float: left;
+    margin-top: 4px;
+}
+
+.changeNumberThreeColumn{
+    max-width: 65%;
+    margin: auto;
+}
+
+.changeNumberColumn{
+    width: 33.3333%;
+    float: left;
+    padding: -30px;
+    margin-top: -7.5px;
+}
+
+.increaseNumber{
+    margin-left: -1px;
+}
+
+.changeNumberColumn span{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 9px */
+    margin-top: 30px;
+}

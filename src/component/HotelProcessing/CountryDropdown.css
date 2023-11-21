@@ -1,0 +1,41 @@
+.country-dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.selected-country {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selected-country:hover {
+    background-color: #e0e0e0;
+}
+
+.paycountrydropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    background-color: #fff;
+    z-index: 1;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.paycountrydropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.paycountrydropdown-item:hover {
+    background-color: #e0e0e0;
+}

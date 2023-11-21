@@ -1,0 +1,50 @@
+.cancellationPolicy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0;
+  border: 1px solid #bbbbbb;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+
+.cancellationPolicy-list {
+  padding-left: 18px;
+  margin: 10px 0;
+}
+
+.cancellationPolicy-list > li {
+  margin: 8px 0;
+}
+
+.cancellationPolicy-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: left;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.cancellationPolicy-flex-row {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cancellationPolicy-checkbox {
+  display: flex;
+  gap: 10px;
+  margin: 5px 0 15px;
+}
+
+.cancellationPolicy-btn {
+  margin: 10px auto 15px;
+  padding: 13px 26px;
+  border-radius: 8px;
+  border: 1px solid #979797;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+}

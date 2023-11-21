@@ -1,0 +1,622 @@
+import React, { useState } from "react";
+import {
+  Grid,
+  Card,
+  CardContent,
+  Typography,
+  FormControlLabel,
+} from "@material-ui/core";
+import Checkbox from "@mui/material/Checkbox";
+import amenitiesData from "./amenitiesData.json";
+import Navbar from "../../../../component/HomePage/header/header";
+import ScrollHeader from "../reusables/ScrollHeader";
+import Button from "@mui/material/Button";
+import TextField from "@mui/material/TextField";
+import Modal from "@mui/material/Modal";
+import { Box } from "@mui/material";
+
+const Amenities: React.FC = () => {
+  const [open, setOpen] = useState(false);
+  const [newAmenity, setNewAmenity] = useState("");
+  const [selectedCardIndex, setSelectedCardIndex] = useState<number | null>(
+    null
+  );
+
+  const unDesiredCategories = [
+    "Popular among travelers",
+    "Common",
+    "Access",
+    "Kitchen",
+    "Bathroom",
+    "Outdoors",
+    "Entertainment",
+    "Family",
+    "Safety and Cleanliness",
+    "Language Adaptation",
+    "On-site Facilities",
+    "Other"
+  ];
+
+  const filteredAmenities = amenitiesData.filter((item) =>
+    unDesiredCategories.includes(item.amenity)
+  );
+
+  const handleClose = () => setOpen(false);
+
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: 800,
+    bgcolor: "background.paper",
+    border: "2px solid #000",
+    boxShadow: 24,
+    p: 4,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: "10px",
+  };
+
+  const handleOpen = (index: number) => {
+    setSelectedCardIndex(index);
+    setOpen(true);
+  };
+
+  const handleEnter = () => {
+    if (selectedCardIndex !== null) {
+      amenitiesData.forEach((amenity, index) => {
+        if (index === selectedCardIndex) {
+          amenity.subItems.push(newAmenity);
+        }
+      });
+    }
+
+    setNewAmenity("");
+    setOpen(false);
+  };
+
+  return (
+    <div>
+      <Navbar />
+      <div className="content">
+        <ScrollHeader />
+
+        <br />
+        <p className="header">Amenities</p>
+        <Grid container spacing={2}>
+          {filteredAmenities.map((amenity, index) => (
+            <Grid item xs={12} sm={12} md={12} key={index}>
+              <Typography
+                variant="h6"
+                style={{
+                  fontFamily: "volkhov, sans-serif",
+                  fontSize: "30px",
+                  fontWeight: "700",
+                }}
+              >
+                {amenity.amenity}
+              </Typography>
+              <Typography
+                style={{
+                  fontFamily: "raleway, sans-serif",
+                  fontSize: "10px",
+                  marginBottom: "5px",
+                  color: "#383737",
+                }}
+              >
+                {amenity["amenity-subtitle"]}
+              </Typography>
+              <Card>
+                <CardContent>
+                  <Grid container>
+                    {amenity.subItems.map((item, i) => (
+                      <Grid
+                        item
+                        xs={4}
+                        key={i}
+                        style={{ marginBottom: "25px" }}
+                      >
+                        <FormControlLabel
+                          control={
+                            <Checkbox
+                              color="success"
+                              style={{
+                                fontSize: "25px",
+                                fontFamily: "raleway, sans-serif",
+                                color: "#383737",
+                              }}
+                            />
+                          }
+                          label={item}
+                        />
+                      </Grid>
+                    ))}
+                    <div
+                      style={{
+                        fontSize: "20px",
+                        fontFamily: "raleway, sans-serif",
+                        color: "#383737",
+                      }}
+                    >
+                      <Button
+                        variant="contained"
+                        style={{
+                          backgroundColor: "#6E9E76",
+                          marginRight: "20px",
+                        }}
+                        onClick={() => handleOpen(index)}
+                      >
+                        +
+                      </Button>
+                      Add More
+                    </div>
+                  </Grid>
+                </CardContent>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </div>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box sx={style}>
+          <Typography id="modal-modal-title" variant="h6" component="h2">
+            Add an Amenity below then press "Enter"
+          </Typography>
+          <div style={{ display: "flex", gap: "10px" }}>
+            <TextField
+              id="outlined-basic"
+              label="Add an Amenity"
+              variant="outlined"
+              value={newAmenity}
+              onChange={(e) => setNewAmenity(e.target.value)}
+            />
+            <Button
+              variant="contained"
+              style={{ backgroundColor: "#6E9E76", color: "white" }}
+              onClick={handleEnter}
+            >
+              Enter
+            </Button>
+          </div>
+        </Box>
+      </Modal>
+    </div>
+  );
+};
+
+export default Amenities;
+
+
+
+import React, { useEffect, useState } from "react";
+import {
+  Grid,
+  Card,
+  CardContent,
+  Typography,
+  FormControlLabel,
+} from "@material-ui/core";
+import Checkbox from "@mui/material/Checkbox";
+import amenitiesData from "./amenitiesData.json";
+import Navbar from "../../../../component/HomePage/header/header";
+import ScrollHeader from "../reusables/ScrollHeader";
+import Button from "@mui/material/Button";
+import TextField from "@mui/material/TextField";
+import Modal from "@mui/material/Modal";
+import { Box, CircularProgress } from "@mui/material";
+import { baseURL } from "../../../../severs/auth";
+import axios from "axios";
+import { UserContextProvider } from "../../../../utils/UserData";
+import ButtonNavBar from "../reusables/ButtonNavBar";
+import Footer from "../../../../component/HomePage/footer/Footer";
+import AmenityItem from "./AmenityItem";
+import "./Amenities.css";
+
+const Amenities: React.FC = () => {
+  useEffect(() => {
+    handleOnLoad();
+  }, []);
+  const [isLoading, setIsLoading] = useState(true);
+  const [showInputBoxIndex, setShowInputBoxIndex] = useState<number>(-1);
+  const [inputValue, setInputValue] = useState<string>("");
+  const [selectedAmenities, setSelectedAmenities] = useState<any[]>([]);
+  const userAmenities = transformSelectedAmenities(selectedAmenities);
+  const [propertyName, setpropertyName] = useState<string>("");
+  const [propertyType, setpropertyType] = useState<string>("");
+  const [propertyDescription, setpropertyDescription] = useState<string>("");
+  const [propertyPorxy, setpropertyPorxy] = useState<string>("");
+  const [propertyPolicy, setpropertyPolicy] = useState<string>("");
+  const [propertyRating, setpropertyRating] = useState<string>("");
+  const [propertyChannelManager, setpropertyChannelManager] =
+    useState<string>("");
+  const [propertyChain, setpropertyChain] = useState<string>("");
+  const [propertyBulidingNumber, setpropertyBulidingNumber] =
+    useState<string>("");
+  const [propertyStreetAddress, setpropertyStreetAddress] =
+    useState<string>("");
+  const [fullAddress, setFullAddress] = useState<string>("");
+  const [locationLongitude, setLocationLongitude] = useState<string>("");
+  const [locationLatitude, setLocationLatitude] = useState<string>("");
+  const [locationTimeZone, setLocationTimeZone] = useState<string>("");
+  const [numberBedrooms, setNumberBedrooms] = useState<number>(1);
+  const [roomType, setRoomType] = useState<number>(1);
+  const [numBedrooms, setNumBedrooms] = useState<number>(1);
+  const initialRoomTypeNames = Array.from({ length: numBedrooms }, () => "");
+  const [roomTypeName, setRoomTypeName] = useState(initialRoomTypeNames);
+
+  const handleOnLoad = async () => {
+    try {
+      setIsLoading(true);
+      const userToken = localStorage.getItem("token") || "";
+      const hotelId = localStorage.getItem("hotelId");
+      const config = {
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Token ${userToken}`,
+        },
+      };
+      const response = await axios.get(
+        `${baseURL}hotels/hotels/${hotelId}/`,
+        config
+      );
+      const responseData = response.data;
+      setpropertyName(responseData.hotel_name);
+      setpropertyType(responseData.property_type);
+      setpropertyDescription(responseData.describe_property);
+      setpropertyPorxy(responseData.proximity_to_major_attractions);
+      setpropertyPolicy(responseData.property_policy);
+      setpropertyChannelManager(responseData.have_channel_manager);
+      setpropertyRating(responseData.rating);
+      setpropertyBulidingNumber(responseData.location_building_number);
+      setpropertyStreetAddress(responseData.location_building_address);
+      const selectedAmenitiesData = responseData.amenities.map(
+        (amenity: { amenity: any; subItem: any }) => ({
+          amenity: amenity.amenity,
+          subItem: amenity.subItem,
+        })
+      );
+      setSelectedAmenities(selectedAmenitiesData);
+      setIsLoading(false);
+    } catch (error) {
+      setIsLoading(false);
+      console.log("Error fetching user data:", error);
+    }
+  };
+
+  const handleCheckboxChange = (amenity: string, subItem: string) => {
+    const isSelected = selectedAmenities.some(
+      (item) => item.amenity === amenity && item.subItem === subItem
+    );
+    if (isSelected) {
+      setSelectedAmenities(
+        selectedAmenities.filter(
+          (item) => item.amenity !== amenity || item.subItem !== subItem
+        )
+      );
+    } else {
+      setSelectedAmenities([...selectedAmenities, { amenity, subItem }]);
+    }
+  };
+
+  const handleAddClick = (index: number) => {
+    if (inputValue.trim() !== "") {
+      const updatedAmenitiesData = [...amenitiesData];
+      updatedAmenitiesData[index].subItems.push(inputValue.trim());
+
+      setSelectedAmenities((prevSelected) => [
+        ...prevSelected,
+        {
+          amenity: updatedAmenitiesData[index].amenity,
+          subItem: inputValue.trim(),
+        },
+      ]);
+
+      setShowInputBoxIndex(-1);
+      setInputValue("");
+    }
+  };
+
+  return (
+    <div>
+      <UserContextProvider>
+        <Navbar />
+        <div className="content">
+          <ScrollHeader />
+          {isLoading ? (
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "100vh",
+              }}
+            >
+              <CircularProgress />
+            </div>
+          ) : (
+            <>
+              <br />
+              <h1 className="amenitesPage-subtitle">Amenities</h1>
+              <div className="amenityContainer">
+                <div className="row">
+                  {amenitiesData.map((amenityItem, index) => (
+                    <AmenityItem
+                      key={index}
+                      index={index}
+                      amenityItem={amenityItem}
+                      selectedAmenities={selectedAmenities}
+                      onCheckboxChange={handleCheckboxChange}
+                      showInputBox={showInputBoxIndex === index}
+                      onAddMoreClick={() => setShowInputBoxIndex(index)}
+                      onAddClick={() => handleAddClick(index)}
+                      inputValue={inputValue}
+                      onInputChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                        setInputValue(e.target.value)
+                      }
+                      Checkbox={Checkbox}
+                    />
+                  ))}
+                </div>
+              </div>
+            </>
+          )}
+          <ButtonNavBar
+            propertyName={propertyName}
+            propertyType={propertyType}
+            propertyChannelManager={propertyChannelManager}
+            propertyDescription={propertyDescription}
+            propertyPorxy={propertyPorxy}
+            propertyPolicy={propertyPolicy}
+            propertyRating={propertyRating}
+            selectedPopularAmenities={selectedAmenities}
+            propertyBulidingNumber={propertyBulidingNumber}
+            propertyStreetAddress={propertyStreetAddress}
+            numberBedrooms={numberBedrooms}
+            roomType={roomType}
+            roomTypeName={roomTypeName}
+          />
+        </div>
+        <Footer />
+      </UserContextProvider>
+    </div>
+  );
+};
+
+export default Amenities;
+
+const transformSelectedAmenities = (selectedAmenities: any[]) => {
+  const categories = [
+    "Popular among travelers",
+    "Common",
+    "Access",
+    "Kitchen",
+    "Bathroom",
+    "Outdoors",
+    "Entertainment",
+    "Family",
+    "Safety and Cleanliness",
+    "Language Adaptation",
+    "On-site Facilities",
+    "Other",
+  ];
+
+  const userAmenities = categories.map((category) => {
+    const categoryAmenities = selectedAmenities
+      .filter((item) => item.amenity === category)
+      .map((item) => item.subItem);
+
+    if (category === "Common") {
+      return {
+        amenity: category,
+        subItems: categoryAmenities,
+      };
+    } else if (category === "Access") {
+      return {
+        amenity: category,
+        subItems: categoryAmenities,
+      };
+    } else if (category === "Kitchen") {
+      return {
+        amenity: category,
+        subItems: categoryAmenities,
+      };
+    } else if (category === "Bathroom") {
+      return {
+        amenity: category,
+        subItems: categoryAmenities,
+      };
+    } else if (category === "Outdoors") {
+      return {
+        amenity: category,
+        subItems: categoryAmenities,
+      };
+    }
+    return {
+      amenity: category,
+      subItems: categoryAmenities,
+    };
+  });
+
+  return userAmenities;
+};
+
+// const transformSelectedAmenities = (selectedAmenities: any[]) => {
+//   const categories = [
+//     "Popular among travelers",
+//     "Common",
+//     "Access",
+//     "Kitchen",
+//     "Bathroom",
+//     "Outdoors",
+//     "Entertainment",
+//     "Family",
+//     "Safety and Cleanliness",
+//     "Language Adaptation",
+//     "On-site Facilities",
+//     "Other",
+//   ];
+
+//   const filteredAmenities = amenitiesData.filter((item) =>
+//     unDesiredCategories.includes(item.amenity)
+//   );
+
+//   const handleClose = () => setOpen(false);
+
+//   const style = {
+//     position: "absolute",
+//     top: "50%",
+//     left: "50%",
+//     transform: "translate(-50%, -50%)",
+//     width: 800,
+//     bgcolor: "background.paper",
+//     border: "2px solid #000",
+//     boxShadow: 24,
+//     p: 4,
+//     display: "flex",
+//     flexDirection: "column",
+//     justifyContent: "center",
+//     alignItems: "center",
+//     gap: "10px",
+//   };
+
+//   const handleOpen = (index: number) => {
+//     setSelectedCardIndex(index);
+//     setOpen(true);
+//   };
+
+//   const handleEnter = () => {
+//     if (selectedCardIndex !== null) {
+//       amenitiesData.forEach((amenity, index) => {
+//         if (index === selectedCardIndex) {
+//           amenity.subItems.push(newAmenity);
+//         }
+//       });
+//     }
+
+//     setNewAmenity("");
+//     setOpen(false);
+//   };
+
+//   return (
+//     <div>
+//       <Navbar />
+//       <div className="content">
+//         <ScrollHeader />
+
+//         <br />
+//         <p className="header">Amenities</p>
+//         <Grid container spacing={2}>
+//           {filteredAmenities.map((amenity, index) => (
+//             <Grid item xs={12} sm={12} md={12} key={index}>
+//               <Typography
+//                 variant="h6"
+//                 style={{
+//                   fontFamily: "volkhov, sans-serif",
+//                   fontSize: "30px",
+//                   fontWeight: "700",
+//                 }}
+//               >
+//                 {amenity.amenity}
+//               </Typography>
+//               <Typography
+//                 style={{
+//                   fontFamily: "raleway, sans-serif",
+//                   fontSize: "10px",
+//                   marginBottom: "5px",
+//                   color: "#383737",
+//                 }}
+//               >
+//                 {amenity["amenity-subtitle"]}
+//               </Typography>
+//               <Card>
+//                 <CardContent>
+//                   <Grid container>
+//                     {amenity.subItems.map((item, i) => (
+//                       <Grid
+//                         item
+//                         xs={4}
+//                         key={i}
+//                         style={{ marginBottom: "25px" }}
+//                       >
+//                         <FormControlLabel
+//                           control={
+//                             <Checkbox
+//                               color="success"
+//                               style={{
+//                                 fontSize: "25px",
+//                                 fontFamily: "raleway, sans-serif",
+//                                 color: "#383737",
+//                               }}
+//                             />
+//                           }
+//                           label={item}
+//                         />
+//                       </Grid>
+//                     ))}
+//                     <div
+//                       style={{
+//                         fontSize: "20px",
+//                         fontFamily: "raleway, sans-serif",
+//                         color: "#383737",
+//                       }}
+//                     >
+//                       <Button
+//                         variant="contained"
+//                         style={{
+//                           backgroundColor: "#6E9E76",
+//                           marginRight: "20px",
+//                         }}
+//                         onClick={() => handleOpen(index)}
+//                       >
+//                         +
+//                       </Button>
+//                       Add More
+//                     </div>
+//                   </Grid>
+//                 </CardContent>
+//               </Card>
+//             </Grid>
+//           ))}
+//         </Grid>
+//       </div>
+//       <Modal
+//         open={open}
+//         onClose={handleClose}
+//         aria-labelledby="modal-modal-title"
+//         aria-describedby="modal-modal-description"
+//       >
+//         <Box sx={style}>
+//           <Typography id="modal-modal-title" variant="h6" component="h2">
+//             Add an Amenity below then press "Enter"
+//           </Typography>
+//           <div style={{ display: "flex", gap: "10px" }}>
+//             <TextField
+//               id="outlined-basic"
+//               label="Add an Amenity"
+//               variant="outlined"
+//               value={newAmenity}
+//               onChange={(e) => setNewAmenity(e.target.value)}
+//             />
+//             <Button
+//               variant="contained"
+//               style={{ backgroundColor: "#6E9E76", color: "white" }}
+//               onClick={handleEnter}
+//             >
+//               Enter
+//             </Button>
+//           </div>
+//         </Box>
+//       </Modal>
+//     </div>
+//   );
+// };
+
+// export default Amenities;

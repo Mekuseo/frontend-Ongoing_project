@@ -1,0 +1,103 @@
+.chatbot{
+    width: 400px;
+}
+
+.react-chatbot-kit-chat-container {
+    position: relative;
+    width: 650px;
+}
+
+.react-chatbot-kit-chat-header {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #efefef;
+    display: none;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #514f4f;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.react-chatbot-kit-chat-bot-message {
+    font-weight: medium;
+    position: relative;
+    width: 300px;
+    margin-left: auto;
+    text-align: left;
+    float: left;
+    margin-right: 260px;
+    border-radius: 0px 20px 20px 20px;
+    background: rgba(110, 158, 118, 0.42);
+    padding: 16px;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #2898ec;
+    position: absolute;
+    left: -7px;
+    top: 13px;
+    display: none;
+}
+
+.react-chatbot-kit-chat-bot-message-container img{
+    margin-top: -3%;
+    width: 40px;
+    height: 40px;
+}
+
+.react-chatbot-kit-user-avatar-container{
+    display: none;
+}
+
+.react-chatbot-kit-user-chat-message{
+    border-radius: 20px 20px 0px 20px;
+    background: rgba(38, 50, 56, 0.35);
+    padding: 16px;
+}
+
+.react-chatbot-kit-user-chat-message-arrow{
+    display: none;
+}
+
+.react-chatbot-kit-chat-message-container {
+    padding: 0 17.5px 10px 17.5px;
+    overflow: scroll;
+    height: 600px;
+}
+
+.react-chatbot-kit-chat-inner-container {
+    height: 650px;
+    background-color: #fff;
+    border-radius: 3px;
+    border-radius: 5px;
+}
+
+.react-chatbot-kit-chat-btn-send {
+    background-color: #2898ec;
+    width: 100px;
+    border: none;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    display: none;
+}
+
+.react-chatbot-kit-chat-input {
+    width: 100%;
+    padding: 17px;
+    border: none;
+    font-size: 0.85rem;
+    border-radius: 40px;
+    background: #E9E9E9;
+    margin-left: 20px;
+}

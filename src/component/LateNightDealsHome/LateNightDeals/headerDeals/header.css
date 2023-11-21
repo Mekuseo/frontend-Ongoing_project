@@ -1,0 +1,84 @@
+.dealsImg{
+    position: relative;
+    text-align: center;
+    top: 0px;
+}
+
+.dealsImg .travelTopDiv{
+    border-radius: 59px;
+    border: 1px solid #6E9E76;
+    background: #FFF;
+    color: #CF0007;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138.2%;
+    letter-spacing: -0.3px;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.dealsImg .lateNightContainer { 
+    margin-top: 0%;
+    position: relative;
+    color: #FFF;
+}
+  
+.dealsImg .lateNightTextContent{
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 0px;
+}
+
+.dealsImg .lateNightTextContent h1{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.50);
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 44px; /* 110% */
+    width: 600px;
+    margin-left: -12%;
+    margin-top: 40%;
+}
+
+.dealsImg .lateNightTextContent p{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.50);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 35px; /* 175% */
+    margin-top: 5px;
+    width: 800px;
+    margin-left: -25%;
+}
+
+.dealsImg .lateNightTextContent p span{
+    color: rgba(255, 54, 61, 0.80);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px;
+    background-color: #fff;
+    padding: 5px 20px 10px 20px;
+    border-radius: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.slideImageLateNight{
+    max-width: 500px;
+    margin: auto;
+}

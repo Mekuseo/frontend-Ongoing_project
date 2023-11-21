@@ -1,0 +1,38 @@
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heroBackground {
+  background-image: url("../../../assets/pics/abuja-outing-img.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  padding-bottom: 25px;
+}
+
+.heroBackground :nth-child(1) {
+  font-size: 60px;
+  font-family: raleway, sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+.heroBackground :nth-child(2) {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-family: raleway, sans-serif;
+  font-weight: 900;
+  color: white;
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "amenity": "Type Of Bed",
+    "amenity-subtitle": "What type of bed does this room have?",
+    "subItems": ["Single", "Double", "Queen bed", "Double bed", "King", "Super king", "Bunk-bed", "Sofa bed"]
+  },
+  {
+    "amenity": "Additional deals on this room type",
+    "subItems": ["Free breakfast", "Access to exclusive amenities e.g free spa", "Free dinner", "Free lunch"]
+  },
+  {
+    "amenity": "Room amenities",
+    "subItems": ["Climate control; fan, AC", "Bathroom; shower, bathtub, bidet, dryer etc", "In-room refreshment"]
+  }
+]

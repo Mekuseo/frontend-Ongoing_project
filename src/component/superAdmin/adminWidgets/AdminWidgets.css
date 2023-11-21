@@ -1,0 +1,49 @@
+.widgetsContainer-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 40px;
+}
+
+.widgetsContainer {
+  border-radius: 20px;
+  background: #f6a3a2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 20px 40px;
+  padding: 20px 40px;
+}
+
+.widgetCard {
+  border-radius: 10px;
+  border: 2px solid #5c0f08;
+  background-color: #fff;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.widgetCard > :nth-child(1) {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.widgetCard > :nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.widgetCard > :nth-child(2) > :nth-child(2) {
+  color: #5c0f08;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 700;
+}

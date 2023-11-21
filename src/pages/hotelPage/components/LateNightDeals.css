@@ -1,0 +1,92 @@
+.arrow-container {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.herosection-input::placeholder {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.herosection-input:focus {
+  outline: none;
+}
+
+.autoSuggestion {
+  background-color: white;
+  width: 300px;
+  list-style: none;
+  /* height: 300px; */
+  top: 75px;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.autoSuggestion-list {
+  cursor: pointer;
+}
+
+.autoSuggestion-list:hover {
+  background-color: rgb(190, 188, 188);
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.herosearchdropdown {
+  position: absolute;
+  padding: 20px 32px 21px 32.5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: -2px -2px 4px 0px rgba(0, 0, 0, 0.20), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-top: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 520px;
+  margin-left: 18%;
+  margin-right: auto;
+  top: 100%;
+  padding: 10px;
+  z-index: 100;
+}
+
+.herosearchdropdown li {
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/* .herosearchdropdown li:hover {
+  font-size: 20px;
+} */
+
+.herosearchdropdown li span{
+  text-transform: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 0%;
+}
+
+.herosearchdropdown li div{
+  margin-left: 5.2%;
+  font-weight: light;
+}

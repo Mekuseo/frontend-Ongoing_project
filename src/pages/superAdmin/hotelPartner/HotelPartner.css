@@ -1,0 +1,83 @@
+.hotelPartner-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.hotelPartnerDesc-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotelPartnerDesc-container > :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.hotelPartnerDesc-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.hotelPartnerDesc-desc > :nth-child(1) {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hotelPartnerDesc-desc > :nth-child(2) {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.hotelPartnerDesc-divider {
+  border-top: 3px solid black !important;
+  margin: 10px 0;
+  z-index: 10;
+  /* position: absolute;  */
+  width: 230%;
+}
+
+.hotelPartnerDesc-property {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hotelPartnerDesc-property > :nth-child(1),
+.hotelPartnerDesc-property > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hotelPartner-mapSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.hotelPartner-rating {
+  display: flex;
+  flex-direction: column;
+}
+
+.hotelPartner-rating > :nth-child(1) {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.hotelPartner-rating > :nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+}

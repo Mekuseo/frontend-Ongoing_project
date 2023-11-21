@@ -1,0 +1,59 @@
+.adminLogin-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f8f6f6;
+  padding: 97px;
+}
+
+.adminLogin-wrapper > img {
+  width: 90%;
+}
+.superAdmin-formContainer {
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  background: #fff;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  padding: 81px 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.superAdmin-title {
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.superAdmin-formContainer > img {
+  width: 540px;
+}
+
+.superAdmin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.superAdmin-form > Input {
+  cursor: pointer;
+}
+
+.superAdmin-btn {
+  border-radius: 5px;
+  background-color: #299a63 !important;
+}
+
+.superAdmin-btn:hover {
+  background: rgba(41, 154, 99, 0.60) !important;
+  transition: all ease-in-out 0.2s;
+}
+
+.superAdmin-btn:active {
+  transform: scale(0.98);
+}

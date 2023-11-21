@@ -1,0 +1,486 @@
+[
+  {
+    "amenity": "Popular among travelers",
+    "icon": "./src/assets/pics/Popular Amenities.svg",
+    "subItems": [
+      {
+        "name": "Towels",
+        "icon": "https://img.icons8.com/color/48/towel.png"
+      },
+      {
+        "name": "Desk",
+        "icon": "https://img.icons8.com/color/48/desk.png"
+      },
+      {
+        "name": "Bench Front",
+        "icon": "https://img.icons8.com/3d-fluency/94/city-bench.png"
+      },
+      {
+        "name": "Private Entrance",
+        "icon": "https://img.icons8.com/color/48/private--v1.png"
+      },
+      {
+        "name": "Air Conditioning",
+        "icon": "https://img.icons8.com/fluency/48/air-quality.png"
+      },
+      {
+        "name": "Keyless Access",
+        "icon": "https://img.icons8.com/color/48/user-credentials.png"
+      },
+      {
+        "name": "Free Wifi",
+        "icon": "https://img.icons8.com/external-bearicons-gradient-bearicons/64/external-FREE-WIFI-capsule-hotel-bearicons-gradient-bearicons.png"
+      },
+      {
+        "name": "Balcony/Terrace",
+        "icon": "https://img.icons8.com/nolan/64/balcony.png"
+      },
+      {
+        "name": "Heating",
+        "icon": "https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-heating-home-improvement-flaticons-flat-flat-icons.png"
+      },
+      {
+        "name": "Free Parking",
+        "icon": "https://img.icons8.com/officel/16/valet-parking.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Common",
+    "amenity-subtitle": "Travelers prefer these amenities when booking homes.",
+    "icon": "https://img.icons8.com/external-filled-color-icons-papa-vector/78/external-Sharing-common-interest-RGB-color-icon-indemand-skills-filled-color-icons-papa-vector.png",
+    "subItems": [
+      {
+        "name": "Closet",
+        "icon": "https://img.icons8.com/color/48/closet.png"
+      },
+      {
+        "name": "Dryer",
+        "icon": "https://img.icons8.com/color/48/hair-dryer.png"
+      },
+      {
+        "name": "Iron",
+        "icon": "https://img.icons8.com/color/48/iron.png"
+      },
+      {
+        "name": "Linens",
+        "icon": "https://img.icons8.com/external-colours-bomsymbols-/91/external-bath-cosmetics-colours-bomsymbols-.png"
+      },
+      {
+        "name": "Laundromart Nearby",
+        "icon": "https://img.icons8.com/external-konkapp-outline-color-konkapp/64/external-laundromat-laundry-konkapp-outline-color-konkapp.png"
+      },
+      {
+        "name": "Washer",
+        "icon": "https://img.icons8.com/dotty/80/washing-machine.png"
+      },
+      {
+        "name": "Fans",
+        "icon": "https://img.icons8.com/external-soft-fill-juicy-fish/60/external-fan-smart-home-soft-fill-soft-fill-juicy-fish.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Access",
+    "amenity-subtitle": "How guests get into our property.",
+    "icon": "https://img.icons8.com/color/48/accessibility2--v1.png",
+    "subItems": [
+      {
+        "name": "Doorman",
+        "icon": "https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/64/external-doorman-kindness-and-hospitality-inipagistudio-mixed-inipagistudio.png"
+      },
+      {
+        "name": "Elevator",
+        "icon": "https://img.icons8.com/color/48/elevator.png"
+      },
+      {
+        "name": "Buzzer",
+        "icon": "https://img.icons8.com/color/48/buzzer.png"
+      },
+      {
+        "name": "Paid Parking",
+        "icon": "https://img.icons8.com/ios-filled/50/paid-parking.png"
+      },
+      {
+        "name": "Escalator",
+        "icon": "https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/external-escalator-new-normal-wanicon-lineal-color-wanicon.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Kitchen",
+    "amenity-subtitle": "What guests should expect if you have a kitchen in your property.",
+
+    "icon": "https://img.icons8.com/wired/64/000000/tea-cup.png",
+    "subItems": [
+      {
+        "name": "Oven",
+        "icon": "https://img.icons8.com/color/48/microwave.png"
+      },
+      {
+        "name": "Breakfast",
+        "icon": "https://img.icons8.com/external-justicon-lineal-color-justicon/64/external-breakfast-hotel-essentials-justicon-lineal-color-justicon.png"
+      },
+      {
+        "name": "Dishwasher",
+        "icon": "https://img.icons8.com/color/48/dishwasher.png"
+      },
+      {
+        "name": "Freezer",
+        "icon": "https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/64/external-freezer-internet-of-things-xnimrodx-lineal-gradient-xnimrodx-2.png"
+      },
+      {
+        "name": "Coffee/Tea Maker",
+        "icon": "https://img.icons8.com/office/16/coffee-maker.png"
+      },
+      {
+        "name": "Stove",
+        "icon": "https://img.icons8.com/clouds/100/cooker.png"
+      },
+      {
+        "name": "Microwave",
+        "icon": "https://img.icons8.com/ios-filled/50/microwave.png"
+      },
+      {
+        "name": "Dishes & Kitchen Utensils",
+        "icon": "https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/external-dishes-hygiene-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"
+      },
+      {
+        "name": "Refrigerator",
+        "icon": "https://img.icons8.com/bubbles/50/ice-maker.png"
+      },
+      {
+        "name": "Tea",
+        "icon": "https://img.icons8.com/color/48/tea.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Bathroom",
+    "amenity-subtitle": "Help guests know features in your bathroom(s)",
+
+    "icon": "https://img.icons8.com/doodle/48/bath.png",
+    "subItems": [
+      {
+        "name": "Hair Dryer",
+        "icon": "https://img.icons8.com/color/48/hair-dryer.png"
+      },
+      {
+        "name": "Shampoo",
+        "icon": "https://img.icons8.com/external-justicon-flat-justicon/64/external-shampoo-hotel-essentials-justicon-flat-justicon.png"
+      },
+      {
+        "name": "Bodywash",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-body-wash-hygiene-flaticons-lineal-color-flat-icons-2.png"
+      },
+      {
+        "name": "Bathtub",
+        "icon": "https://img.icons8.com/emoji/48/bathtub.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Outdoors",
+    "amenity-subtitle": "Outdoor experiences guests should expect",
+
+    "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-outdoors-summer-season-flaticons-lineal-color-flat-icons-3.png",
+    "subItems": [
+      {
+        "name": "BBQ Grill",
+        "icon": "https://img.icons8.com/external-smashingstocks-outline-color-smashing-stocks/66/external-bbq-grill-travel-holidays-smashingstocks-outline-color-smashing-stocks.png"
+      },
+      {
+        "name": "Bicycles",
+        "icon": "https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-bicycles-team-building-flaticons-flat-flat-icons.png"
+      },
+      {
+        "name": "Garden/Backyard",
+        "icon": "https://img.icons8.com/matisse/100/garden.png"
+      },
+      {
+        "name": "Lake Access",
+        "icon": "https://img.icons8.com/bubbles/50/lake.png"
+      },
+      {
+        "name": "Ski-in",
+        "icon": "https://img.icons8.com/color/48/jet-ski-skin-type-1.png"
+      },
+      {
+        "name": "Ski-out",
+        "icon": "https://img.icons8.com/color/48/jet-ski-skin-type-1.png"
+      },
+      {
+        "name": "Waterfront",
+        "icon": "https://img.icons8.com/plasticine/100/waterfront-piles.png"
+      },
+      {
+        "name": "Mountain View",
+        "icon": "https://img.icons8.com/external-photo3ideastudio-lineal-color-photo3ideastudio/64/external-mountain-view-winter-photo3ideastudio-lineal-color-photo3ideastudio.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Entertainment",
+    "amenity-subtitle": "Guests will enjoy the property  and stay indoors",
+
+    "icon": "https://img.icons8.com/color/48/popcorn.png",
+    "subItems": [
+      {
+        "name": "Board Games",
+        "icon": "https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/65/external-Board-Games-sports-and-games-smashingstocks-circular-smashing-stocks.png"
+      },
+      {
+        "name": "Cable TV",
+        "icon": "https://img.icons8.com/clouds/100/tv.png"
+      },
+      {
+        "name": "Free Internet",
+        "icon": "https://img.icons8.com/ios-filled/50/internet.png"
+      },
+      {
+        "name": "Sound system",
+        "icon": "https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-sound-system-devices-flaticons-flat-flat-icons.png"
+      },
+      {
+        "name": "Game Console",
+        "icon": "https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/external-game-console-internet-technology-vitaliy-gorbachev-flat-vitaly-gorbachev.png"
+      },
+      {
+        "name": "Video Streaming",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-video-streaming-new-media-flaticons-lineal-color-flat-icons.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Family",
+    "amenity-subtitle": "How your property helps travelling families get together.",
+
+    "icon": "https://img.icons8.com/office/16/family--v3.png",
+    "subItems": [
+      {
+        "name": "Baby Bath",
+        "icon": "https://img.icons8.com/external-goofy-color-kerismaker/96/external-Baby-Bath-baby-shower-goofy-color-kerismaker.png"
+      },
+      {
+        "name": "Baby Monitor",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-baby-monitor-babies-and-maternity-flaticons-lineal-color-flat-icons.png"
+      },
+      {
+        "name": "Changing Table",
+        "icon": "https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-changing-table-babies-and-maternity-flaticons-flat-flat-icons.png"
+      },
+      {
+        "name": "Kids Books & Toys",
+        "icon": "https://img.icons8.com/color/48/books.png"
+      },
+      {
+        "name": "Crib or Baby Cot",
+        "icon": "https://img.icons8.com/cotton/64/crib.png"
+      },
+      {
+        "name": "Stair Gates",
+        "icon": "https://img.icons8.com/office/16/front-gate-closed.png"
+      },
+      {
+        "name": "High Chair",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-high-chair-babymaternity-flaticons-lineal-color-flat-icons.png"
+      },
+      {
+        "name": "Travel Crib",
+        "icon": "https://img.icons8.com/fluency/48/crib.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Safety and cleanliness",
+    "amenity-subtitle": "What guests should expect in safety and cleanliness",
+
+    "icon": "https://img.icons8.com/cotton/64/plus-shield--v2.png",
+    "subItems": [
+      {
+        "name": "24-hour Security",
+        "icon": "https://img.icons8.com/clouds/100/security-configuration.png"
+      },
+      {
+        "name": "Carbon Monoxide Detector",
+        "icon": "https://img.icons8.com/external-others-pike-picture/50/external-Carbon-Monoxide-Detector-conditioning-others-pike-picture.png"
+      },
+      {
+        "name": "First Aid Kit",
+        "icon": "https://img.icons8.com/clouds/100/doctors-bag.png"
+      },
+      {
+        "name": "Fire Extinguisher",
+        "icon": "https://img.icons8.com/dusk/64/fire-extinguisher.png"
+      },
+      {
+        "name": "Cleaned by Professional Cleaning Company",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-cleaner-cleaning-flaticons-lineal-color-flat-icons-6.png"
+      },
+      {
+        "name": "Contactless Check in/Check out",
+        "icon": "https://img.icons8.com/external-bearicons-blue-bearicons/64/external-SMART-CHECKIN-capsule-hotel-bearicons-blue-bearicons.png"
+      },
+      {
+        "name": "Hand Sanitizer & Soap",
+        "icon": "https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/external-hand-sanitizer-wash-hands-flatart-icons-lineal-color-flatarticons.png"
+      },
+      {
+        "name": "Cleaning Products used based on Health guide",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-cleaning-products-pharmaceutical-flaticons-lineal-color-flat-icons-2.png"
+      },
+      {
+        "name": "smoke Detector",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-smoke-detector-smart-technology-flaticons-lineal-color-flat-icons.png"
+      },
+      {
+        "name": "Cleaning supplies provided for Guests",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-cleaning-products-pharmaceutical-flaticons-lineal-color-flat-icons-2.png"
+      },
+      {
+        "name": "Physical distancing rules followed",
+        "icon": "https://img.icons8.com/external-filled-outline-berkahicon/64/external-Physical-Distancing-new-normal-filled-outline-berkahicon.png"
+      },
+      {
+        "name": "Disinfecting following state health guidelines",
+        "icon": "https://img.icons8.com/external-creatype-filed-outline-colourcreatype/64/external-corona-covid-19-creatype-filed-outline-colourcreatype.png"
+      },
+      {
+        "name": "Protective screens in common areas",
+        "icon": "https://img.icons8.com/clouds/100/protective-glasses.png"
+      },
+      {
+        "name": "Protective face covering on staff",
+        "icon": "https://img.icons8.com/plasticine/100/wear-face-shield.png"
+      },
+      {
+        "name": "Face Masks",
+        "icon": "https://img.icons8.com/color/48/protection-mask.png"
+      },
+      {
+        "name": "Temperature check for all guests and staff",
+        "icon": "https://img.icons8.com/external-fauzidea-outline-color-fauzidea/64/external-check-pandemic-fauzidea-outline-color-fauzidea.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Language Adaptation",
+    "amenity-subtitle": "This feature helps foreigners access your property easily. Select alternative languages in your property.",
+
+    "icon": "https://img.icons8.com/fluency/48/language.png",
+    "subItems": [
+      {
+        "name": "English",
+        "icon": "https://img.icons8.com/emoji/48/united-kingdom-emoji.png"
+      },
+      {
+        "name": "French",
+        "icon": "https://img.icons8.com/color/48/france.png"
+      },
+      {
+        "name": "Arabic",
+        "icon": "https://img.icons8.com/color/48/saudi-arabia.png"
+      },
+      {
+        "name": "Spanish",
+        "icon": "https://img.icons8.com/color/48/spain-2.png"
+      },
+      {
+        "name": "Mandarine",
+        "icon": "https://img.icons8.com/color/48/china.png"
+      },
+      {
+        "name": "Portuguese",
+        "icon": "https://img.icons8.com/color/48/portugal.png"
+      },
+      {
+        "name": "Swahili",
+        "icon": "https://img.icons8.com/color/48/kenya.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "On-site facilities",
+    "icon": "https://img.icons8.com/emoji/48/japanese-open-for-business-button-emoji.png",
+    "subItems": [
+      {
+        "name": "Meeting Room",
+        "icon": "https://img.icons8.com/bubbles/50/meeting-room.png"
+      },
+      {
+        "name": "Business Centre",
+        "icon": "https://img.icons8.com/fluency/48/people-working-together.png"
+      },
+      {
+        "name": "Computer Lab",
+        "icon": "https://img.icons8.com/stickers/100/my-computer.png"
+      },
+      {
+        "name": "Fashion Shop",
+        "icon": "https://img.icons8.com/ios-filled/50/fashion-model.png"
+      },
+      {
+        "name": "Art Gallery",
+        "icon": "https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-art-gallery-museum-flaticons-flat-flat-icons.png"
+      },
+      {
+        "name": "Event Hall",
+        "icon": "https://img.icons8.com/nolan/64/city-hall.png"
+      }
+    ]
+  },
+
+  {
+    "amenity": "Others",
+    "icon": "https://img.icons8.com/bubbles/50/more.png",
+    "subItems": [
+      {
+        "name": "Gym",
+        "icon": "https://img.icons8.com/color-glass/48/gum-.png"
+      },
+      {
+        "name": "Hot Tub",
+        "icon": "https://img.icons8.com/office/16/shower-and-tub.png"
+      },
+      {
+        "name": "Outdoor Pool",
+        "icon": "https://img.icons8.com/color-glass/48/pool.png"
+      },
+      {
+        "name": "Pets Allowed",
+        "icon": "https://img.icons8.com/dusk/64/pets.png"
+      },
+      {
+        "name": "Indoor Fire Place",
+        "icon": "https://img.icons8.com/cute-clipart/64/fire-element.png"
+      },
+      {
+        "name": "Private Pool",
+        "icon": "https://img.icons8.com/color/48/pool.png"
+      },
+      {
+        "name": "Smoking Allowed",
+        "icon": "https://img.icons8.com/color/48/smoking.png"
+      },
+      {
+        "name": "Indoor Pool",
+        "icon": "https://img.icons8.com/fluency/48/indoor-swimming-pool.png"
+      },
+      {
+        "name": "Parties allowed",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-refreshment-coffee-flaticons-lineal-color-flat-icons.png"
+      }
+    ]
+  }
+
+]

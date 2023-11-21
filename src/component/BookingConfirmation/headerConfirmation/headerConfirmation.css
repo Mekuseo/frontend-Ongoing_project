@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.headerConfirmationContainer {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.headerConfirmationbookingConfirmed{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 41.46px */
+}
+
+.headerConfirmationbookingConfirmed svg{
+    margin-right: 10px;
+}
+
+.headerConfirmationDateOfBooking{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 20.73px */
+    margin-top: 0%;
+}
+
+.headerConfirmationPrintConfirmation{
+    color: #6E9E76;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138.2%; /* 27.64px */
+    text-decoration-line: underline;
+    margin-top: 1%;
+}
+
+.headerConfirmationManageBookings{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 24.876px */
+    margin-top: 0%;
+}
+
+.headerConfirmationManageBookings span{
+    color: #6E9E76;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%;
+    text-decoration-line: underline;
+    margin-left: 5px;
+}
+
+.headerConfirmationSentEmails{
+    color: #263238;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 24.876px */
+    width: 316px;
+    margin-top: 3%;
+}
+
+.headerConfirmationSentEmails span{
+    color: #CF0007;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%;
+}

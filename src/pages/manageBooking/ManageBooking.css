@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.manageBooking-body {
+  background-color: #eaecf0;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.managebooking-header h1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.managebooking-card-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 41px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07),
+    0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--blue-gray-200, #e2e8f0);
+  width: 60%;
+  margin: 0 auto;
+}
+
+.manageBooking-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+  border: 1px solid var(--blue-gray-200, #e2e8f0);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding-right: 20px;
+  transition: all ease 0.3s;
+}
+
+.manageBooking-card:hover {
+  scale: 1.02;
+}
+
+.manageBooking-card img {
+  width: 280px;
+  height: 175px;
+  border-radius: 10px 0 0 10px;
+}
+
+.manageBooking-details {
+  text-align: left;
+  width: 100%;
+}
+
+.manageBooking-details h1 {
+  color: #263238;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+.manageBooking-details p {
+  color: #263238;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: raleway, sans-serif;
+  margin: 0;
+}
+
+.manageBooking-datePrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.manageBooking-datePrice p {
+  font-size: 12px;
+  font-family: volkhov, sans-serif;
+  margin: 0;
+}
+
+.manageBooking-datePrice :nth-child(2) {
+  font-weight: 600;
+  font-size: 25px;
+  font-family: Montserrat, sans-serif;
+}
+
+.manageBooking-btn {
+  display: flex;
+  gap: 20px;
+}
+
+.manageBooking-btn > :nth-child(1) > button {
+  padding: 7px 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #6e9e76;
+  border: 1px solid gray;
+}
+
+.manageBooking-btn > :nth-child(1) > button:hover {
+  background-color: #6e9e76;
+  transition: all ease-in 0.1s;
+  color: white;
+}
+
+.manageBooking-btn :nth-child(2) {
+  border: 1px solid gray;
+  background-color: transparent;
+  color: #e70000;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+.manageBooking-btn > *:active {
+  scale: 0.95;
+}
+
+.cancelReason-btn {
+  border-radius: 8px;
+  border: 1px solid var(--grey-grey-90, #999999);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.cancelReason-btn:active {
+  scale: 0.95;
+}
+
+.cancelBooking-btn {
+  display: flex;
+}
+
+.cancelBooking-btn :nth-child(1) {
+  border-radius: 5px;
+  background: #cf0007;
+  color: #fff;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  border: none;
+  padding: 7px 15px;
+  margin-right: 10px;
+}
+
+.cancelBooking-btn :nth-child(2) {
+  background-color: transparent;
+  color: #263238;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  border: none;
+  padding: 7px 15px;
+  text-decoration: underline;
+}
+
+.cancelBooking-btn :nth-child(1):active,
+.cancelBooking-btn :nth-child(2):active {
+  scale: 0.95;
+}
+
+.cancelReservation-title {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.cancelReservation-title p {
+  font-family: raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.cancelReservation-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cancelReservation-right {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: white;
+}
+
+.cancelReservation-right img {
+  width: 400px;
+  height: 166px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.cancelReservation-right h1 {
+  font-family: volkhov, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.cancelReservation-location {
+  font-family: raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 10px;
+}
+
+.CR-location {
+  font-family: raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.CR-date {
+  font-family: volkhov, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.cancelReservation-fee {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CR-feeStyle {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+
+.CR-feeTotal {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Montserrat;
+}
+
+.CR-about :nth-child(1) {
+  font-family: raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.CR-about :nth-child(2) {
+  font-family: volkhov, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.CR-backArrow {
+  cursor: pointer;
+  
+}
+
+.CR-backArrow:active {
+  scale: 0.95;
+}
+
+.CCR-left-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.CCR-left-details > :nth-child(1) {
+  font-family: volkhov, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.CCR-left-details > :nth-child(2) {
+  font-family: volkhov, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.SC-left-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.SC-left-details-flex {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.SC-left-details-flex :nth-child(2) {
+  font-family: raleway, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.SC-tel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 100px; */
+  margin-bottom: 150px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.SC-tel > :nth-child(2) {
+  font-family: volkhov, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ea4131;
+  text-decoration: underline;
+}
+
+.SC-successful {
+  background-color: #cf0007;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.SC-cancel > * {
+  text-decoration: line-through;
+}
+
+.reviewsTitle {
+  text-align: center;
+  font-family: raleway, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.reviewbox-container {
+  border-radius: 10px;
+  border: 1px solid var(--blue-gray-200, #e2e8f0);
+  background: var(--White, #fff);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07),
+    0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+  margin: 18px auto;
+  padding: 19px 40px;
+  width: 75%;
+}
+
+.MB-reviews-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MB-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  row-gap: 20px;
+  
+}
+
+.reviewbox-container > :nth-child(1) {
+  font-size: 25px;
+  font-family: raleway, sans-serif;
+  font-weight: 600;
+}
+
+.reviewbox-container > :nth-child(2) {
+  font-size: 15px;
+  font-family: raleway, sans-serif;
+  font-weight: 600;
+  margin-bottom: 33px;
+}
+
+.MB-reviews-flex > :nth-child(1),
+.MB-reviews-flex > :nth-child(2) {
+  font-family: volkhov, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.reviews-inputBox {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 21px 46px 0px rgba(0, 0, 0, 0.10), 0px 83px 83px 0px rgba(0, 0, 0, 0.09), 0px 187px 112px 0px rgba(0, 0, 0, 0.05), 0px 333px 133px 0px rgba(0, 0, 0, 0.01), 0px 520px 146px 0px rgba(0, 0, 0, 0.00);
+  margin: 0 auto 25px;
+}
+
+.reviews-inputBox:focus {
+  outline: none;
+}
+
+.postReview {
+  text-align: center;
+}
+
+.postReview > button {
+  width: 193px;
+  height: 50px;
+  background-color: #263238;
+  color: white;
+  font-family: volkhov, sans-serif;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.postReview > button:active {
+  scale: 0.95;
+}

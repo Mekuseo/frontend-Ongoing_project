@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:wght@400;700&display=swap');
+
+.bookingContainerHotelName{
+    color: rgba(184, 2, 7, 0.80);
+    font-family: 'Volkhov', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: -10%;
+    letter-spacing: -1.4px;
+    text-align: center;
+}
+
+.bookingContainerHotelLocation{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%;
+    letter-spacing: -0.7px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.bookingContainerHotelLocation span{
+    color: #6E9E76;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%;
+    letter-spacing: -0.525px;
+    margin-left: 4px;
+}
+
+.bookingContainerBookingDetails{
+    border-radius: 5px;
+    border: 1px solid #BFBFBF;
+    background: rgba(191, 191, 191, 0.10);
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2px;
+    margin-top: 1%;
+}
+
+.bookingContainerBookingDetails h1{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: 138.2%; /* 27.64px */
+}
+
+.bookingContainerBookingDetails .checkingContainer{
+    width: 50%;
+    float: left;
+    padding: 2px;
+    margin-top: 2%;
+}
+
+.bookingContainerBookingDetails .checkingContainer .checking{
+    margin-left: 0%;
+}
+
+.bookingContainerBookingDetails .checkingContainer .checking svg{
+    margin-left: 4px;
+    padding-top: 2%;
+}
+
+.bookingContainerBookingDetails .checkingContainer .checking h1{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.bookingContainerBookingDetails .checkingContainer .checking p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 13.82px */
+    margin-left: 25px;
+    margin-top: 1%;
+}
+
+.bookingContainerBookingDetails .checkingContainer .checking .moreDetails{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%;
+    margin-left: 25px;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.bookingContainerBookingDetails .checkingContainer .checking .moreDetails span{
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.bookingContainerBookingDetails .roomTypeClass{
+    width: 33.3333%;
+    float: left;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookingContainerBookingDetails .roomTypeClass h1{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0%;
+    line-height: 138.2%; /* 20.73px */
+}
+
+.bookingContainerBookingDetails .roomTypeClass p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: -2%;
+    line-height: 138.2%; /* 13.82px */
+}
+
+.bookingContainerBookingDetails .changeSelection{
+    color: #CF0007;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%; /* 17.966px */
+    text-decoration-line: underline;
+    text-align: center;
+    margin-top: -0%;
+}

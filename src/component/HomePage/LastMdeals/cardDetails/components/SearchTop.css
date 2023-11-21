@@ -1,0 +1,9 @@
+.input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .location-icon {
+    margin-right: 8px; /* Adjust this value to control the space between the icon and the input */
+  }
+  

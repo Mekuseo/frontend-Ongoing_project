@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:wght@400;700&display=swap');
+
+.bookingPaymentContainer{
+    border-top: 1px solid rgba(171, 170, 170, 0.50);
+    border-bottom: 1px solid rgba(171, 170, 170, 0.50);
+    padding: 5px;
+    max-width: 70%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 2%;
+}
+
+.bookingPaymentContainer .rates{
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 3px;
+}
+
+.bookingPaymentContainer .rates p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 27.64px */
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+.bookingPaymentContainer .rates p .span{
+    padding-left: 20px;
+}
+
+.bookingPaymentContainer .rates p .paymentamount{
+    margin-left: 88px;
+}
+
+.bookingPaymentContainer .totalPrice{
+    border-radius: 5px;
+    background: #263238;
+    color: #FFF;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 10%;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.bookingPaymentContainer .totalPriceDeals{
+    background: #263238;
+    color: #FFF;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40%;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.bookingPaymentContainer .totalPriceDeals span{
+    font-size: 15px;
+    font-weight: 400;
+}

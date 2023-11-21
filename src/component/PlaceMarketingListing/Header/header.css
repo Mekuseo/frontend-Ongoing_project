@@ -1,0 +1,32 @@
+.marketingHeader {
+    width: 20%;
+    overflow: auto;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.marketingHeader a {
+    float: left;
+    width: 25%;
+    font-weight: bold;
+    color: #263238;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 32.4px */
+    text-decoration: none;
+}
+
+.marketingHeader .marketingHeaderActive {
+    color: #263238;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%; /* 36px */
+}

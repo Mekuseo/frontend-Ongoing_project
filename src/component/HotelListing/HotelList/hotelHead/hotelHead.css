@@ -1,0 +1,283 @@
+.listcolumn {
+    float: left;
+    padding-top: 0px;
+    padding-left: 40px;
+    margin-top: 0%;
+}
+
+.mapList {
+    width: 30%;
+    background-color: #ff000000;
+    /* position: fixed;
+    top: 0; */
+}
+
+.mapList img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 155px;
+    width: 310px;
+    border-radius: 15px;
+    border-radius: 20px;
+}
+
+.dealsImage {
+    width: 70%;
+    margin-left: 25%;
+    margin-top: -3.5%;
+}
+
+.dealsImage img{
+    width: 109%;
+}
+
+.mapSearchBox {
+    position: absolute;
+    text-align: center;
+    width: 340px;
+    margin-left: -0.5%;
+    background-color: #ff000000;
+}
+
+.mapSearchBox img{
+    width: 100%;
+    height: 180px;
+    margin-top: -2%;
+    cursor: pointer;
+}
+
+.mapImageFilter{
+    margin-top: 1%;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.mapSearchBar {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.mapSearchBar{
+    width: 25%;
+    border-radius: 1px;
+    background: #fff;
+    box-shadow: none;
+    border: none;
+    color: #263238;
+    margin-left: 6px;
+    margin-top: -10px;
+    font-family: "Raleway";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 14.82px */
+    letter-spacing: -0.35px;
+}
+
+.mapmodalbg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.mapmodal {
+    background: #fff;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 3px solid #6E9E76;
+    display: flex;
+    align-items: flex-start;
+}
+
+.mapmodalcol{
+    width: 50%;
+    float: left;
+    margin-top: -3%;
+}
+
+.closemapmodal {
+    position: absolute;
+    top: 12%;
+    right: 6%;
+    cursor: pointer;
+    font-size: 40px;
+    background-color: #6E9E76;
+    padding: 2px 20px;
+}
+
+.mapmodalside {
+    flex: 1;
+    padding: 20px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.mapmodalcontent {
+    flex: 2.5;
+    padding: 20px;
+    overflow: auto;
+}
+
+.mapmodalcontent img{
+    width: 100%;
+    height: 700px;
+}
+
+.mapmodalside::-webkit-scrollbar {
+    width: 10px;
+}
+
+.mapmodalside::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.mapmodalside::-webkit-scrollbar-thumb {
+    background: #ddd;
+}
+
+.mapmodalside::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.mapmodalcard{
+    border: 2px solid #6E9E76;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.mapmodalcard:hover{
+    border: 2px solid gold;
+}
+
+.mapmodalslideshow {
+    position: relative;
+}
+
+.mapmodalslideshow img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.mapmodalslideshow .prev,
+.mapmodalslideshow .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #6E9E76;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+}
+
+.mapmodalslideshow .prev {
+    left: 0;
+}
+
+.mapmodalslideshow .next {
+    right: 0;
+}
+
+.mapmodalslideshow .prev:hover,
+.mapmodalslideshow .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.mapmodalslideshowheart {
+    position: absolute;
+    top: 10px;
+    left: 90%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.mapmodalslideshow img {
+    max-width: 100%;
+}
+
+.mapmodalcardhotelname{
+    font-size: 18px;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.mapmodalratingdiv{
+    display: flex;
+    position: relative;
+    left: 30%;
+    margin-bottom: 5%;
+}
+
+.mapmodalratingdiv p{
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.mapmodalratingdiv span{
+    background-color: #6E9E76;
+    padding: 0px 5px;
+    height: 25px;
+    margin-left: 8px;
+}
+
+.mapmodalstars{
+    margin-top: -8%;
+    float: center;
+}
+
+.mapmodaltaxes{
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.mapmodalamount{
+    color: #CF0007;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    font-family: "Raleway", sans-serif;
+}
+
+.mapmodalcanceledamount{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: -15px;
+    font-family: "Raleway", sans-serif;
+    text-decoration: line-through;
+    color: #AAA;
+}
+
+@media (max-width: 768px) {
+    .mapmodal {
+      flex-direction: column;
+    }
+    .sidebar, .content {
+      flex: 1; 
+    }
+}

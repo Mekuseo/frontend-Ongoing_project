@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.bookingSteps-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 70px 0 20px;
+  color: #525252;
+}
+
+.bookingSteps-title {
+  color: rgba(38, 50, 56, 0.80);
+}
+
+.bookingSteps-title > h1 {
+  font-family: Volkhov, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #263238;
+  text-align: center;
+}
+
+.bookingSteps-title > h3 {
+  font-family: Volkhov, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #263238;
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "image": "assets/pics/homepage1.jpeg",
+    "name": "Transcorp Hilton",
+    "oldPrice": "N10,000.00",
+    "newPrice": "N7,000.00",
+    "alt": "hotel 1",
+    "hotelTypes": "Apartment",
+    "country": "Nigeria"
+  },
+  {
+    "image": "assets/pics/homepage2.jpeg",
+    "name": "Transcorp Hilton",
+    "oldPrice": "N10,000.00",
+    "newPrice": "N7,000.00",
+    "alt": "hotel 2",
+    "hotelTypes": "Hotel",
+    "country": "Ghana"
+  },
+  {
+    "image": "assets/pics/homepage3.jpeg",
+    "name": "Transcorp Hilton",
+    "oldPrice": "N10,000.00",
+    "newPrice": "N7,000.00",
+    "alt": "hotel 3",
+    "hotelTypes": "Hostel",
+    "country": "Senegal"
+  },
+  {
+    "image": "assets/pics/homepage4.jpeg",
+    "name": "Transcorp Hilton",
+    "oldPrice": "N10,000.00",
+    "newPrice": "N7,000.00",
+    "alt": "hotel 4",
+    "hotelTypes": "Gym",
+    "country": "Portugal"
+  },
+  {
+    "image": "assets/pics/homepage5.jpeg",
+    "name": "Transcorp Hilton",
+    "oldPrice": "N10,000.00",
+    "newPrice": "N7,000.00",
+    "alt": "hotel 5",
+    "hotelTypes": "Swimming Pool",
+    "country": "South Africa"
+  }
+]

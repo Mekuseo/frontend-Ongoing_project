@@ -1,0 +1,61 @@
+.daysReservationContainer{
+    width: 1018px;
+    border-radius: 5px;
+    border: 2px solid #C5C4C4;
+    background: #FFF;
+}
+
+.daysReservationContent{
+    background-color: #EAECF0;
+    width: 900px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.daysReservationColumn{
+    float: left;
+    padding: 5px;
+}
+
+.monthsColumn{
+    width: 15%;
+    border: 5px solid #6E9E76;
+    background-color: #FFF;
+    display: flex;
+    height: 230px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.sundayColumn{
+    width: 14.14666667%;
+}
+
+.mondayColumn{
+    width: 14.14666667%;
+}
+
+.tuesdayColumn{
+    width: 14.14666667%;
+}
+
+.wednesdayColumn{
+    width: 14.14666667%;
+}
+
+.thursdayColumn{
+    width: 14.14666667%;
+}
+
+.fridayColumn{
+    width: 14.14666667%;
+}

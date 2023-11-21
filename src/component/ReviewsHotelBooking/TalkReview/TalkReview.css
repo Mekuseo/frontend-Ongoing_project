@@ -1,0 +1,140 @@
+.talkReviewContainer{
+    padding: 43px 35px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    left: 60px;
+    top: 106px;
+    border-radius: 5px;
+    border: 1px solid #263238;
+    background: #FFF;
+    width: 95%;
+    margin: auto;
+}
+
+.talkReviewContainerTwo{
+    display: flex;
+    width: 900px;
+    margin-left: 20px;
+    height: 154px;
+    padding: 14px 21px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.talkReviewContainerTwo p{
+    color: #383737;
+    font-family: "Volkhov";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 41.46px */
+}
+
+.talkReviewContainer .timeReview{
+    color: #263238;
+    font-family: "Raleway";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    float: right;
+    padding-right: 0px;
+    margin-right: 70px;
+}
+
+.callTalkToUs{
+    color: #263238;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 138.2%; /* 34.55px */
+    margin-top: 10%;
+}
+
+.callTalkToUs span{
+    color: #263238;
+    font-family: "Raleway";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 138.2%;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration-line: underline;
+}
+
+.callTalkToUs textarea{
+    display: flex;
+    padding: 16px 219px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #F4F4F4;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 20px;
+    height: 70px;
+    border: none;
+}
+
+.callTalkToUs ::placeholder{
+    color: rgba(38, 50, 56, 0.50);
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 138.2%; /* 41.46px */
+}
+
+.callTalkToUs button{
+    display: flex;
+    width: 150px;
+    height: 60px;
+    padding: 16px 18px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #6E9E76;
+    color: #6E9E76;
+    font-family: Volkhov;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 10px;
+    line-height: 24px; /* 120% */
+    background-color: #fff;
+}
+
+.talkReview-inline { 
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+}
+  
+.talkReview-inline textarea{
+    float: left;
+    height: 60px;
+}
+
+.talkReview-inline textarea:focus{
+   outline: none;
+}
+
+.talkText{
+    float: left;
+    font-size: 20px;
+}
+
+.callTalkToUs button:hover{
+    color: #FFF;
+    background-color: #6E9E76;
+}

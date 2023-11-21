@@ -1,0 +1,204 @@
+.roomRates-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.roomRates-container > :nth-child(1) {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.roomRate-sections {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  /* width: 30%; */
+}
+
+.roomRate-sections > * {
+  padding-bottom: 7px;
+}
+
+.roomRate-sections > small {
+  font-size: 12px;
+  margin-top: -1%;
+}
+
+.roomRate-sections > input {
+  border: 1px solid #5f5e5e;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5) inset;
+  width: 20%;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.roomRate-sections > p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.roomRates-Cards {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px solid #c5c4c4;
+  background: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.3),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px 30px;
+}
+
+.roomRates-discount {
+  display: flex;
+  align-items: center;
+}
+
+.roomRates-discount > input {
+  border: 1px solid #5f5e5e;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5) inset;
+  width: 11%;
+  padding: 9px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.roomRates-discount > :nth-child(1) {
+  width: 8%;
+  padding: 9px;
+  font-size: 13px;
+}
+
+.roomRates-discount > input::placeholder {
+  font-size: 10px;
+  text-align: center;
+}
+
+.roomRates-discount > :nth-child(2) {
+  border: 1px solid #5f5e5e;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5) inset;
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 4px
+}
+
+.roomRates-notice {
+  color: red;
+}
+
+.currency-display {
+  font-weight: bold;
+  font-size: 25px;
+  padding: 2px 0 0 0;
+  margin-bottom: 7px;
+}
+
+.roomRates-discount-input::after {
+  content: "% off";
+  margin-left: 5px;
+}
+
+.nightlyRates-price > input {
+  border: 1px solid #5f5e5e;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5) inset;
+  width: 20%;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.nightlyRates-price > span {
+  margin-left: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #5f5e5e;
+}
+
+@media only screen and (max-width: 600px) {
+  .roomRate-sections > p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .roomRates-container > p{
+    font-size: 14px;
+  }
+
+  .roomRate-sections > small {
+    font-size: 12px;
+    margin-top: -10px;
+  }
+
+  .roomRates-container > small {
+    font-size: 12px;
+    margin-top: -30px;
+    margin-left: 5px;
+  }
+
+  .nightlyRates-price > input {
+    border: 1px solid #5f5e5e;
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5) inset;
+    width: 50%;
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+
+  .roomRates-discount > input {
+    border: 1px solid #5f5e5e;
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5) inset;
+    width: 11%;
+    padding: 9px;
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  
+  .roomRates-discount > :nth-child(1) {
+    width: 25%;
+    padding: 9px;
+    font-size: 12px;
+  }
+  
+  .roomRates-discount > input::placeholder {
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .roomRates-discount > :nth-child(2) {
+    border: 1px solid #5f5e5e;
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5) inset;
+    margin-right: 10px;
+    font-size: 15px;
+    padding: 8px
+  }
+
+  .roomRates-notice{
+    color: #F25156;
+    font-family: Volkhov;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 13.82px */
+  }
+
+  .roomRates-Cards {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 0px solid #c5c4c4;
+    background: #FF000000;
+    box-shadow: none;
+    padding: 1px 5px;
+  }
+  
+  .roomRate-sections > small {
+    font-size: 12px;
+    margin-top: -10px;
+  }
+
+}

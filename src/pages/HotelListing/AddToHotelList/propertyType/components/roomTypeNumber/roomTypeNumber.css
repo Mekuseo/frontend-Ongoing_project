@@ -1,0 +1,91 @@
+.roomType-count-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.roomType-count-container > p {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px 0;
+  font-family: volkhov, sans-serif;
+}
+
+.roomType-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  border: 2px solid #c5c4c4;
+  background: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.3),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px 30px;
+}
+
+.roomType-card > p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.roomType-card input {
+  border: 1px solid #b1b0b0;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5) inset;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .roomType-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    border: 0px solid #c5c4c4;
+    background: #FF000000;
+    box-shadow: none;
+    padding: 4px 5px;
+  }
+
+  .roomType-count-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+    margin-top: -12px;
+  }
+
+  .roomType-card > p {
+    color: #263238;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .roomType-card input {
+    border: 1px solid #b1b0b0;
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5) inset;
+    margin-bottom: 14px;
+    padding: 5px;
+    width: 100%;
+    margin-top: -3%;
+    font-size: 14px;
+  }
+
+  .roomType-card input::placeholder{
+    font-size: 14px;
+  }
+
+  .responsiveproptype-grid-item{
+    width: 100%;
+    background-color: #FF000000 !important;
+    box-shadow: none !important;
+  }
+}

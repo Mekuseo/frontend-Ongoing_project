@@ -1,0 +1,402 @@
+.sidebarFilter {
+    width: 298px;
+    height: 900px;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 2%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sidebarFilter::-webkit-scrollbar {
+    width: 10px;
+}
+
+.sidebarFilter::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.sidebarFilter::-webkit-scrollbar-thumb {
+    background: #ddd;
+}
+
+.sidebarFilter::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.sidebarFilter button {
+    padding: 14px 14px 14px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #C5C4C4;
+    color: #263238;
+    font-family: "Volkhov";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    background-color: #FF000000;
+}
+
+.sidebar button svg{
+    width: 22px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: -2%;
+}
+
+.popularFilters {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 165px;
+    border-radius: 10px;
+    border: 1px solid #C5C4C4;
+    margin-bottom: 5%;
+    transition: position 0.3s;
+    position: relative;
+}
+
+.popularFilters h1{
+    color: #263238;
+    font-family: "Volkhov";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 25px;
+}
+
+.popularFilters.fixed {
+    position: fixed;
+    top: 10%;
+    z-index: 1000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 20.5%;
+    margin-left: 0%;
+    margin-right: 5%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #C5C4C4;
+    margin-bottom: 5%;
+    background-color: #FFF;
+    padding-top: -10%;
+}
+
+.popularFilters.fixed h1{
+    color: #263238;
+    font-family: "Volkhov";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 4%;
+    margin-right: 25px;
+    margin-bottom: 5%;
+}
+
+.sort{
+    margin-left: 35%;
+    margin-top: -0%;
+    margin-bottom: 8%;
+}
+
+.sort p{
+    color: #263238;
+    font-family: "Volkhov";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sort img{
+    float: left;
+    width: 10%;
+    margin-top: 2%;
+    margin-right: 3%;
+}
+
+.filterContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.filterContainer {
+    display: block;
+    position: relative;
+    padding-top: 1px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #383737;
+    font-size: 10px;
+    font-family: 'Volkhov', sans-serif;
+}
+
+.filterTick {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #929292;
+}
+
+.filterContainer:hover input ~ .filterTick {
+    background-color: #ccc;
+}
+
+.filterContainer input:checked ~ .filterTick {
+    background-color: #263238;
+    border: none;
+}
+
+.filterTick:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.filterContainer input:checked ~ .filterTick:after {
+    display: block;
+}
+
+.filterContainer .filterTick:after {
+    left: 6px;
+    top: 2px;
+    width: 3px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.sortContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.sortContainer {
+    display: block;
+    position: relative;
+    padding-top: 1px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #383737;
+    font-size: 12px;
+    font-family: 'Volkhov', sans-serif;
+}
+
+.sortTick {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #929292;
+}
+
+.sortContainer:hover input ~ .sortTick {
+    background-color: #ccc;
+}
+
+.sortContainer input:checked ~ .sortTick {
+    background-color: #6E9E76;
+    border: none;
+}
+
+.sortTick:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.sortContainer input:checked ~ .sortTick:after {
+    display: block;
+}
+
+.sortContainer .sortTick:after {
+    left: 5px;
+    top: 2px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.filterColumn{
+    width: 50%;
+    float: left;
+}
+
+.moreContent{
+    border-radius: 10px;
+    background: #FFF;
+    border: 1px solid #929292;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    padding-top: 20px;
+}
+
+.moreContent h2{
+    color: #263238;
+    font-family: "Volkhov";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 1px solid #929292;;
+    padding-bottom: 5%;
+}
+
+.moreContent h2 svg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: none;
+    margin-right: 2%;
+    margin-bottom: -2.5%;
+}
+
+.sliderPadding{
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-top: 5%;
+    height: 70px;
+}
+
+.price-range-slider {
+    width: 250px;
+    position: relative;
+}
+
+input[type="range"] {
+    width: 250px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: #6E9E76;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    background: #6E9E76;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider-track {
+    position: absolute;
+    width: 250px;
+    height: 8px;
+    background: #ccc;
+    border-radius: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slider-fill {
+    height: 100%;
+    background: #6E9E76;
+    position: absolute;
+    border-radius: 4px;
+    top: 0;
+}
+
+.hotelListFilterButton-group button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #263238;
+    text-align: center;
+    font-family: Eczar;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.2%; /* 22.23px */
+    letter-spacing: -0.525px;
+    margin: 5.3px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 1px solid #aaa;
+}
+
+.hotelListFilterButton-group button.active {
+    border-radius: 5px;
+    border: 1px solid #92E3A9;
+    background: #6E9E76;
+    color: #fff;
+}
+
+.hotelListFilterButton-group button.mainActive {
+    border-radius: 5px;
+    border: 1px solid #92E3A9;
+    background: #263238;
+    color: #FFF;
+}

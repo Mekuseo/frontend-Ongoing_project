@@ -1,0 +1,60 @@
+.dropContainer {
+  padding: 10px 20px;
+}
+
+.dropFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.addListingImgSection {
+  position: relative;
+}
+
+.addListingImgSection img {
+  width: 310px;
+  height: 250px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.addListingImgSection img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.imgDescription {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 20px 10px;
+  transition: all ease-in 0.2s;
+}
+
+.imgDescription p {
+  font-size: 13px;
+}
+
+.arrowIcon {
+  opacity: 0;
+}
+
+.addListingImgSection:hover .arrowIcon {
+  opacity: 1;
+}
+
+.imgDescription.hovered {
+  transform: translateY(-40%);
+}
+
+.stateHover:hover {
+  text-decoration: underline;
+}
+
+.countryHover:hover {
+  background: rgba(191, 191, 191, 0.20);
+}

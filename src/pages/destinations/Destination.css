@@ -1,0 +1,16 @@
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbarSpacing {
+  /* position: absolute; */
+  margin-bottom: 0px;
+}
+
+.destinationsContainer {
+  padding: 0 45px 0 65px;
+  background-color: #E0E0E0;
+  padding-top: 70px;
+}

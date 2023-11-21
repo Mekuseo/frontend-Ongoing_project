@@ -1,0 +1,24 @@
+{
+    "categories": [
+      {
+        "name": "Available Locations",
+        "items": [
+            "Federal Capital Territory, Abuja",
+            "Ikeja, Lagos",
+            "Port-Harcourt, Rivers state",
+            "Ibadan, Oyo",
+            "Makurdi, Benue state"
+        ]
+      },
+      {
+        "name": "Hotels",
+        "items": [
+            "Radisson Blue", 
+            "Transcorp Hilton", 
+            "Oriental Hotel",
+            "EKO hotels & suites"
+        ]
+      }
+    ]
+  }
+  

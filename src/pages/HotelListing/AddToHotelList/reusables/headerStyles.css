@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-component {
+  width: 100%;
+  padding: 20px 100px;
+  text-align: center;
+  margin: 30px 0 10px;
+}
+
+.body {
+  width: 80%;
+  background-color: #F4F4F4;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: 'Volkhov', sans-serif;
+  padding: 0 0 20px 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+}
+
+.scroll-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.scroll-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  padding: 10px;
+  background-color: #ABAAAA;
+  color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.scroll-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.scroll-icon.selected {
+  border: 2px solid #00BFE9;
+  background-color: white;
+}
+
+.scroll-list-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 2px;
+  background-color: #939191;
+  z-index: 0;
+}
+
+.scroll-container {
+  position: relative;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .mobile-header{
+    background-color: #FFF;
+  }
+
+  .mobile-header span{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 0.5%;
+  }
+
+  .mobile-header .previousMobileButton{
+    border-radius: 5px;
+    border: 1px solid #6E9E76;
+    background-color: #FFF;
+    padding: 0px 15px;
+    margin-right: 3%;
+  }
+
+  .mobile-header .nextMobileButton{
+    border-radius: 5px;
+    border: 1px solid #6E9E76;
+    background: #6E9E76;
+    padding: 0px 15px;
+    margin-left: 3%;
+  }
+
+  .headernamemobile{}
+
+  .previousMobileButton{}
+
+  .nextMobileButton{}
+}
+
+  
+  

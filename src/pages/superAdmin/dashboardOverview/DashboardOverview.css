@@ -1,0 +1,15 @@
+.admin-body {
+  display: flex;
+  /* align-items: center; */
+  width: 100vw;
+  background-color: #FAF3EA;
+}
+
+.admin-body > :nth-child(1){
+  flex: 1;
+  margin-right: 20px;
+}
+
+.admin-body > :nth-child(2){
+  flex: 3;
+}

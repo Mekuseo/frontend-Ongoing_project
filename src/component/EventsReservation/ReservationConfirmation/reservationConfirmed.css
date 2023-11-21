@@ -1,0 +1,206 @@
+.eventReservationConfirmationCol{
+    float: left;
+    padding: 10px;
+}
+
+.deets{
+    width: 60%;
+}
+
+.moreDeets{
+    width: 40%;
+}
+
+.eventReservationThankYou{
+    color: #6E9E76;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 41.46px */
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.eventReservationConfirmationContainer{
+    border-radius: 10px;
+    border: 1px solid rgba(171, 170, 170, 0.58);
+    background: #FFF;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.eventReservationConfirmationDetails{
+    padding: 10px;
+}
+
+.eventReservationConfirmationDetails h1{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 41.46px */
+}
+
+.orderPlacedEventReservation{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.orderPlacedEventReservation h3{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 27.64px */
+}
+
+.orderPlacedEventReservation h3 span{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 138.2%; /* 20.73px */
+}
+
+.orderPlacedEventReservation h3 span svg{
+    margin-left: 2%;
+    margin-right: 1%;
+    padding-top: 2px;
+}
+
+.eventReservationConfirmationDetails p{
+    margin-top: 3%;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 24.876px */
+    width: 80%;
+}
+
+.eventReservationConfirmationDetails p span{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.eventReservationticketNumber{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 27.64px */
+    margin-top: 4%;
+}
+
+.eventReservationEmail{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 24.876px */
+    margin-top: 2%;
+}
+
+.eventReservationEmail span{
+    color: #CF0007;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.eventReservationTimeDateDuration{
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.eventReservationTimeDateDuration p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 24.876px */
+}
+
+.eventReservationLocation{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 27.64px */
+    margin-top: 4%;
+}
+
+.eventReservationLocationText{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 24.876px */
+    margin-top: 2%;
+}
+
+.eventReservationTotalPayment{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 27.64px */
+    margin-top: 4%;
+}
+
+.eventReservationImage{
+    margin-bottom: 5%;
+}
+
+.eventReservationButtons button{
+    display: flex;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #263238;
+    display: flex;
+    height: 36px;
+    padding: 20px 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #FFF;
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    letter-spacing: 0.5px;
+    margin-top: 3%;
+}
+
+.eventReservationButtons button.active{
+    background-color: #263238;
+    color: #FFF;
+}

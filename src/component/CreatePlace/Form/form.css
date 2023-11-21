@@ -1,0 +1,217 @@
+.newPlace label{
+    color: #263238;
+    text-align: left;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%; /* 34.55px */
+    margin-bottom: 1%;
+}
+
+.newPlace input{
+    border-radius: 5px;
+    border: 1px solid rgba(38, 50, 56, 0.80);
+    padding: 10px;
+    width: 321px;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+
+.newPlace input::placeholder{
+    color: rgba(171, 170, 170, 0.58);
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+}
+
+.time-range-picker-place {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.time-range-picker-place label{
+    margin: 5px 65px 5px 0;
+    color: #263238;
+    text-align: left;
+    font-family: Volkhov;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+    margin-bottom: 5px;
+}
+
+.time-input-group-place {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.custom-time-input-place {
+    display: flex;
+    padding: 1px 60px 2px 8px;
+    border-radius: 5px;
+    border: 1px solid #263238;
+    color: #263238;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%; /* 27.64px */
+    margin-right: 40px;
+}
+
+.custom-time-input-place span{
+    font-size: 20px;
+    float: left;
+    width: auto;
+}
+
+.custom-time-input-place select {
+    height: 35px;
+    margin-right: 0px;
+    border-radius: 4px;
+    padding: 0px 0px;
+    width: inherit;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.divider {
+    margin: 0 4px;
+}
+
+.formEventCont .centButtons{
+    margin-top: 2%;
+    max-width: 25%;
+    margin: auto;
+}
+
+.formEventCont .centButtons button{
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--blue-gray-600, #475569);
+    color: #263238;
+    font-family: Volkhov;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.5px;
+    background-color: #FFF;
+    width: 256px;
+    padding: 16px;
+}
+
+.formEventCont .centButtons .activeColor{
+    color: var(--White, #FFF);
+    background: #263238;
+}
+
+.summaryHangOut img{
+    border-radius: 0px;
+    height: 274px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.placeHeight h3{
+    color: rgba(38, 50, 56, 0.80);
+    font-family: Volkhov;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 16.5px */
+}
+
+.placeHeight .moreInformation{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 45px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.placeHeight .moreInformation h5{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 151.5%; /* 22.725px */
+}
+
+.placeHeight{
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    padding: 16px 12px 15px 16px;
+    justify-content: flex-end;
+    height: 274px;
+    overflow: scroll;
+}
+
+.placeHeight h1{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 22px */
+    text-align: left;
+}
+
+.placeHeight p{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.5%; /* 22.725px */
+    margin-top: 2%;
+}
+
+.uploadPicturePlace{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 27.5px */
+    margin-top: 2%;
+    margin-bottom: 1%
+}
+
+.categoryDropdownCont{
+    margin-top: 0%;
+}
+
+.categoryDropdownCont .othersSelection{
+    border-radius: 5px;
+    border: 1px solid #5F5E5E;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.50) inset;
+    padding: 10px;
+    margin-bottom: 1%;
+    width: 395px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 138.2%; /* 24.876px */
+}
+
+.categoryDropdownCont .othersSelection ::placeholder{
+    color: rgba(95, 94, 94, 0.50);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 138.2%; /* 24.876px */
+}

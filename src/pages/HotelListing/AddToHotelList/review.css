@@ -1,0 +1,267 @@
+.reviewModal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.reviewModalContent {
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+}
+
+.reviewModalContent h1{
+    color: #263238;
+    text-align: center;
+    font-family: Inter;
+    font-size: 19.918px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 134%; /* 26.69px */
+    margin-top: 3%;
+}
+
+.reviewModalContent p{
+    color: rgba(38, 50, 56, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+:root {
+    --radius: 50%;
+    --size: 2em;
+    --offset: 25px;
+}
+
+.dotsloadingarticle {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.dot-spinner {
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 4.25em;
+    height: 4.25em;
+}
+
+.dot-spinner:focus {
+    outline: 4px solid #6E9E76;
+    border-radius: var(--radius);
+}
+
+.spinner-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerdotsloading {
+    width: var(--size);
+    border-radius: var(--radius);
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.dot {
+    --size: 1em;
+    --degrees: 0deg;
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: var(--radius);
+    width: var(--size);
+    background-color: #6E9E76;
+    opacity: 0;
+    top: calc(var(--size) / 2);
+    left: calc(var(--size) / 2);
+    animation: animate-in 900ms ease-in-out alternate infinite;
+}
+
+.dot:nth-of-type(1) {
+    --degrees: 0deg;
+    transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+    animation-delay: 0ms;
+}
+
+.dot:nth-of-type(2) {
+    --degrees: 45deg;
+    transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+    animation-delay: 100ms;
+}
+
+.dot:nth-of-type(3) {
+    --degrees: 90deg;
+    transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+    animation-delay: 200ms;
+}
+
+.dot:nth-of-type(4) {
+    --degrees: 135deg;
+    transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+    animation-delay: 300ms;
+}
+
+.dot:nth-of-type(5) {
+    --degrees: 180deg;
+    transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+    animation-delay: 400ms;
+}
+
+.dot:nth-of-type(6) {
+    --degrees: 225deg;
+    transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+    animation-delay: 500ms;
+}
+
+.dot:nth-of-type(7) {
+    --degrees: 270deg;
+    transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+    animation-delay: 600ms;
+}
+
+.dot:nth-of-type(8) {
+    --degrees: 315deg;
+    transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+    animation-delay: 700ms;
+}
+
+@keyframes animate-in {
+    from {
+        opacity: 8;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        --radius: 50%;
+        --size: 1em;
+        --offset: 18px;
+    }   
+    
+    .dotsloadingarticle {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+
+    .dot-spinner {
+        display: grid;
+        place-items: center;
+        position: relative;
+        width: 2.25em;
+        height: 3.25em;
+    }
+
+    .dot-spinner:focus {
+        outline: 4px solid #6E9E76;
+        border-radius: var(--radius);
+    }
+
+    .spinner-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerdotsloading {
+        width: var(--size);
+        border-radius: var(--radius);
+        aspect-ratio: 1;
+        position: relative;
+    }
+
+    .dot {
+        --size: 0.6em;
+        --degrees: 0deg;
+        aspect-ratio: 1;
+        position: absolute;
+        border-radius: var(--radius);
+        width: var(--size);
+        background-color: #6E9E76;
+        opacity: 0;
+        top: calc(var(--size) / 2);
+        left: calc(var(--size) / 2);
+        animation: animate-in 900ms ease-in-out alternate infinite;
+    }
+
+    .dot:nth-of-type(1) {
+        --degrees: 0deg;
+        transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+        animation-delay: 0ms;
+    }
+
+    .dot:nth-of-type(2) {
+        --degrees: 45deg;
+        transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+        animation-delay: 100ms;
+    }
+
+    .dot:nth-of-type(3) {
+        --degrees: 90deg;
+        transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+        animation-delay: 200ms;
+    }
+
+    .dot:nth-of-type(4) {
+        --degrees: 135deg;
+        transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+        animation-delay: 300ms;
+    }
+
+    .dot:nth-of-type(5) {
+        --degrees: 180deg;
+        transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+        animation-delay: 400ms;
+    }
+
+    .dot:nth-of-type(6) {
+        --degrees: 225deg;
+        transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+        animation-delay: 500ms;
+    }
+
+    .dot:nth-of-type(7) {
+        --degrees: 270deg;
+        transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+        animation-delay: 600ms;
+    }
+
+    .dot:nth-of-type(8) {
+        --degrees: 315deg;
+        transform: translate(calc(cos(var(--degrees)) * var(--offset)), calc(sin(var(--degrees)) * var(--offset)));
+        animation-delay: 700ms;
+    }
+
+}

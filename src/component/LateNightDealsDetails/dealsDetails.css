@@ -1,0 +1,515 @@
+.header {
+    /* background-color: #f1f1f1; */
+    /* padding: 30px;
+    text-align: center; */
+}
+
+#checkInNOutBox {
+    align-items: center;
+    gap: 141px;
+    padding: 10px;
+    border-radius: 12px;
+    background: #FFF;
+    z-index: 1000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    z-index: 1;
+    top: 3%;
+    width: 22%;
+}
+
+.sticky + .content {
+    padding-top: 0px;
+}
+
+.stickColumnDeals{
+    float: left;
+}
+
+.infoCon{
+    width: 60%;
+}
+
+.fixedCalDeals{
+    width: 40%;
+    padding-left: 20px;
+}
+
+.lateDealsInfo{
+    border-radius: 10px;
+    border: 1px solid rgba(171, 170, 170, 0.58);
+    background: #FFF;
+    padding: 20px 13px 20px 23px;
+}
+
+.lateDealsInfo h1{
+    color: rgba(184, 2, 7, 0.80);
+    font-family: 'Volkhov', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 148.2%; /* 44.46px */
+    letter-spacing: -1.05px;
+}
+
+.lateDealsInfo h1 svg{
+    margin-left: 3px;
+}
+
+.lateDealsInfo p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.23px */
+    letter-spacing: -0.525px;
+    padding-top: 5px;
+}
+
+.lateDealsInfo span{
+    color: rgba(234, 65, 49, 0.80);
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 148.2%; /* 14.82px */
+    letter-spacing: -0.35px;
+    text-decoration-line: underline;
+}
+
+.lateDealsInfo h2{
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 34.55px */
+    padding-top: 10px;
+}
+
+.date-picker-container{
+    background-color: #FFF;
+    padding: 4px;
+    max-width: 135px;
+    margin-right: 35px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+    margin-top: 10%;
+}
+
+.date-picker-container label{
+    margin-left: 10px;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.react-datepicker__input-container input {
+    max-width: 120px;
+    border: none;
+    outline: none;
+    padding: 3px;
+    padding-left: 10px;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.react-datepicker__input-container input::placeholder {
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.custom-date-range-picker{
+    display: flex;
+    align-items: center;
+    margin-left: 30px; 
+    margin-right: 10px;
+}
+
+.bookNowStickyDeals{
+    background-color: #CF0007;
+    padding: 10px 10px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7%;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.iconStickyDeals{
+    border-radius: 12px;
+    border: 1px solid rgba(184, 2, 7, 0.50);
+    background: #FFF;
+    width: 56px;
+    height: 56px;
+    margin-top: -2%;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    z-index: 100;
+    position: absolute;
+}
+
+.iconStickyDeals svg{
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.iconStickyBackup{
+    display: none;
+}
+
+.dealsContentContainers{
+    border-radius: 10px;
+    border: 1px solid rgba(171, 170, 170, 0.58);
+    background: #FFF;
+    width: 1040px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dealsContentContainers h1{
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 34.55px */
+}
+
+.dealsContentContainers .dealsAmenitiesIcons{
+    display: flex;
+    align-items: flex-end;
+    gap: 25px;
+    margin-top: 9px;
+}
+
+.dealsContentContainers .dealsAmenitiesIcons svg{
+    padding-top: 5px;
+    margin-right: 2px;
+}
+
+.dealsContentContainers .dealsAmenitiesIcons span{
+    margin-right: 5px;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 22.23px */
+    letter-spacing: -0.525px;
+}
+
+.reviewsLateDeals{
+    margin-top: 10px;
+}
+
+.reviewsLateDeals h1{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 148.2%; /* 29.64px */
+    letter-spacing: -0.7px;
+}
+
+.reviewsLateDeals h1 span{
+    margin-left: 10px;
+    color: #14BA6D;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 148.2%; /* 37.05px */
+    letter-spacing: -0.875px;
+}
+
+.reviewsLateDealsText{
+    float: left;
+    padding-right: 0px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.nameNDate{
+    width: 15%;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 15px;
+}
+
+.mainLateReview{
+    width: 55%;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 15px;
+}
+
+.reviewsLateDealsText p{
+    color: #667085;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 148.2%; /* 22.23px */
+    letter-spacing: -0.525px;
+    width: 526px;
+}
+
+.reviewLateLocation{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 148.2%; /* 19.266px */
+    letter-spacing: -0.455px;
+}
+
+.bottomTextDeals{
+    margin-top: 20px;
+}
+
+.verifiedDeals{
+    color: #CF0007;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 14.82px */
+    letter-spacing: -0.35px;
+    float: right;
+    margin-right: 3%;
+}
+
+.dealsContentContainerSide{
+    float: left;
+}
+
+.dealsContentText{
+    width: 80%;
+}
+
+.dealsView{
+    width: 20%;
+}
+
+.dealsView span p{
+    display: inline;
+}
+.dealsView span .ratingNumber{
+    border-radius: 6px 2px;
+    background: #14BA6D;
+    color: #FFF;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 44.46px */
+    letter-spacing: -1.05px;
+    text-align: center;
+    padding: 10px;
+}
+
+.ratingText{
+    color: #14BA6D;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 44.46px */
+    letter-spacing: -1.05px;
+    margin-left: 15px;
+}
+
+.ratingText svg{
+    padding-top: 3px;
+}
+
+.reviewsDealsText{
+    color: rgba(38, 50, 56, 0.60);
+    font-family: 'Volkhov', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 22.23px */
+    letter-spacing: -0.525px;
+}
+
+.reviewsDealsText svg{
+    padding-top: 10px;
+}
+
+.dealsContentContainerLocation{
+    border-radius: 10px;
+    border: 1px solid rgba(171, 170, 170, 0.58);
+    background: #FFF;
+    width: 1040px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dealsContentContainerLocation img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 100% 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+
+.dealsContentContainers .thingsAllowedCont{
+    max-width: 70%;
+    margin: auto;
+}
+.dealsContentContainers .thingsAllowed{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: auto;
+}
+
+.thingsAllowed span{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 20px;
+}
+
+.checkInOutCont{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    max-width: 60%;
+}
+
+.checkDeals{
+    width: 50%;
+    float: left;
+    padding: 0px;
+}
+
+.checkDeals h2{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 27.64px */
+    margin-bottom: 10px;
+}
+
+.checkDeals p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+}
+
+.checkDeals p svg{
+    margin-right: 10px;
+}
+
+.checkDeals p .timeDeals{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%;
+}
+
+.dealsBookNow{
+    display: flex;
+    width: 35%;
+    height: 75px;
+    padding: 13px 16px 13px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background: #CF0007;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+}
+
+.dealsSimilarPropertiesLinkCont{
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+}
+
+.dealsSimilarPropertiesLink{
+    color: rgba(207, 0, 7, 0.75);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    float: center;
+    width: 24%;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+.topImagesFive{
+    margin-top: 3%;
+}
+
+.highlighted{
+    border: 2px solid #6E9E76;
+}
+
+.dealsDetailsLargeImage{
+    height: 520px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.closeCursor{
+    cursor: pointer;
+}

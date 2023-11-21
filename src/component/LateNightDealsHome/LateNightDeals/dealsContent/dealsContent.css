@@ -1,0 +1,90 @@
+.lateNightDealsMainContent{
+    margin-top: 1%;
+    margin-bottom: 0%;
+    position: absolute;
+    max-width: 60%;
+}
+
+.lateNightDealsImages{
+    width: 25%;
+    float: left;
+    padding: 30px;
+}
+
+.lateNightDealsSmallerImageContent {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    position: inherit;
+}
+
+.lateNightDealsSmallerImageContent img{
+    display: block;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    width: 65%;
+    border-radius: 50%;
+    border: 10px solid #263238;
+    margin-bottom: 8%;
+}
+
+.lateNightDealsSmallerImageContent p{
+    color: #263238;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 173.333% */
+}
+
+.lateNightDealsBiggerImageContent {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.lateNightDealsBiggerImageContent img{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-radius: 50%;
+    border: 10px solid #263238;
+    margin-bottom: 8%;
+}
+
+.lateNightDealsBiggerImageContent p{
+    color: #263238;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 173.333% */
+}
+
+.lateNightDealsImageTextSpace{
+    padding-top: 50px;
+}
+
+.lateNightDealsBiggerImageContent p span{
+    color: #263238;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 173.333% */
+}
+
+.lateNightDealsBiggerImageContent p span b{
+    color: #CF0007;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

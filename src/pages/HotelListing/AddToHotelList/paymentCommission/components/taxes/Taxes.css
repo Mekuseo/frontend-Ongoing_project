@@ -1,0 +1,210 @@
+.depositCardText{
+  color: #263238;
+  font-family: Volkhov;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138.2%; /* 27.64px */
+  margin-bottom: 10px;
+}
+
+.cancellation-radioContainers {
+  display: flex;
+  gap: 15px;
+  color: #263238;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 138.2%; /* 27.64px */
+}
+
+.cancellation-radioContainers > input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #7a7a7a;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.cancellation-radioContainers > input[type="radio"]:checked {
+  background-color: #ffffff;
+  border-color: #6e9e76;
+}
+
+.cancellation-radioContainers > input[type="radio"]:checked::before {
+  content: "\25Cf";
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 0.65;
+  font-size: 20px;
+  color: #6e9e76;
+}
+
+.taxes-consent {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.taxes-consent p{
+  color: #263238;
+  font-family: Volkhov;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103.2%; /* 20.64px */
+}
+
+.taxes-consent input{
+  width: 30px;
+  height: 40px;
+  margin-top: -2%;
+  margin-left: -1%;
+}
+
+.taxes-radio > input {
+  margin-bottom: 10px;
+  width: 150px;
+  border: 1px solid #6e9e76;
+  padding: 5px 10px;
+}
+
+.vat-input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 0px;
+  width: 8%;
+  margin-bottom: 10px;
+  padding-right: 4px;
+  margin-left: 3%;
+}
+
+.vat-input {
+  width: 100%;
+  padding: 0px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-align: right !important;
+  border: none;
+  font-size: 12px !important;
+}
+
+.vat-input::placeholder {
+  font-size: 10px;
+}
+
+.vat-input:focus {
+  outline: none;
+}
+
+.vat-input::after {
+  content: "%";
+  position: absolute;
+  right: 5px;
+}
+
+.vat-input-container > input {
+  font-size: 20px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .discountoffermobile{
+    margin-top: 35px;
+  }
+
+  .depositCardText{
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 138.2%; /* 27.64px */
+    margin-bottom: 10px;
+    margin-top: -3px;
+  }
+
+  .taxes-consent {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .taxes-consent p{
+    color: #263238;
+    font-family: Volkhov;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    line-height: 103.2%; /* 20.64px */
+  }
+
+  .vat-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #6e9e76;
+    border-radius: 5px;
+    width: 25%;
+    margin-bottom: 10px;
+    padding-right: 4px;
+    padding-top: 0px;
+  }
+
+  .vat-input {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 10px;
+    border: none;
+  }
+
+  .vat-input::placeholder {
+    font-size: 12px;
+  }
+
+  .vat-input:focus {
+    outline: none;
+  }
+
+  .vat-input::after {
+    content: "%";
+    position: absolute;
+    right: 5px;
+  }
+
+  .vat-input-container > input {
+    font-size: 19px;
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  .taxes-consent input{
+    width: 20px;
+    height: 40px;
+    margin-top: -2%;
+    margin-left: -1%;
+  }
+}
+
+@media only screen and (max-device-width: 320px){
+  .vat-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #6e9e76;
+    border-radius: 5px;
+    width: 30%;
+    margin-bottom: 10px;
+    padding-right: 4px;
+    padding-top: 0px;
+  }
+}

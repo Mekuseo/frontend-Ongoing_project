@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.formEventCont{
+    margin-top: 1%;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.formEventCont h1{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 55.28px */
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.eventCont p{
+    color: #263238;
+    text-align: left;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%; /* 34.55px */
+}
+
+.formEvent{
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+.formEvent label{
+    color: #263238;
+    text-align: left;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%; /* 34.55px */
+}
+
+.formEvent input{
+    margin-top: 1%;
+    border-radius: 5px;
+    border: 1px solid rgba(38, 50, 56, 0.80);
+    width: 32%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.formEvent input::placeholder{
+    color: rgba(171, 170, 170, 0.58);
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+}
+
+.eventLocation{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.eventLocation label{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+}
+
+.eventLocation .input input{
+    border-radius: 5px;
+    border: 1px solid rgba(38, 50, 56, 0.80);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.eventLocation .input input::placeholder{
+    color: rgba(171, 170, 170, 0.58);
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+    text-align: center;
+}
+
+.eventLocation .input .streetName{
+    width: 300px;
+}
+
+.cityName{
+    width: 100px;
+}
+
+.stateName{
+    width: 148px;
+}
+
+.countryName{
+    width: 143px;
+}
+
+.eventMapSelect{
+    margin-top: 0%;
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.eventMapSelect p{
+    color: #CF0007;
+    font-family: Volkhov;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 16.5px */
+    text-decoration-line: underline;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.eventMap{
+    margin-top: -2%;
+    margin-bottom: 3%;
+}
+
+.categoryDropdown {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.select-dropdown__button {
+    padding: 10px 15px 10px 15px;
+    background-color: #fff;
+    color: #616161;
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 210px;
+    text-align: left;
+    z-index: 0;
+    margin-bottom: 1%;
+}
+
+.select-dropdown__button span{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.16px;
+}
+
+.select-dropdown__button:focus {
+  outline: none;
+}
+
+.select-dropdown__button div{
+    float: right;
+}
+
+.select-dropdown__list {
+    position: absolute;
+    display: block;
+    max-height: 590px;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    opacity: 0;
+    pointer-events: none;
+    transform-origin: top left;
+    transform: scale(1, 0);
+    transition: all ease-in-out 0.3s;
+    z-index: 100;
+    width: 210px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin-top: 0%;
+}
+
+.select-dropdown__list.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1, 1);
+}
+
+.select-dropdown__list-item {
+    display: block;
+    list-style-type: none;
+    padding: 10px 40px;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+    color: #616161;
+    transition: all ease-in-out 0.3s;
+    padding: 10px;
+}
+
+.select-dropdown__list-item:hover{
+    border-radius: 8px;
+    border: 1px solid #29B474;
+    background: #EBFAF3;
+}
+
+.time-range-picker {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 0%;
+}
+
+.time-range-picker label{
+    margin: 5px 65px 5px 0;
+    color: #263238;
+    text-align: left;
+    font-family: Volkhov;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+    margin-bottom: 5px;
+    margin-top: -2%;
+}
+
+.time-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.custom-time-input {
+    display: flex;
+    padding: 1px 25px 2px 8px;
+    border-radius: 5px;
+    border: 1px solid #263238;
+    color: #263238;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%; /* 27.64px */
+    margin-right: 40px;
+    z-index: 0;
+}
+
+.custom-time-input span{
+    font-size: 20px;
+    float: left;
+    width: auto;
+}
+
+.custom-time-input select {
+    height: 35px;
+    margin-right: 0px;
+    border-radius: 4px;
+    padding: 0px 0px;
+    width: inherit;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.custom-time-input .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #FFF;
+    padding: 0px 0px;
+}
+
+.custom-time-input .dropdown-btn {
+    background-color: #fff;
+    border: none;
+    padding: 0px 0px;
+    cursor: pointer;
+}
+
+.custom-time-input .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+    min-width: 110px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.custom-time-input .dropdown-content span {
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.custom-time-input .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.divider {
+    margin: 0 4px;
+}
+
+.selected-time {
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.datesCont{
+    margin-bottom: 4%;
+    margin-top: 0%;
+}
+
+.datesCont h1{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 27.5px */
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.datesContainer {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline;
+    margin-right: 30px;
+    color: #383737;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+}
+
+.datesContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.datesCheckmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #FFF;
+    border: 1.5px solid #929292;
+    border-radius: 5px;
+}
+
+.datesContainer input:checked ~ .datesCheckmark {
+    background-color: #000;
+    border: 1.5px solid #000;
+}
+
+.datesCheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.datesContainer input:checked ~ .datesCheckmark:after {
+    display: block;
+}
+
+.datesContainer .datesCheckmark:after {
+    left: 8px;
+    top: 3px;
+    width: 5px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.eventTextBox p{
+    color: #263238;
+    text-align: left;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 34.55px */
+    margin-top: 1%;
+}
+
+.eventTextBox p span{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%;
+    margin-left: 5px;
+}
+
+.textBoxCont{
+    border-radius: 5px;
+    border: 2px solid #C5C4C4;
+    background: #FFF;
+    margin-top: 1%;
+    padding: 20px;
+    box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.30), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 3%;
+}
+
+.textBox-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -20px;
+}
+
+.textBox-container textarea {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.textBox-container textarea::placeholder{
+    font-size: 18px;
+}
+
+.textBoxErrorCont{
+    overflow: hidden;
+    margin-top: 0%;
+}
+
+.textBoxErrorCont p{
+    float: left;
+    color: #383737;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 24.876px */
+}
+
+.textBoxErrorCont p.right{
+    float: right;
+    width: auto;
+}
+
+.textBox-container textarea.error {
+    border: 1px solid red;
+}
+
+.textBox-container .error-message {
+    color: #B51C1C;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 24.876px */
+}
+
+.picsCont{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.picsCont p{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 27.5px */
+    margin-top: 0%;
+}
+
+.picsCont a{
+    text-decoration: none;
+}
+
+.upload input[type="file"] { display: none; }
+
+.upload-path {
+  display: inline-block;
+  padding: 10px;
+  min-width: 200px;
+  font-style: italic;
+}
+
+.upload {
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(196, 196, 196, 0.50);
+    color: rgba(38, 50, 56, 0.75);
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+    padding: 13px;
+    cursor: pointer;
+    width: auto;
+    margin-top: 1%;
+}
+
+.upload svg{
+    margin-right: 9px;
+    float: left;
+}
+
+.upload h1{
+    font-size: 10px;
+    text-align: left;
+}
+
+.uploadCont {
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(196, 196, 196, 0.50);
+    color: rgba(38, 50, 56, 0.75);
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+    padding: 13px;
+    cursor: pointer;
+    width: 29%;
+    margin-top: 1%;
+    height: 70px;
+}
+
+.uploadCont h1{
+    font-size: 10px;
+    text-align: left;
+    width: 100%;
+    overflow: scroll;
+}
+
+.uploadMore {
+    border-radius: 10px;
+    border: none;
+    background: #FFF;
+    color: rgba(38, 50, 56, 0.75);
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+    padding: 13px;
+    cursor: pointer;
+    width: auto;
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.uploadMore input[type="file"] { display: none; }
+
+.uploadMore svg{
+    margin-right: 9px;
+    float: left;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 5px;
+    border-radius: 4px;
+    margin-top: 0px;
+    margin-bottom: 6.5%;
+}
+
+.picEventInfo{
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(196, 196, 196, 0.50);
+    padding: 20px 1px 1px 10px;
+}
+
+.picEventInfo p{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.picEventInfo .uploadIcon{
+    float: right;
+    margin-top: -0%;
+    right: 17.5%;
+    position: absolute;
+}
+
+.picEventInfo .eventPicUploadTop{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.picEventInfo .eventPicUploadTop p{
+    float: left;
+}
+
+.progressPicUpload{
+    overflow: hidden;
+    margin-top: -3.5%;
+}
+
+.progressPicUpload p{
+    float: left;
+    text-decoration: none;
+    color: #8C8C8C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.progressPicUpload p.split {
+    float: right;
+    right: 0%;
+    position: relative;
+    margin-right: 0%;
+}
+
+.picsCont h2{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 55.28px */
+    margin-bottom: 1%;
+}
+
+.ticketingSide{
+    width: 50%;
+    float: left;
+    padding: 12px;
+    padding-top: 0px;
+}
+
+.fileUploadPics form{
+    margin-top: -13%;
+    margin-left: -31%;
+}
+
+.fileUploadPics form label{
+    color: #263238;
+    text-align: left;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%; /* 34.55px */
+    margin-bottom: 2%;
+}
+
+.fileUploadPics form input{
+    border-radius: 5px;
+    border: 1px solid rgba(38, 50, 56, 0.80);
+    padding: 8px;
+    width: 303px;
+    font-size: 20px;
+}
+
+.fileUploadPics form input::placeholder{
+    color: rgba(171, 170, 170, 0.58);
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+}
+
+.ticketingForm{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.ticketingForm label{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+    margin-bottom: 3%;
+}
+
+.ticketingForm .ticketingInput input{
+    border-radius: 5px;
+    border: 1px solid rgba(38, 50, 56, 0.80);
+    padding: 5px;
+    font-size: 20px;
+    width: 321px;
+}
+
+.ticketingForm .ticketingInput input::placeholder{
+    color: rgba(171, 170, 170, 0.58);
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 27.64px */
+    text-align: left;
+}
+
+.formEventCont .buttons{
+    margin-top: 2%;
+    max-width: 60%;
+    margin: auto;
+}
+
+.formEventCont .buttons button{
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--blue-gray-600, #475569);
+    color: #263238;
+    font-family: Volkhov;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.5px;
+    background-color: #FFF;
+    width: 256px;
+    padding: 16px;
+}
+
+.formEventCont .buttons .activeColor{
+    color: var(--White, #FFF);
+    background: #263238;
+}
+
+.dateCreateEvent{
+    display: inline-flex;
+
+}
+
+.dateCreateEvent .custom-datepicker-class {
+    border: 1px solid #000;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.dateCreateEvent .custom-datepicker-class.react-datepicker {
+    display: inline-block;
+}
+
+.dateCreateEvent .custom-datepicker-class.react-datepicker__calendar-container {
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dateCreateEvent .custom-datepicker-class.react-datepicker__day--selected {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.dateCreateEvent .custom-datepicker-class.react-datepicker__day--hover {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dateCreateEvent .custom-datepicker-class.react-datepicker__input-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.dateCreateEvent .custom-datepicker-class.react-datepicker__input-container .react-datepicker__close-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #ccc;
+    cursor: pointer;
+}
+
+.dateCreateEvent .custom-datepicker-class.react-datepicker__close-icon:after {
+    content: "×";
+    font-size: 20px;
+}
+
+.dateCreateEvent .custom-datepicker-class.react-datepicker__triangle {
+    border-bottom-color: #fff;
+}
+
+.dateCreateEvent .custom-datepicker-class.react-datepicker__input-container input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}

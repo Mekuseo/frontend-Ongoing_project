@@ -1,0 +1,261 @@
+.topDesSub{
+    padding-top: 30px;
+    overflow: hidden;
+    margin-bottom: 1%;
+    padding-right: 0.3%;
+}
+
+.carouselhome-container{
+    margin-top: -2%;
+}
+
+.carouselhome {
+    transition: transform 0.5s ease-in-out;
+}
+
+.cardhome-wrapper {
+    display: flex;
+    overflow: hidden;
+}
+
+.cardCols{
+    width: 25%;
+    float: left;
+    padding: 0px 5px;
+}
+
+.cardhome {
+    flex: 0 0 100%;
+    padding: 0px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.cardhome-item {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    /* border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    background-color: #fff;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.cardhome-item img {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin: auto;
+}
+
+.cardhome-item:hover {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    /* border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    background-color: #fff;
+    margin: 10px;
+    transition: transform 0.3s;
+    transform: scale(0.95);
+}
+
+.cardhome-item a{
+    text-decoration: none;
+}
+
+.cardhome-item .cardhome-name{
+    padding-top: 2%;
+    color: rgba(38, 50, 56, 0.80);
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 200% */
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+.cardhome-item .destinationDetails{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.circleCardHome{
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: #196637;
+    margin-top: -3%;
+    margin-left: 5px;
+}
+
+.destinationDetails span{
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+    margin-top: -3%;
+    text-transform: none;
+}
+
+.commerce{
+    color: #196637;
+    margin-left: 5px;
+}
+
+.politics{
+    color: #367CFF
+}
+
+.tourism{
+    color: #1DA1F2
+}
+
+.industry{
+    color: #E98862;
+}
+
+.nightLife{
+    color: #2F80ED;
+    margin-left: 5px;
+}
+
+.wildlife{
+    color: #F0B500;
+}
+
+.sports{
+    color: #E98862;
+}
+
+.wildlifepark{
+    color: #26323880
+}
+
+.cardhome-item .stateCardhome{
+    text-align: left;
+    color: #263238;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%; /* 19.2px */
+    margin-top: -5%;
+}
+
+@keyframes increaseSize {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.navigatingButtons {
+    border-radius: 20px;
+    border: 1px solid rgba(38, 50, 56, 0.50);
+    float: right;
+    margin-top: -2%;
+    margin-right: 0%;
+    padding-bottom: 0px;
+    animation: none;
+    transition: all 0.5s ease; /* Add a transition for all properties */
+    margin-bottom: 1%;
+}
+
+.navigatingButtons:hover {
+    border-radius: 20px;
+    border: 1px solid rgba(38, 50, 56, 0.50);
+    float: right;
+    margin-top: -2.2%;
+    margin-left: -40%;
+    padding-bottom: 2px;
+    padding: 4px;
+    animation: increaseSize 2s infinite alternate;
+}
+
+.prevhome-button,
+.nexthome-button {
+    border: none;
+    padding: 0px 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #ff000000;
+}
+
+
+.prevhome-button,.nexthome-button:disabled {
+    cursor: not-allowed;
+}
+
+.prevhome-button:disabled svg path,
+.nexthome-button:disabled svg path {
+    stroke: #aaa; 
+}
+
+.centeredSub{
+    text-align: center;
+    color: #0F172A;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 22px */
+}
+
+.topDesSub h1{
+    color: #254554;
+    font-family: Volkhov;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 49.5px */
+    text-align: center;
+}
+
+.topattractionsplaceandfee{
+    overflow: hidden;
+    margin-top: -4%;
+}
+
+.topattractionsplaceandfee div{
+    float: left;
+    color: #CF0007;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%; /* 19.2px */
+    text-transform: uppercase;
+}
+
+.topattractionsplaceandfee div.entryfeehomepage{
+    float: right;
+    color: #000;
+    font-family: Volkhov;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+
+.entryfeehomepage span{
+    color: #6E9E76;
+    font-family: Volkhov;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 240% */
+    letter-spacing: 0.5px;
+    text-transform: none;
+}

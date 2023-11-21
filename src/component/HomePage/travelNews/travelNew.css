@@ -1,0 +1,347 @@
+@font-face {
+    font-family: Volkhov;
+    src: url(../../../assets/fonts/Volkhov-Bold.ttf);
+}
+
+@font-face {
+    font-family: ec;
+    src: url(../../../assets/fonts/Eczar-VariableFont_wght.ttf);
+}
+
+.cardshomepagecont{
+    max-width: 77%;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+
+.lateNighHotelDealsHeaderTextHomePage{
+   overflow: hidden;
+   width: 97%;
+   margin: auto;
+   margin-top: 3%;
+   padding-right: 10px;
+}
+
+.lateNighHotelDealsHeaderTextHomePage div{
+    float: left;
+    text-align: center;
+}
+
+.lateNighHotelDealsHeaderTextHomePage div h1{
+    color: #254554;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 49.5px */
+    margin-top: 1.5%;
+}
+
+.latenightdealsheaderhomepage{
+    float: none;
+    position: absolute;
+    top: inherit;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lateNighHotelDealsHeaderTextHomePage div.navigatingbuttonstravelnews{
+    float: right;
+}
+
+.navigatingbuttonstravelnews .navigatingButtons{
+    margin-top: 25%;
+}
+
+.lateNightHomepage{
+    border-radius: 30px;
+    background-color: rgba(146, 146, 146, 0.10);
+    max-width: 98%;
+    margin: auto;
+    padding: 0px;
+    margin-top: 1%;
+}
+
+.lateNightHotelDealsHomepageCols{
+    float: left;
+    padding: 0px;
+}
+
+.green{
+    width: 40%;
+}
+
+.cardsWiitHotel{
+    width: 60%;
+    padding-right: 10px;
+}
+
+.newExcitingDetailsHomePage{
+    background: #E1F3E9;
+    height: 295px;
+    width: 720px;
+    flex-shrink: 0;
+    margin-top: 8%;
+}
+
+.carouselhome-containerfirst{
+    margin-top: 0%;
+}
+
+.cardColsFirst{
+    width: 33.333%;
+    float: left;
+    padding-right: 15px;
+}
+
+.latenightcardshomepage{
+    width: 33.333%;
+    float: left;
+    padding: 0px;
+}
+
+.latenightcardshomepage img{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 90%;
+    height: 140px;
+    transition: transform 0.3s;
+}
+
+.latenightcardshomepage img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.latenightcardshomepage p{
+    color: #263238;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 28.8px */
+    width: 80%;
+    margin-top: -2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cardhomefirst{
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px;
+    /* border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    background-color: #fff;
+    margin: 10px;
+}
+
+.cardhomefirst a{
+    text-decoration: none;
+}
+
+.cardhomefirst h3{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 19.8px */
+    text-decoration: none;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.cardhomefirstimage {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.likecardhomefirst {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.cardhomefirstdiscount {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.cardhomefirstimage img{
+    width: 100%;
+    height: 250px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.cardhomefirstimage img:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    cursor: pointer;
+}
+
+.heart-buttonhome {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hearthome {
+    fill: none;
+    stroke: white;
+    transition: stroke 0.5s;
+}
+
+.likedhomeheart {
+    fill: red;
+    stroke: red;
+    animation: heartBeat 1s;
+}
+
+@keyframes heartBeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.homebanner {
+    background: #CF0007;
+    width: 50%;
+    margin-top: 18%;
+    margin-left: 93%;
+    transform: translate(-50%, -50%);
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 17px;
+    height: 50px;
+}
+
+.homebanner span{
+    color: #FFC61A;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.homebanner:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    bottom: 0%;
+    right: 0;
+    padding-bottom: 30%;
+    background: #CF0007;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+.homecardDetails{
+    overflow: hidden;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin-bottom: 0%;
+    margin-top: 3%;
+    padding-left: 10px;
+}
+
+.homecardDetails div{
+    float: left;
+}
+
+.hoteltaghome{
+    border-radius: 5px;
+    background: #263238;
+    backdrop-filter: blur(2px);
+    padding: 5px 14px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.homecardDetails div.rightdetails {
+    float: right;
+}
+
+.homestarcontainer{
+    border-radius: 5px;
+    background: rgba(224, 224, 224, 0.06);
+    box-shadow: -1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 0px 4px;
+}
+
+.hotellocationhomepage{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 4%;
+}
+
+.hotellocationhomepage .stateoflocation{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 200% */
+    letter-spacing: 0.5px;
+    text-decoration-line: underline;
+}
+
+.hotellocationhomepage .stateoflocation svg{
+    float: left;
+    margin-top: 5%;
+    padding-right: 3%;
+}
+
+.cancelledpricingrightdetailshome{
+    margin-top: -2%;
+}
+
+.cancelledpricingrightdetailshome p{
+    color: #CF0007;
+    font-family: Volkhov;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cancelledpricingrightdetailshome h6{
+    color: rgba(38, 50, 56, 0.80);
+    font-family: Volkhov;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: line-through;
+    margin-top: -13%;
+}

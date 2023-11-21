@@ -1,0 +1,233 @@
+.importantDetails-container {
+  display: flex;
+  gap: 20px;
+}
+
+.importantDetails-leftCard {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.importantDetails-leftCard-title {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.importantDetails-leftCard-border {
+  border: 1px solid #bbbbbb;
+  border-radius: 10px;
+  padding: 9px;
+}
+
+.importantDetails-hotelTitle {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+}
+
+.importantDetails-hotelTitle img {
+  width: 190px;
+  height: 122px;
+  border-radius: 10px 3px 3px 3px;
+}
+
+.importantDetails-hotelTitle-Section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.importantDetails-hotelTitle-Section > h3{
+  color: red;
+  font-size: 35px;
+  font-family: volkhov, sans-serif;
+}
+
+.importantDetails-hotelTitle-Section > h3 > span{
+  font-size: 18px;
+}
+
+.importantDetails-hotelTitle-Section > * {
+  margin: 2px 0
+}
+
+.importantDetails-hotelTitle-Section > small > a {
+  color: red;
+}
+
+.importantDetails-score {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.importantDetails-score1 {
+  display: flex;
+  align-items: first baseline;
+  margin-top: 10px;
+}
+
+.importantDetails-score-number {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: volkhov, sans-serif;
+  background-color: #263238;
+  color: white;
+  padding: 5px;
+  border-radius: 5px 5px 5px 0;
+  margin-right: 10px;
+}
+
+.importantDetails-score :nth-child(3) {
+  font-size: 25px;
+  color: green;
+  font-weight: 500;
+}
+
+.importantDetails-score-seeMore {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: volkhov, sans-serif;
+}
+
+.importantDetails-score-seeMore span {
+  font-size: 10px;
+  color: red;
+  cursor: pointer;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.importantDetails-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.importantDetails-features > * {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.importantDetails-features2 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.importantDetails-features2 > p {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.importantDetails-rightCard {
+  width: 35%;
+}
+
+.importantDetails-rightCard-subtitle {
+  font-size: 17px;
+  text-align: center;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.importantDetails-checkIn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.importantDetails-checkIn > * {
+  font-size: 15px;
+}
+
+.importantDetails-checkIn-Details > *{
+  padding-bottom: 5px;
+}
+
+.importantDetails-lengthOfNight {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 8px;
+}
+
+.importantDetails-lengthOfNight > p > span {
+  margin-left: 20px;
+}
+
+.importantDetails-roomType {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.importantDetails-roomType > div > small {
+  font-weight: 700;
+}
+
+.importantDetails-rightCard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 16px;
+}
+
+.importantDetails-rightCard-container > a {
+  color: red;
+  text-align: center;margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.importantDetails-rightCard-container > p {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.importantDetails-priceDisplay {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.importantDetails-priceDisplay > * {
+  display: flex;
+  gap: 70px;
+}
+
+.importantDetails-priceDisplay > :nth-child(2) > :nth-child(2) {
+  margin-left: 19px;
+}
+
+.importantDetails-priceDisplay > :nth-child(3) {
+  font-weight: bold;
+}
+
+.importantDetails-priceDisplay > :nth-child(3) > :nth-child(2) {
+  margin-left: 77px;
+}
+
+.small-icon {
+  width: 10px;
+  height: 10px;
+}

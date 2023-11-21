@@ -1,0 +1,20 @@
+[
+{
+    "amenity": "",
+    "icon": "./src/assets/pics/Popular Amenities.svg",
+    "subItems": [
+      {
+        "name": "Pets allowed",
+        "icon": "https://img.icons8.com/dusk/64/pets.png"
+      },
+      {
+        "name": "Smoking allowed",
+        "icon": "https://img.icons8.com/color/48/smoking.png"
+      },
+      {
+        "name": "Parties allowed",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-refreshment-coffee-flaticons-lineal-color-flat-icons.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+.archive-icon:hover {
+  fill: white;
+}
+
+button:hover .archive-icon {
+  fill: white; /* Change the fill color to white on hover */
+}
+
+
+

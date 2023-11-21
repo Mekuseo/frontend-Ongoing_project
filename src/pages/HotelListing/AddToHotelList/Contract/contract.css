@@ -1,0 +1,147 @@
+.contractListingText{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.contractListingText svg{
+    float: left;
+    margin-right: 15px;
+}
+
+.contractListingText p{
+    color: #383737;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 24.876px */
+    margin-bottom: 25px;
+}
+
+.contractListingText span{
+    color: #6E9E76;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%;
+}
+
+.contractTermsConditions{
+    color: #383737;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%; /* 27.64px */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.contractTermsConditions span{
+    margin-left: 3px;
+    margin-right: 2px;
+}
+
+.endingcheck{
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 80px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #263238;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    max-width: 500px;
+    margin: auto;
+}
+
+.endingcheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.endingcheck label{
+    color: #263238;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 41.46px */
+}
+
+.termstick {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #929292;
+}
+
+.endingcheck:hover input ~ .termstick {
+    background-color: #ccc;
+}
+
+.endingcheck input:checked ~ .termstick {
+    background-color: #6E9E76;
+    border: none;
+}
+
+.termstick:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.endingcheck input:checked ~ .termstick:after {
+    display: block;
+}
+
+.endingcheck .termstick:after {
+    left: 11px;
+    top: 3px;
+    width: 8px;
+    height: 20px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.contractGoLive{
+    border-radius: 10px;
+    background: rgba(110, 158, 118, 0.80);
+    padding: 10px 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 34.55px */
+    border: none;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}

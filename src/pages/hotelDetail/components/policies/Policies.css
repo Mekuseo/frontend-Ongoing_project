@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.policy-body {
+  margin: 40px auto 30px;
+  background-color: #F7F7F8;
+  width: 1080px;
+  border-radius: 20px;
+  padding: 10px 0 0;
+}
+
+.policy-body > h1 {
+  text-align: center;
+  margin: 10px 0;
+  font-family: "Volkhov", sans-serif;
+}
+
+.policies-list {
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #e9e9eb;
+}
+
+.policies-listContent {
+  padding: 20px 20px 10px;
+}
+
+.policies-listContent > * {
+  padding-top: 10px;
+}
+
+.policies-checkin {
+  display: flex;
+  flex-direction: left;
+  padding: 20px;
+  gap: 80px;
+}
+
+.policies-checkin > * > * {
+  padding-bottom: 10px;
+}
+
+.policies-list ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.policies-checkInList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,411 @@
+/* .mainPolicy{
+  border-radius: 5px;
+  border: 2px solid #C5C4C4;
+  background: #FFF;
+  box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.30), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.propertyPolicy-timepicker-box {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 0 10px;
+}
+
+.propertyPolicy-timepicker-left{
+  border-radius: 5px;
+  border: 2px solid #c5c4c4;
+  background: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.3),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px 0px;
+  margin-top: 0%;
+  margin-left: 30px;
+}
+
+.propertyPolicy-timepicker-right{
+  border-radius: 5px;
+  border: 2px solid #c5c4c4;
+  background: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.3),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px 0px;
+  margin-top: 0%;
+  margin-left: 30px;
+  margin-right: 30px;
+} */
+/* .propertyPolicy-timepicker-container {
+  border-radius: 5px;
+  border: 2px solid #c5c4c4;
+  background: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.3),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px 80px;
+  margin-top: -10%;
+} */
+
+/* .propertyPolicy-flex > p {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: volkhov, sans-serif;
+  margin: 30px;
+  margin-bottom: 5px;
+}
+
+.propertyPolicy-flex {
+  width: 50%;
+  float: left;
+  padding: 0px;
+}
+
+.propertyPolicy-restrictionTitle {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.propertyPolicy-restrictionSubtitle {
+  margin-top: -15px;
+}
+
+.propPolicyCont{
+  position: absolute;
+  background-color: #6E9E76;
+  color: white;
+  left: 60px;
+  width: 50%;
+  top: 0%;
+  font-family: "raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px 10px;
+  display: none;
+} */
+
+/* .MuiStack-root button {
+  width: 30px !important;
+} */
+
+/* .MuiStack-root {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  background-color: #6e9e76 !important;
+  color: white !important;
+  border-radius: 10px !important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+} */
+
+/* .propertyPolicy-sumBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #c5c4c4;
+  background: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.3),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: -5px;
+  width: 490px;
+  height: 100px;
+  background-color: transparent;
+}
+
+.sumButtons {
+  display: flex !important;
+  padding: 16px 31px !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 12px !important;
+  border: 1px solid #929292 !important;
+  background-color: transparent !important;
+}
+
+.propertyPolicy-styledInput {
+  border: "white" !important;
+  font-size: "50px" !important;
+} */
+
+/* .css-1xmjihl-MuiButtonBase-root-MuiButton-root {
+  color: #929292 !important;
+  background-color: transparent !important;
+  height: 50px;
+  width: 100px !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root,
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 1px red !important;
+  font-family: volkhov, sans-serif !important;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+  z-index: 0 !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: white;
+} */
+
+/* .ageRestriction{
+  max-width: 900px;
+  margin: auto;
+}
+
+.propPolicyTime{
+  font-family: "Volkhov" !important;
+  font-size: 16px !important;
+  font-weight: 400;
+  text-align: left !important;
+  margin-bottom: 0% !important;
+}
+
+.timecontainer{
+  margin-top: -0% !important;
+}
+
+.numberButtons{
+  border: 1px solid #FFF !important;
+} */
+
+/* ---------------------------------------------*/
+
+.mainPolicy{
+  border-radius: 5px;
+  border: 2px solid #C5C4C4;
+  background: #FFF;
+  box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.30), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.propertyPolicy-timepicker-box {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 0 10px;
+}
+
+.propertyPolicy-timepicker-container {
+  border-radius: 5px;
+  border: 2px solid #c5c4c4;
+  background: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.3),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px 30px;
+  width: 420px;
+}
+
+.propertyPolicy-flex > p {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: volkhov, sans-serif;
+  margin-bottom: 15px;
+}
+
+.propertyPolicy-flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.propertyPolicy-restrictionTitle {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.propertyPolicy-restrictionSubtitle {
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.propertyPolicy-sumBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #c5c4c4;
+  background: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.3),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: -5px;
+  width: 490px;
+  height: 100px;
+  background-color: transparent;
+}
+
+.sumButtons {
+  display: flex !important;
+  padding: 16px 31px !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 12px !important;
+  border: 1px solid #929292 !important;
+  background-color: transparent !important;
+}
+
+.propertyPolicy-styledInput {
+  border: "white" !important;
+  font-size: "50px" !important;
+}
+
+.ageRestriction{
+  max-width: 90%;
+  margin: auto;
+}
+
+.propertyPolicyCardAmenities{
+  width: 25%;
+  padding-left: 20px;
+  font-size: 25px !important;
+  font-family: "Raleway", sans-serif !important;
+}
+
+.propertyPolicyCardAmenities img{
+  display: none;
+}
+
+.propertypolicytime{
+  font-size: 20px !important;
+  margin-top: 1% !important;
+  margin-bottom: 3% !important;
+  overflow: hidden !important;
+}
+
+.checkinouttimeproppoli{
+  position: sticky;
+  background-color: #6E9E76;
+  color: #FFF;
+  left: 35%;
+  bottom: 65%;
+  width: 45%;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0px 0px;
+  /* display: none; */
+  /* margin-top: -28% !important; */
+  border-radius: 15px;
+  margin-bottom: 5% !important;
+  overflow: hidden !important;
+}
+
+.propertyPolicy-timepicker-left{
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  margin-left: 10% !important;
+}
+
+.propertyPolicy-timepicker-right{
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  margin-left: 10% !important;
+}
+
+.propertyPolicy-timepicker-left .MuiInputBase-root{
+  width: 150px;
+  margin-top: -40px;
+  border: 2px solid #6E9E76 !important;
+  margin-left: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.propertyPolicy-timepicker-right .MuiInputBase-root{
+  width: 150px;
+  margin-top: -40px;
+  border: 2px solid #6E9E76 !important;
+  margin-left: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.addmoreamenitiespolicy{
+  padding: 3px 10px;
+  margin-right: 10px;
+}
+
+.timepickerproppolicyextranet{
+  width: 50px !important;
+  margin-top: -1% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .propertyPolicyCardAmenities{
+    width: 50%;
+    padding-left: 0px;
+    font-size: 5px !important;
+    font-family: "Raleway", sans-serif !important;
+  }
+
+  .propertyPolicy-timepicker-container {
+    border-radius: 5px;
+    border: 2px solid #c5c4c4;
+    background: #fff;
+    box-shadow: 10px 10px 20px 0px rgba(191, 191, 191, 0.3),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 0px 0px;
+    display: inline;
+  }
+  
+  .propertypolicytime{
+    font-size: 16px !important;
+    display: inline-block !important;
+    margin-top: 4% !important;
+  }
+
+  .propertyPolicy-timepicker-left .MuiInputBase-root{
+    width: 150px;
+    margin-top: -30px;
+    border: 2px solid #6E9E76 !important;
+    margin-left: 10px;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .propertyPolicy-timepicker-right .MuiInputBase-root{
+    width: 150px;
+    margin-top: -0px;
+    border: 2px solid #6E9E76 !important;
+    margin-left: 10px;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .checkinouttimeproppoli{
+    position: sticky;
+    background-color: #6E9E76;
+    color: #FFF;
+    left: 25%;
+    margin-top: 3% !important;
+    width: 40%;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 0px;
+    /* display: none; */
+    /* margin-top: -28% !important; */
+    border-radius: 15px;
+    margin-bottom: 0% !important;
+    overflow: hidden !important;
+  }
+  
+  .propertyPolicy-timepicker-left .propertyPolicy-timepicker-right{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  
+}

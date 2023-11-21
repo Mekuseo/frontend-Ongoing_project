@@ -1,0 +1,45 @@
+.commission-title {
+  color: #263238;
+  text-align: center;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138.2%; /* 69.1px */
+}
+
+.commision-container {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  width: 1080px;
+  margin: auto;
+  margin-top: 7%;
+}
+
+@media only screen and (max-width: 600px) {
+  .commision-container {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 30%;
+  }
+
+  .commission-title {
+    color: #263238;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 69.1px */
+    display: none;
+  }
+  
+}

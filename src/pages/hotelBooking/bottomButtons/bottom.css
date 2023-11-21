@@ -1,0 +1,105 @@
+.bottombuttons {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bottombuttons a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bottombuttons a.main {
+    background-color: #ff000000;
+    color: #6E9E76;
+    padding: 10px 60px;
+    border: 1px solid #6E9E76;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.bottombuttons a.previous {
+    background-color: #ff000000;
+    color: #6E9E76;
+    padding: 10px 60px;
+    border: 1px solid #6E9E76;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.bottombuttons-right {
+    float: right;
+}
+
+.bottombuttons-right .next{
+    background-color: #6E9E76;
+    color: #fff;
+    padding: 12px 60px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bottombuttons a.main {
+        background-color: #ff000000;
+        color: #6E9E76;
+        padding: 10px 0px;
+        border: 1px solid #6E9E76;
+        text-transform: uppercase;
+        border-radius: 10px;
+        float: none;
+        position: absolute;
+        left: 48%;
+        width: 60%;
+        transform: translate(-50%, -50%);
+    }    
+
+    .bottombuttons a.previous {
+        background-color: #ff000000;
+        color: #6E9E76;
+        padding: 10px 40px;
+        border: 1px solid #6E9E76;
+        text-transform: uppercase;
+        border-radius: 10px;
+    }
+
+    .bottombuttons-right {
+        float: left;
+        display: flex;
+        margin-top: 10%;
+    }
+  
+    .bottombuttons-right .next{
+        background-color: #6E9E76;
+        color: #fff;
+        padding: 10px 50px;
+        text-transform: uppercase;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .bottombuttons {
+        overflow: hidden;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .bottombuttons a {
+        float: left;
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+}

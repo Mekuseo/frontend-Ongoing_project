@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topSearch-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1080px;
+  margin: 70px auto 20px;
+}
+
+.topSearch-container-left {
+  border-radius: 32px;
+  box-shadow: -1px -4px 3px 0px rgba(191, 191, 191, 0.30), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.hotelDetail-topSearchInfo {
+  display: flex;
+  gap: 25px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.hotelDetail-topSearchInfo > * {
+  background-color: #edf3ee;
+  border-radius: 25px;
+  padding: 15px 30px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.hotelDetail-topSearchInfo > button:hover {
+  background-color: #d6e1d9;
+}
+
+.topSearch-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6E9E76;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  height: 10px;
+  padding: 25px 30px;
+  font-size: 18px;
+}
+
+.topSearch-btn svg {
+  margin-left: 10px
+}
+
+.hotelDetail-breadCrumps {
+  width: 1080px;
+  margin: 0 auto;
+  color: #858585;
+}
+
+.hotelDetail-breadCrumps > span{
+  color: black;
+}
+
+.navBar-roomPicker {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  position: absolute;
+  top: 130%;
+  right: 0%;
+  background-color: white;
+  width: 100%;
+  /* border: 1px solid #979797; */
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.roomPicker-single {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  margin: 10px 0;
+}
+
+.roomPicker-btn {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px
+}
+
+.roomPicker-btn > div {
+  border: 1px solid #cfcfcf;
+  padding: 3px 14px;
+  border-radius: 5px;
+}
+
+.calendar-container {
+  z-index: 1000;
+  position: absolute;
+  left: 450px;
+}
+
+.checkin-calendar {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.checkout-calendar {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* .react-datepicker {
+  font-family: Helvetica Neue, helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  left: 400px;
+  top: -10px;
+} */
+
+.topSearch-container-fixed {
+  position: sticky;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  z-index: 1000;
+  background-color: #ffffff;
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.hotellistingsearch {
+  position: absolute;
+  padding: 20px 32px 21px 32.5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: -2px -2px 4px 0px rgba(0, 0, 0, 0.20), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-top: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 520px;
+  margin-left: 0%;
+  margin-right: auto;
+  top: 14%;
+  padding: 10px;
+  z-index: 100;
+}
+
+.hotellistingsearch li {
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/* .herosearchdropdown li:hover {
+  font-size: 20px;
+} */
+
+.hotellistingsearch li span{
+  text-transform: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 0%;
+}
+
+.hotellistingsearch li div{
+  margin-left: 5.2%;
+  font-weight: light;
+}

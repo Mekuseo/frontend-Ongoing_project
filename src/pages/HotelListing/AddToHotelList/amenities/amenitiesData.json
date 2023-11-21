@@ -1,0 +1,205 @@
+[
+  {
+    "amenity": "Popular among travelers",
+    "subItems": [
+      "Towels",
+      "Desk",
+      "Bench Front",
+      "Private Entrance",
+      "Air Conditioning",
+      "Keyless Access",
+      "Free Wifi",
+      "Balcony/Terrace",
+      "Heating",
+      "Free Parking"
+    ]
+  },
+
+  {
+    "amenity": "Common",
+    "amenity-subtitle": "Travelers prefer these amenities when booking homes.",
+    "subItems": [
+      "Closet",
+      "Dryer",
+      "Iron",
+      "Linens",
+      "Laundromart Nearby",
+      "Washer",
+      "Fans"
+    ]
+  },
+
+  {
+    "amenity": "Access",
+    "amenity-subtitle": "How guests get into our property.",
+    "subItems": ["Doorman", "Elevator", "Buzzer", "Paid Parking", "Escalator"]
+  },
+
+  {
+    "amenity": "Kitchen",
+    "amenity-subtitle": "What guests should expect if you have a kitchen in your property.",
+    "subItems": [
+      "Oven",
+      "Breakfast",
+      "Dishwasher",
+      "Freezer",
+      "Coffee/Tea Maker",
+      "Stove",
+      "MIcrowave",
+      "Dishes & Kitchen Utensils",
+      "Refrigerator",
+      "Tea"
+    ]
+  },
+
+  {
+    "amenity": "Bathroom",
+    "amenity-subtitle": "Help guests know features in your bathroom(s)",
+    "subItems": ["Hair Dryer", "Shampoo", "Bodywash", "Bathrub"]
+  },
+
+  {
+    "amenity": "Outdoors",
+    "amenity-subtitle": "Outdoor experiences guests should expect",
+    "subItems": [
+      "BBQ Grill",
+      "Bicycles",
+      "Garden/Backyard",
+      "Lake Access",
+      "Ski-in",
+      "Ski-out",
+      "Waterfront",
+      "Mountain View"
+    ]
+  },
+
+  {
+    "amenity": "Entertainment",
+    "amenity-subtitle": "Guests will enjoy the property  and stay indoors",
+    "subItems": [
+      "Board Games",
+      "Cable TV",
+      "Free Internet",
+      "Sound system",
+      "Game Console",
+      "Video Streaming"
+    ]
+  },
+
+  {
+    "amenity": "Family",
+    "amenity-subtitle": "How your property helps travelling families get together.",
+    "subItems": [
+      "Baby Bath",
+      "Baby Monitor",
+      "Changing Table",
+      "Kids Books & Toys",
+      "Crib or Baby Cot",
+      "Stair Gates",
+      "High Chair",
+      "Travel Crib"
+    ]
+  },
+
+  {
+    "amenity": "Safety and Cleanliness",
+    "amenity-subtitle": "What guests should expect in safety and cleanliness",
+    "subItems": [
+      "24-hour Security",
+      "Carbon Monoxide Detector",
+      "First Aid Kit",
+      "Fire Extinguisher",
+      "Cleaned by Professional Cleaning Company",
+      "Contactless Check in/Check out",
+      "Hand Sanitizer & Soap",
+      "Cleaning Products used based on Health guide",
+      "smoke Detector",
+      "Cleaning supplies provided for Guests",
+      "Physical distancing rules followed",
+      "Disinfecting following state health guidelines",
+      "Protective screens in common areas",
+      "Protective face covering on staff",
+      "Face Masks",
+      "Temperature check for all guests and staff"
+    ]
+  },
+
+  {
+    "amenity": "Language Adaptation",
+    "amenity-subtitle": "This feature helps foreigners access your property easily. Select alternative languages in your property.",
+    "subItems": [
+      "English",
+      "French",
+      "Arabic",
+      "Spanish",
+      "Mandarine",
+      "Portuguese",
+      "Swahili"
+    ]
+  },
+
+  {
+    "amenity": "On-site facilities",
+    "subItems": [
+      "meeting Room",
+      "Business Centre",
+      "Computer Lab",
+      "Fashion Shop",
+      "Art Gallery",
+      "Event Hall"
+    ]
+  },
+
+  {
+    "amenity": "Others",
+    "subItems": [
+      "Gym",
+      "Hot Tub",
+      "Outdoor Pool",
+      "Pets Allowed",
+      "Indoor Fire Place",
+      "Private Pool",
+      "Smoking Allowed",
+      "Indoor Pool"
+    ]
+  },
+
+  {
+    "amenity": "Additional deals on this room type",
+    "subItems": [
+      "Free breakfast",
+      "Access to exclusive amenities e.g free spa.",
+      "Free dinner",
+      "Free lunch"
+    ]
+  },
+
+  {
+    "amenity": "Type of bed",
+    "amenity-subtitle": "What type of bed does this room have?",
+    "subItems": [
+      "Single bed",
+      "King",
+      "Queen bed",
+      "Double bed",
+      "Super king",
+      "Bunk-bed",
+      "Sofa bed"
+    ]
+  },
+
+  {
+    "amenity": "Room amenities",
+    "subItems": [
+      "Fan",
+      "Bathroom; shower, bathtub, bidet, dryer etc",
+      "In-room refreshment",
+      "Air Condition"
+    ]
+  },
+
+  {
+    "amenity": "",
+    "subItems": ["Pets allowed", "Smoking allowed", "Parties allowed"]
+  }
+]

@@ -1,0 +1,307 @@
+.phoneemailabprophead{
+    color: #263238;
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    line-height: 138.2%;
+    margin-bottom: 0%;
+    margin-top: -1%;
+}
+
+.aboutpropertyemailbox input{
+    border-radius: 2px;
+    border: 0.5px solid #616161;
+    background: #FFF;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    width: 100%;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0%;
+}
+
+.aboutpropertyemailbox input::placeholder{
+    color: #989898;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboutpropertyemailbox input:focus{
+    outline: none;
+}
+
+.country-phone-code-autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+.phoneextranetspacing{
+    margin-top: -1%;
+}
+
+.country-phone-code-two-autocomplete {
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.country-phone-code-autocomplete input::placeholder{
+    color: #989898;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.country-phone-code-autocomplete .countrycodeabproperty {
+    width: 77px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0.5px solid #616161;
+    background: #FFF;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.country-phone-code-two-autocomplete .countrycodeabproperty {
+    width: 77px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0.5px solid #616161;
+    background: #FFF;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.country-phone-code-autocomplete .phonenumberabproperty {
+    width: 400px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0.5px solid #616161;
+    background: #FFF;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.country-phone-code-two-autocomplete .phonenumberabproperty {
+    width: 400px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0.5px solid #616161;
+    background: #FFF;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phonecodedropdownaboutprop {
+    position: absolute;
+    top: auto;
+    margin-top: 10%;
+    width: 300px;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.phonecodedropdownaboutprop li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.phonecodedropdownaboutprop li:hover {
+    background-color: #f0f0f0;
+}
+
+.phonecodedropdownaboutpropTwo {
+    position: absolute;
+    top: auto;
+    left: 51.5%;
+    margin-top: 10%;
+    width: 300px;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+}
+
+.phonecodedropdownaboutpropTwo li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.phonecodedropdownaboutpropTwo li:hover {
+    background-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 600px) {
+    .phoneemailabprophead{
+        color: #263238;
+        text-align: left;
+        font-size: 15px;
+        font-family: 'Volkhov', serif;
+        font-weight: 400;
+        line-height: 138.2%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    .aboutpropertyemailbox input{
+        border-radius: 2px;
+        border: 0.5px solid #616161;
+        background: #FFF;
+        box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+        padding: 8px;
+        width: 100%;
+        color: #000;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 0%;
+        margin-bottom: 8%;
+    }    
+
+    .country-phone-code-autocomplete {
+        position: relative;
+        display: block;
+        margin-top: -5%;
+    }
+
+    .country-phone-code-two-autocomplete {
+        position: relative;
+        display: inline-block;
+        margin-left: 0%;
+        margin-top: 4%;
+    }
+
+    .country-phone-code-autocomplete .countrycodeabproperty {
+        width: 50px;
+        padding: 8px;
+        border-radius: 2px;
+        border: 0.5px solid #616161;
+        background: #FFF;
+        box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+        color: #000;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .country-phone-code-two-autocomplete .countrycodeabproperty {
+        width: 50px;
+        padding: 8px;
+        border-radius: 2px;
+        border: 0.5px solid #616161;
+        background: #FFF;
+        box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+        color: #000;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .country-phone-code-autocomplete input::placeholder{
+        color: #989898;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .country-phone-code-two-autocomplete input::placeholder{
+        color: #989898;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .aboutpropertyemailbox input::placeholder{
+        color: #989898;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .country-phone-code-autocomplete .phonenumberabproperty {
+        width: 210px;
+        padding: 8px;
+        border-radius: 2px;
+        border: 0.5px solid #616161;
+        background: #FFF;
+        box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+        margin-left: 20px;
+        color: #000;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .country-phone-code-two-autocomplete .phonenumberabproperty {
+        width: 210px;
+        padding: 8px;
+        border-radius: 2px;
+        border: 0.5px solid #616161;
+        background: #FFF;
+        box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+        margin-left: 20px;
+        color: #000;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+}

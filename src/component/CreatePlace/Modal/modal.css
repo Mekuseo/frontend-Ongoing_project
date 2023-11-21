@@ -1,0 +1,274 @@
+.placeModalCont {
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 80px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    border-radius: 20px;
+    border: 1px solid var(--Stroke, #E7E7E7);
+    background: #EAECF0;
+}
+  
+.placeModalContContent {
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 1px solid var(--blue-gray-200, #E2E8F0);
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+}
+
+.closePlaceModal{
+    float: right;
+    margin-right: 2%;
+    margin-top: -1%;
+}
+
+.placeModalTextCont h1{
+    color: #CF0007;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%; /* 48px */
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.topText{
+    overflow: hidden;
+}
+
+.topText div{
+    float: left;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topText div.stars{
+    float: right;
+}
+
+.starPlace-rating {
+    display: flex;
+    align-items: center;
+}
+
+.starPlace {
+    font-size: 34px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.starPlace.selected {
+    color: #F0B500;
+    background-color: #FF000000;
+}
+
+.rating-text {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.placeModalImage{
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.placeModalImage img{
+    width: 100%;
+    height: 361px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.placeModalImage .bottomTextRight {
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 22px */
+}
+
+.placeModalImage p{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 27.5px */
+    text-align: left;
+    margin-top: 2%;
+}
+
+.placeModalCol{
+    width: 50%;
+    padding-right: 10px;
+    float: left;
+}
+
+.placeModalCol img{
+    width: 100%;
+    height: 274px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.placeModalAboutCont{
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(191, 191, 191, 0.30);
+    height: 274px;
+    overflow: scroll;
+    padding: 15px;
+}
+
+.placeModalAboutCont .abooutPlaceModal{
+    text-transform: none;
+}
+
+.placeModalAboutCont h1{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 22px */
+}
+
+.placeModalAboutCont p{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 151.5%; /* 22.725px */
+}
+
+.placeModalAboutCont h3{
+    color: rgba(38, 50, 56, 0.80);
+    font-family: Volkhov;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 16.5px */
+}
+
+.placeModalAboutCont h3 svg{
+    float: left;
+}
+
+.placeModalMoreInfo{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 45px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.topModalMoreSpace{
+    margin-top: 2%;
+}
+
+.placeModalMoreInfo p{
+    color: #263238;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 151.5%; /* 22.725px */
+}
+
+.placesSimilarCardContainer{
+    max-width: 80%;
+    margin: auto;
+}
+
+.placesSimilarCardCol{
+    width: 25%;
+    float: left;
+    padding: 5px;
+}
+
+.placesSimilarCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: #263238;
+}
+
+.placeListingCont{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 30%;
+}
+
+.placeSlideshow{
+    position: relative;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.placeslide{
+    max-width: 800px;
+    
+}
+
+.placeCol{
+    width: 20%;
+    float: left; 
+    padding: 20px;
+}
+
+.placeCard{
+    background-color: #FFF;
+}
+
+.sliderPlace{
+    margin-top: 40%;
+    background-color: red;
+}
+
+.placeSlideshow .navigation .prevSlider, .nextSlider {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-top: 0%;
+}
+
+.placeSlideshow .navigation button{
+    background-color: #FF000000;
+    border: none;
+}
+
+.placeSlideshow .navigation .prevSlider{
+    left: 0;
+    margin-top: 1.5%;
+    margin-left: -5%;
+}
+
+.placeSlideshow .navigation .nextSlider {
+    right: 0;
+    margin-right: -8%;
+}

@@ -1,0 +1,632 @@
+.eventReservation{
+    margin-top: 5%;
+}
+
+.eventReservationCont{
+    width: 1030px;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.eventReservation h1{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 55.28px */
+    text-align: center;
+}
+
+.eventcolumn{
+    float: left;
+    padding: 10px;
+}
+
+.eventFormLeft{
+    width: 60%;
+}
+
+.orderSummaryRight{
+    width: 40%;
+}
+
+.eventReservationBottomContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #263238;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%; /* 27.64px */
+}
+
+.eventReservationBottomContainer span{
+    color: #6E9E76;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%;
+    padding-left: 8px;
+}
+
+.eventReservationBottomContainer u{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%;
+    padding-left: 8px;
+}
+
+.eventReservationBottomContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.eventReservationBottomCheckmark {
+    position: absolute;
+    top: 0;
+    left: 13%;
+    height: 30px;
+    width: 30px;
+    background-color: #FFF;
+    border: 1.5px solid #929292;
+    border-radius: 8px;
+}
+
+.eventReservationBottomContainer:hover input ~ .eventReservationBottomCheckmark {
+    background-color: #ccc;
+}
+
+.eventReservationBottomContainer input:checked ~ .eventReservationBottomCheckmark {
+    background-color: #6E9E76;
+}
+
+.eventReservationBottomCheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.eventReservationBottomContainer input:checked ~ .eventReservationBottomCheckmark:after {
+    display: block;
+}
+
+.eventReservationBottomContainer .eventReservationBottomCheckmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.eventReservationBottomButton{
+    border-radius: 10px;
+    background: #CF0007;
+    border: none;
+    color: #FFF;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    height: 61px;
+    padding: 13px 26px 13px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 30%;
+}
+
+.eventReservationBottomButton span{
+    color: #FFF;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* MakePayment */
+.makePaymentReservationContainer{
+    border-radius: 10px;
+    border: 1px solid rgba(171, 170, 170, 0.58);
+    background: #FFF;
+    width: 1030px;
+    flex-shrink: 0;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 3%;
+}
+
+.makePaymentReservationContainer h1{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 41.46px */
+    text-align: left;
+}
+
+.makePaymentReservationContainer h2{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 138.2%; /* 27.64px */
+}
+
+.paymentCheckContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-top: 10px;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 138.2%; /* 27.64px */
+}
+
+.paymentCheckContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.makePaymentCheckmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #FFF;
+    border: 2.5px solid #929292;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.makePaymentCheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.paymentCheckContainer input:checked ~ .makePaymentCheckmark:after {
+    display: block;
+}
+
+.paymentCheckContainer .makePaymentCheckmark:after {
+    top: 3px;
+	left: 3px;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: #6E9E76;
+}
+
+.makePaymentMoreContent {
+    display: none;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    color: rgba(38, 50, 56, 0.90);
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 138.2%; /* 20.73px */
+}
+
+.paymentCheckContainer .makePaymentMoreContentToggle:checked ~ .makePaymentMoreContent {
+    display: block;
+}
+
+.paymentCheckContainer .makePaymentMoreContentToggle:checked ~ .makePaymentCheckmark {
+    background-color: #FF000000;
+    border: 2.5px solid #6E9E76;
+}
+
+/* .paymentCheckContainer.selected {
+    border-radius: 5px;
+    border: 1px solid #C5C4C4;
+    background: rgba(191, 191, 191, 0.30);
+    width: 95%;
+    padding-left: 45px;
+} */
+
+.makePaymentExpiry{
+    color: #CF0007;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 138.2%; /* 20.73px */
+    margin-top: 10px;
+}
+
+/* Order Summary */
+.orderSummary {
+    position: relative;
+    border-radius: 12px;
+    border: 1px solid #263238;
+    background: #FFF;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25), -2px -2px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 364px;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.orderSummaryOverlay {
+    position: absolute;
+    top: -5%;
+    left: 25%;
+    height: 20px;
+    background-color: #263238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.orderSummaryContent {
+    z-index: 0;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+.orderSummaryContent img{
+    float: left;
+    width: 108px;
+    height: 104px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-right: 3%;
+}
+
+.orderSummaryContent h1{
+    color: #CF0007;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 148.2%; /* 37.05px */
+    letter-spacing: -0.875px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.orderSummaryContent p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.2%; /* 17.784px */
+    letter-spacing: -0.42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.orderSummaryContent p svg{
+    margin-right: 5px;
+}
+
+.orderSummaryContent .informationDetailsSummary{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.orderSummaryContent .informationDetailsSummaryTwo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.orderSummaryContent .informationDetailsSummary p svg{
+    float: left;
+    margin-top: 1%;
+}
+
+.orderSummaryContent .informationDetailsSummary p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 20.73px */
+}
+
+.orderSummaryContent .informationDetailsSummary p span{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 20.73px */
+    margin-left: 5px;
+}
+
+.orderSummaryContent .informationDetailsSummaryTwo p svg{
+    float: left;
+    margin-top: 1%;
+}
+
+.orderSummaryContent .informationDetailsSummaryTwo p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 20.73px */
+}
+
+.orderSummaryContent .informationDetailsSummaryTwo p span{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 20.73px */
+    margin-left: 5px;
+}
+
+hr.line{
+    border-top: 1px solid #263238;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.bottomButtonSummary{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: 15%;
+}
+
+.bottomButtonSummary p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.bottomButtonSummary button{
+    background-color: #263238;
+    width: 170px;
+    height: 50px;
+    color: #FFF;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.taxesFeesOrderSummary{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-top: 3%;
+}
+
+/* Form */
+.formContainerMakePayment{
+    border-radius: 10px;
+    border: 1px solid rgba(171, 170, 170, 0.58);
+    background: #FFF;
+    width: 560px;
+    height: 485px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+.formContainerMakePayment .nameContainer{
+    display: flex;
+    width: 440px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.formContainerMakePayment .nameContainerBox{
+    width: 50%;
+}
+
+.formContainerMakePayment input{
+    border-radius: 5px;
+    border: 1px solid #263238;
+    padding: 12px 0px 12px 8px;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.formContainerMakePayment label{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.2%; /* 27.64px */
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.formContainerMakePayment .nameContainer label span{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%;
+}
+
+.formOptionsContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 32px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.2%; /* 20.73px */
+}
+
+.formOptionsContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.formOptionCheckmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #FFF;
+    border: 1.5px solid #929292;
+    border-radius: 5px;
+}
+
+.formOptionsContainer input:checked ~ .formOptionCheckmark {
+    background-color: #6E9E76;
+    border: none;
+}
+
+.formOptionCheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.formOptionsContainer input:checked ~ .formOptionCheckmark:after {
+    display: block;
+}
+
+.formOptionsContainer .formOptionCheckmark:after {
+    left: 8px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.autocomplete-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 3.6%;
+}
+
+.autocomplete-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    background-color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 99;
+}
+
+.autocomplete-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.autocomplete-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.selected-country {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}

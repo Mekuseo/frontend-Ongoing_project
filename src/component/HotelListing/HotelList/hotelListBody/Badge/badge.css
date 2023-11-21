@@ -1,0 +1,54 @@
+/* .badgeTT {
+    position: relative;
+    display: inline-block;
+} */
+
+/* .badgeTT .badgeTTtext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #555;
+    color: #FFF;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -150px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border: 1px solid #555;
+    font-family: Raleway;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%;
+    letter-spacing: -0.35px;
+} */
+
+/* .badgeTT {
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.badgeTT .badgeTTtext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+
+.badgeTT:hover .badgeTTtext {
+    visibility: visible;
+    opacity: 1;
+} */
+
+.badgeTT:hover {
+    transition: all ease-in-out 0.2s;
+    transform: scale(1.2);
+}

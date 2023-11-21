@@ -1,0 +1,519 @@
+.daysContainerToDo{
+    background: #EAECF0;
+}
+
+.toDoDestinationForm {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.toDoDestinationForm input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 0px;
+    background-color: #fff;
+    border: none;
+    width: 450px;
+    color: rgba(38, 50, 56, 0.80);
+    font-family: 'Volkhov', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 29.64px */
+    letter-spacing: -0.7px;
+    margin-left: 5px;
+}
+
+.toDoDestinationForm input::placeholder{
+    color: rgba(38, 50, 56, 0.80);
+    font-family: 'Volkhov', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 29.64px */
+    letter-spacing: -0.7px;
+}
+
+.toDoDestinationForm input:focus{
+    outline: none;
+}
+
+.toDoDestinationForm button {
+    width: 157px;
+    height: 60px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+    background: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.toDoDestinationForm button svg{
+    float: right;
+    margin-right: 10px;
+    padding-top: 1px;
+}
+
+.toDoDestinationForm .textOutline{
+    border-radius: 10px;
+    background: rgba(185, 177, 173, 0.77);
+    padding: 10px;
+}
+
+.toDoDestinationForm .textOutline .inputFieldContainer{
+    border-radius: 10px;
+    background: #FFF;
+    padding: 0px;
+}
+
+.toDoDestinationForm .textOutline .inputFieldContainer svg{
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+/* CreateEvent */
+
+.CreateEventCont{
+    background: #EAECF0;
+}
+
+.createEventText{
+    background: linear-gradient(90deg, #6E9E76 0%, #3A454A 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%; /* 44px */
+}
+
+/* Activities */
+.mainActivitiesCont{
+    background: #F1F5F9;
+}
+
+.ActivitiesContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ActivitiesContainer button{
+    border-radius: 50px;
+    border: 2px solid var(--White, #FFF);
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.07), 0px 4px 6px -1px rgba(0, 0, 0, 0.10);
+    display: flex;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    margin-top: 7%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ActivityCard {
+    flex: 0 1 calc(16.6666% - 10px);
+    padding: 0px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.ActivityCard h2 {
+    color: #263238;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 22px */
+}
+
+.ActivityCard img {
+    border-radius: 150px;
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-bottom: 10%;
+}
+
+.ActivityCard.active img {
+    border-radius: 150px;
+    width: 160px;
+    height: 160px;
+    border: 1px solid #CF0007;
+    padding: 1px;
+}
+
+/* Days */
+.daysMap {
+    float: left;
+    padding-right: 10px;
+    height: 718px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.calendarToDo {
+    width: 70%;
+}
+
+.mapToDo {
+    margin-top: 2%;
+    width: 30%;
+    background-image: url('../../../assets//pics/MapsicleMap.png');
+    border-radius: 10px;
+}
+
+.daysOfTheWeekToDo {
+    width: 100%;
+    overflow: auto;
+    background: #FFF;
+}
+
+.daysOfTheWeekToDo button {
+    float: left;
+    padding: 11px;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 15.6px */
+    text-align: left;
+    background-color: #FF000000;
+    border: none;
+}
+
+.daysOfTheWeekToDo button.active {
+    color: #6E9E76;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 19.5px */
+    margin-right: -10px;
+    margin-left: 5px;
+}
+
+.daysOfTheWeekToDo button.remDays{
+    margin-top: 3px;
+}
+
+.hangOutCardsCol {
+    float: left;
+    width: 33.333%;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+
+.hangOutCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    background-color: #FFF;
+    height: 330px;
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    border: 1px solid var(--blue-gray-200, #E2E8F0);
+    margin-left: 10px;
+}
+
+.hangOutCardText{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-top: 75%;
+}
+
+.hangOutCardText .title{
+    color: rgba(38, 50, 56, 0.80);
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.hangOutCardText .subhead{
+    color: #CF0007;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.hangOutCardText .location{
+    color: #263238;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 14.82px */
+    letter-spacing: -0.35px;
+    margin-bottom: 4px;
+}
+
+.hangOutCardText .location svg{
+    float: left;
+    margin-right: 5px;
+}
+
+.hangOutCardText .organizer{
+    color: #6E9E76;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 240% */
+    letter-spacing: 0.5px;
+}
+
+.hangOutCardImage {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hangOutCardImage img{
+    height: 179px;
+    width: 222px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.hangOutCardImageTopRight {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.calendarToDoPop{
+    width: 300px;
+    height: 200px;
+}
+
+.scrollHangout {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 0;
+    margin-top: 0%;
+    padding-top: 15px;
+    padding-left: 3px;
+    background: #EAECF0;
+    padding-bottom: 50px;
+    height: 380px;
+}
+
+.scrollHangout-button{
+    float: right;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.07), 0px 4px 6px -1px rgba(0, 0, 0, 0.10);
+    margin-right: 10px;
+    margin-top: -29px;
+    position: relative;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+/* Slides */
+
+.toDocontainer {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: -52%;
+}
+
+.toDoslideshow-container{
+    max-width: 461px;
+}
+
+.toDomySlides {
+    display: none;
+    text-align: center;
+}
+
+.toDomySlides img {
+    width: 100%;
+    height: 294px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    border: 1px solid #CF0007;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.toDo-text-block {
+    position: absolute;
+    bottom: 350px;
+    right: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--blue-gray-200, #E2E8F0);
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
+    display: flex;
+    width: 578px;
+    padding-top: 24px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.toDo-text-block h4{
+    color: #CF0007;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 20px */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.toDo-text-block p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.5%; /* 30.3px */
+    flex: 1 0 0;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.toDodotCont {  
+    padding-top: 55%;
+    margin-left: 22.5%;
+    transform: translate(-50%, -50%);
+}
+
+.toDodot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+.toDodot.toDoactive {
+    background-color: red;
+    border-radius: 10px;
+    background: #CF0007;
+    width: 48px;
+    height: 15px;
+}
+
+/* Trending */
+.trending{
+    background-color: #E2E8F0;
+    margin-top: 30%;
+    padding: 20px;
+}
+
+.trendingHead{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.2%; /* 41.46px */
+}
+
+.trendingCards{
+    width: 33.3333%;
+    float: left;
+    padding-right: 7px;
+    padding-top: 10px;
+}
+
+.trendingCard{
+    position: relative;
+    text-align: center;
+    width: 340px;
+}
+
+.trendingCard img{
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background: var(--White, #FFF);
+    box-shadow: 4px 4px 0px 0px #263238;
+    height: 220px;
+    width: 340px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+    float: left;
+}
+
+.trendingCardTopRating{
+    position: absolute;
+    top: 1px;
+    right: -5px;
+}
+
+.calendar-popup{
+    z-index: 99;
+    width: 100%;
+    height: 50%;
+    background-color: #FFF;
+    text-align: center;
+}

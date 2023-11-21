@@ -1,0 +1,307 @@
+/* Header */
+.toDoCartHeader{
+    background: #263238;
+    width: 1080px;
+    height: 123px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toDoCartHeader input{
+    display: flex;
+    width: 458px;
+    height: 64px;
+    padding: 23px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--blue-gray-300, #CBD5E1);
+    background: var(--White, #FFF);
+    font-size: 24px;
+}
+
+.toDoCartHeader input:focus{
+    outline: none;
+}
+
+.toDoCartHeader input::placeholder{
+    color: #929292;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+}
+
+.toDoCartHeader button{
+    border-radius: 10px;
+    border: 1px solid #6E9E76;
+    background: #FF000000;
+    width: 157px;
+    height: 64px;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 16px;
+    text-align: left;
+    padding-left: 21px;
+}
+
+.toDoCartHeader button svg {
+    float: right;
+    margin-right: 20px;
+}
+
+/* EmptyCart */
+.toDoEmptyBackground{
+    background: #EAECF0;
+    padding: 20px;
+}
+
+.toDoEmptyCartContainer{
+    border-radius: 10px;
+    border: 1px solid var(--blue-gray-200, #E2E8F0);
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
+    height: 500px;
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+.toDoEmptyCartContent{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: block;
+    margin-top: 7%;
+}
+
+.toDoEmptyCartContainer img{
+    display: block;
+    margin-right: 35%;
+    width: 30%;
+    margin-top: 5%;
+}
+
+.toDoEmptyCartContainer .toDoEmptyCartContent h1{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.toDoEmptyCartContainer .toDoEmptyCartContent p{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.toDoEmptyCartContainer .toDoEmptyCartContent button{
+    border-radius: 8px;
+    border: none;
+    background: #263238;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 217px;
+    margin: auto;
+    color: var(--White, #FFF);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+    margin-top: 3%;
+}
+
+.toDoEmptyCartContainer .toDoEmptyCartContent button svg{
+    margin-left: 16px;
+}
+
+/* Cart */
+.toggleToDoListContainer{
+    background-color: #FFF;
+    margin-top: 0%;
+    padding-top: 30px;
+}
+
+.toggleToDoButtonTabButtonContainer{
+    max-width: 60%;
+    margin: auto;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+.tablink {
+    border-radius: 8px;
+    border-radius: 8px;
+    background-color: #FF000000;
+    border: 1px solid #475569;    
+    display: flex;
+    width: 256px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.5px;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    margin-right: 3%;
+}
+
+.tabcontent {
+    color: #000;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Card */
+.toDoListCardSides {
+    float: left;
+    padding: 20px;
+}
+
+.cardToDoListImage {
+    width: 28%;
+}
+
+.cardToDoListContent {
+    width: 72%;
+    text-align: left;
+}
+
+.toDoListCard {
+    height: 240px;
+    transform: rotate(0deg);
+    transition: 0.3s;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 1px solid var(--blue-gray-200, #E2E8F0);
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+}
+
+.toDoListCard .topic{
+    float: left;
+}
+
+.toDoListCard .likes{
+    float: right;
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 24px */
+}
+
+.toDoListCard .likes svg{
+    margin-left: 5px;
+}
+
+.toDoListInformation{
+    float: left;
+    margin-right: 60%;
+    margin-top: 2%;
+}
+
+.toDoListInformation .date{
+    color: #CF0007;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 19.2px */
+}
+
+.toDoListInformation .location{
+    color: #263238;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 200% */
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+}
+
+.toDoListInformation .price{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 14.82px */
+    letter-spacing: -0.35px;
+    margin-top: 4px;
+}
+
+.toDoListInformation .organizer{
+    color: #263238;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 19.8px */
+    margin-top: 20px;
+}
+
+.toDoListCard .floatright{
+    float: right;
+    margin-top: -5%;
+    margin-left: 20%;
+}
+
+.toDoListCard .floatright p{
+    color: #263238;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 240% */
+    letter-spacing: 0.5px;
+}
+
+.toDoListCard .floatright p svg{
+    float: left;
+    margin-right: 5px;
+}
+
+.toDoListCard .floatright span{
+    color: #CF0007;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 16px */
+    text-decoration-line: underline;
+    float: right;
+    margin-top: -5px;
+}

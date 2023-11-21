@@ -1,0 +1,55 @@
+.footerDeals{
+    background: #263238;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), -2px -4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    z-index: 2;
+    position: inherit;
+}
+
+.footerDeals h1{
+    padding-left: 50px;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56.5px; /* 282.5% */
+    padding-top: 2%;
+}
+
+.footerDeals p{
+    color: #FFF;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px; /* 233.333% */
+    padding-left: 50px;
+}
+
+.footerDeals p span{
+    text-decoration-line: underline;
+}
+
+.findUsCon{
+    margin-top: 0%;
+}
+
+.footerDeals table {
+    border-collapse: collapse;
+    width: 94%;
+    margin: auto;
+}
+  
+.footerDeals td {
+    text-align: left;
+    padding: 16px;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.2%; /* 22.23px */
+    letter-spacing: -0.525px;
+}

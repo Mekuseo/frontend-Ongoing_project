@@ -1,0 +1,19 @@
+.admin-navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+  margin: 5px;
+}
+
+.admin-currentDate-container{
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.admin-currentDate {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+}

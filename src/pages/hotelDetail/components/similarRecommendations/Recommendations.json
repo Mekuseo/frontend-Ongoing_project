@@ -1,0 +1,100 @@
+{
+  "recommendations": [
+    {
+      "title": "Paint House",
+      "subtitle": "Abuja",
+      "image": "../../../assets/pics/rooms_card_picture.png",
+      "features": [
+        { "icon": "FaShoppingBag", "text": "Shopping Mall" },
+        { "icon": "FaTaxi", "text": "Taxi Park" },
+        { "icon": "FaHotel", "text": "Pay at hotel" },
+        { "icon": "BiFoodMenu", "text": "Free Lunch" },
+        { "icon": "BiBed", "text": "Room service" },
+        {"icon": "FaPlaneDeparture", "text": "Airport" }
+      ],
+      "reviews": ["9/10", "50 reviews"],
+      "price": "N4,500.00",
+      "formerPrice": "N5,000.75"
+    },
+    {
+      "title": "Paint House",
+      "subtitle": "Lagos",
+      "image": "../../../assets/pics/rooms_card_picture.png",
+      "features": [
+        { "icon": "FaShoppingBag", "text": "Shopping Mall" },
+        { "icon": "FaTaxi", "text": "Taxi Park" },
+        { "icon": "FaHotel", "text": "Pay at hotel" },
+        { "icon": "BiFoodMenu", "text": "Free Lunch" },
+        { "icon": "BiBed", "text": "Room service" },
+        {"icon": "FaPlaneDeparture", "text": "Airport" }
+      ],
+      "reviews": ["9/10", "50 reviews"],
+      "price": "N4,500.00",
+      "formerPrice": "N5,000.75"
+    },
+    {
+      "title": "Paint House",
+      "subtitle": "Kaduna",
+      "image": "../../../assets/pics/rooms_card_picture.png",
+      "features": [
+        { "icon": "FaShoppingBag", "text": "Shopping Mall" },
+        { "icon": "FaTaxi", "text": "Taxi Park" },
+        { "icon": "FaHotel", "text": "Pay at hotel" },
+        { "icon": "BiFoodMenu", "text": "Free Lunch" },
+        { "icon": "BiBed", "text": "Room service" },
+        {"icon": "FaPlaneDeparture", "text": "Airport" }
+      ],
+      "reviews": ["9/10", "50 reviews"],
+      "price": "N4,500.00",
+      "formerPrice": "N5,000.75"
+    },
+    {
+      "title": "Paint House",
+      "subtitle": "Sokoto",
+      "image": "../../../assets/pics/rooms_card_picture.png",
+      "features": [
+        { "icon": "FaShoppingBag", "text": "Shopping Mall" },
+        { "icon": "FaTaxi", "text": "Taxi Park" },
+        { "icon": "FaHotel", "text": "Pay at hotel" },
+        { "icon": "BiFoodMenu", "text": "Free Lunch" },
+        { "icon": "BiBed", "text": "Room service" },
+        {"icon": "FaPlaneDeparture", "text": "Airport" }
+      ],
+      "reviews": ["9/10", "50 reviews"],
+      "price": "N4,500.00",
+      "formerPrice": "N5,000.75"
+    },
+    {
+      "title": "Paint House",
+      "subtitle": "Abia",
+      "image": "../../../assets/pics/rooms_card_picture.png",
+      "features": [
+        { "icon": "FaShoppingBag", "text": "Shopping Mall" },
+        { "icon": "FaTaxi", "text": "Taxi Park" },
+        { "icon": "FaHotel", "text": "Pay at hotel" },
+        { "icon": "BiFoodMenu", "text": "Free Lunch" },
+        { "icon": "BiBed", "text": "Room service" },
+        {"icon": "FaPlaneDeparture", "text": "Airport" }
+      ],
+      "reviews": ["9/10", "50 reviews"],
+      "price": "N4,500.00",
+      "formerPrice": "N5,000.75"
+    },
+    {
+      "title": "Paint House",
+      "subtitle": "Jos",
+      "image": "../../../assets/pics/rooms_card_picture.png",
+      "features": [
+        { "icon": "FaShoppingBag", "text": "Shopping Mall" },
+        { "icon": "FaTaxi", "text": "Taxi Park" },
+        { "icon": "FaHotel", "text": "Pay at hotel" },
+        { "icon": "BiFoodMenu", "text": "Free Lunch" },
+        { "icon": "BiBed", "text": "Room service" },
+        {"icon": "FaPlaneDeparture", "text": "Airport" }
+      ],
+      "reviews": ["9/10", "50 reviews"],
+      "price": "N4,500.00",
+      "formerPrice": "N5,000.75"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.guest-body {
+  margin: 40px auto 30px;
+  background-color: #F7F7F8;
+  width: 1080px;
+  border-radius: 20px;
+  padding: 10px 0 0;
+}
+
+.guest-body h1 {
+  text-align: center;
+  margin: 10px 0
+}
+
+.guestContainer-sections {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #dfdfdf;
+  padding: 20px 30px;
+}
+
+.guest-review {
+  display: flex;
+  justify-content: left;
+  /* align-items: center; */
+}
+
+.guest-reviewLeft {
+  display: flex;
+  gap: 10px;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.guest-reviewLeft h3 {
+  display: flex;
+  align-items: center;
+  padding: 20px 25px;
+  background-color: #263238;
+  color: white;
+  border-radius: 7px 7px 7px 0;
+  font-size: 25px;
+}
+
+.guest-reviewLeft2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guest-reviewLeft2 > :nth-child(1) {
+  color: rgb(82, 189, 82);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.guest-reviewLeft2 > :nth-child(2) {
+  font-size: 20px;
+}
+
+.guest-bold {
+  font-weight: 600;
+}
+
+.guest-reviewRight {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px 0 0 20px;
+  gap: 5px;
+  border-left: 2px solid #263238
+}
+
+.guest-reviewRight > * {
+  font-size: 16px;
+}
+
+.guest-reviewRight > :nth-child(2) {
+  font-weight: 600;
+}
+
+.guest-reviewRight > :nth-child(3) {
+  color: red;
+}
+
+.guest-reviewRight > :nth-child(4) {
+  font-weight: 600;
+}
+
+.guest-reviewBars {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.guest-reviewBar-title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+}
+
+.guest-bar {
+  background-color: #dfdfdf;
+  height: 5px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.guest-bar::before {
+  content: "";
+  display: block;
+  background-color: #5cbd72;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+}
+
+.guest-reviewSingle {
+  margin-bottom: 30px;
+}
+
+.guest-reviewBarLeft {
+  width: 47%;
+  margin-right: 33px;
+}
+
+.guest-reviewBarRight {
+  width: 47%;
+}
+
+.guest-reviewBtn {  
+  width: 20%;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid #4b575e;
+  padding: 15px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.guest-reviewBtn:hover {
+  background-color: #4b575e;
+  color: white;
+}
+
+.guest-reviewBtn:active {
+  transform: scale(0.98);
+}

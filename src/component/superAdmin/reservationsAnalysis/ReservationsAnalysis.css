@@ -1,0 +1,43 @@
+.reservationAnalysis-container {
+  margin: 20px 40px;
+}
+
+.analysisGraphs-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.graphAnalysis-card {
+  border-radius: 10px;
+  background: #fff;
+  position: relative;
+}
+
+.reservationAnalysis-container > :nth-child(1) {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0; 
+}
+
+.graphMonth, .graph-title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.graph-title {
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.graphMonth {
+  justify-content: flex-end;
+  bottom: 10px;
+  right: 50px;
+}
